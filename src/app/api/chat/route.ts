@@ -5,13 +5,13 @@ import { getDestinations, getFaq, getSite, getTours } from "@/lib/content";
 
 /**
  * AI-ассистент поддержки. Работает с любым OpenAI-совместимым API.
- * По умолчанию — Polza AI с моделью DeepSeek V4 Flash. Настройка через переменные окружения:
+ * По умолчанию — Polza AI с моделью DeepSeek V4.1 Flash (V4 Flash у Polza обрывает длинные ответы). Настройка через переменные окружения:
  *   AI_API_KEY  — ключ (обязательно, без него чат выключен)
  *   AI_BASE_URL — адрес API (по умолчанию https://polza.ai/api/v1)
- *   AI_MODEL    — модель (по умолчанию deepseek/deepseek-v4-flash)
+ *   AI_MODEL    — модель (по умолчанию deepseek/deepseek-v4.1-flash)
  */
 const BASE_URL = process.env.AI_BASE_URL || "https://polza.ai/api/v1";
-const MODEL = process.env.AI_MODEL || "deepseek/deepseek-v4-flash";
+const MODEL = process.env.AI_MODEL || "deepseek/deepseek-v4.1-flash";
 
 const bodySchema = z.object({
   locale: z.string(),
@@ -79,44 +79,29 @@ export async function POST(request: Request) {
   }
   const locale = parsed.data.locale as Locale;
 
-  const client = new OpenAI({ apiKey, baseURL: BASE_URL });
-  let stream;
+  const client = new OpenAI({ apiKey, baseURL: BASE_URL, timeout: 45_000, maxRetries: 1 });
   try {
-    stream = await client.chat.completions.create({
+    // Ответ запрашиваем целиком, без потоковой передачи: у Polza AI длинные потоковые ответы
+    // с серверов Vercel обрываются на середине. Пока модель пишет, в чате виден индикатор «•••».
+    const completion = await client.chat.completions.create({
       model: MODEL,
       max_tokens: 1200,
       temperature: 0.4,
-      stream: true,
       messages: [{ role: "system", content: await systemPrompt(locale) }, ...parsed.data.messages],
-      // Polza AI: короткие рассуждения и без вывода их в ответ — быстрее и дешевле для чата
-      ...({ reasoning: { effort: "low", exclude: true } } as object),
+      // Polza AI: режим «размышлений» для чата не нужен — он только замедляет ответ
+      ...({ reasoning: { effort: "none" } } as object),
+    });
+    const text = completion.choices[0]?.message?.content?.trim();
+    if (!text) {
+      console.error("[chat] empty answer", JSON.stringify(completion).slice(0, 500));
+      return Response.json({ error: "empty" }, { status: 502 });
+    }
+    return new Response(text, {
+      headers: { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "no-store" },
     });
   } catch (error) {
     if (error instanceof OpenAI.APIError) console.error(`[chat] API error ${error.status}:`, error.message);
     else console.error("[chat]", error);
     return Response.json({ error: "upstream" }, { status: 502 });
   }
-
-  const encoder = new TextEncoder();
-  const body = new ReadableStream<Uint8Array>({
-    async start(controller) {
-      try {
-        for await (const chunk of stream) {
-          const text = chunk.choices[0]?.delta?.content;
-          if (text) controller.enqueue(encoder.encode(text));
-        }
-        controller.close();
-      } catch (error) {
-        console.error("[chat] stream error", error);
-        controller.error(error);
-      }
-    },
-    cancel() {
-      stream.controller.abort();
-    },
-  });
-
-  return new Response(body, {
-    headers: { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "no-store" },
-  });
 }
