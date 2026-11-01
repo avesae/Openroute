@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Анна Виртанен",
+    "role": {
+      "ru": "Основатель, директор",
+      "en": "Founder & CEO"
+    },
+    "bio": {
+      "ru": "Объездила 50+ стран. Отвечает за качество каждого тура.",
+      "en": "Has travelled to 50+ countries. Responsible for the quality of every tour."
+    },
+    "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1600&q=75"
+  },
+  {
+    "name": "Михаил Коскинен",
+    "role": {
+      "ru": "Менеджер по экзотике",
+      "en": "Long-haul specialist"
+    },
+    "bio": {
+      "ru": "Азия, Мальдивы и Латинская Америка — его стихия.",
+      "en": "Asia, the Maldives and Latin America are his speciality."
+    },
+    "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=75"
+  },
+  {
+    "name": "Елена Лахти",
+    "role": {
+      "ru": "Семейные и пляжные туры",
+      "en": "Family & beach holidays"
+    },
+    "bio": {
+      "ru": "Мама двоих детей — знает, какой отель подойдёт семье.",
+      "en": "A mum of two who knows which hotel suits a family."
+    },
+    "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=1600&q=75"
+  },
+  {
+    "name": "Даниэль Нието",
+    "role": {
+      "ru": "Горнолыжные туры и Европа",
+      "en": "Ski & Europe"
+    },
+    "bio": {
+      "ru": "Инструктор по горным лыжам, подберёт курорт под ваш уровень.",
+      "en": "A ski instructor who will match a resort to your level."
+    },
+    "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1600&q=75"
+  }
+]

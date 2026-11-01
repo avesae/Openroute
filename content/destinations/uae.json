@@ -1,0 +1,51 @@
+{
+  "slug": "uae",
+  "name": {
+    "ru": "ОАЭ",
+    "en": "UAE"
+  },
+  "nameIn": {
+    "ru": "ОАЭ",
+    "en": "the UAE"
+  },
+  "region": {
+    "ru": "Ближний Восток",
+    "en": "Middle East"
+  },
+  "summary": {
+    "ru": "Небоскрёбы Дубая, пляжи Персидского залива и шопинг.",
+    "en": "Dubai skyscrapers, Persian Gulf beaches and shopping."
+  },
+  "description": {
+    "ru": [
+      "Эмираты подходят и для пляжного отдыха, и для городских впечатлений: Бурдж-Халифа, сафари в пустыне, огромные торговые центры.",
+      "Зимой здесь +25…28 °C — идеальная погода, когда в Хельсинки темно и холодно."
+    ],
+    "en": [
+      "The Emirates work for both beach and city breaks: Burj Khalifa, desert safaris and huge malls.",
+      "In winter it's +25…28 °C — perfect when Helsinki is dark and cold."
+    ]
+  },
+  "bestSeason": {
+    "ru": "Октябрь–апрель",
+    "en": "October–April"
+  },
+  "visa": {
+    "ru": "Для граждан ЕС — без визы до 90 дней.",
+    "en": "Visa-free for EU citizens for up to 90 days."
+  },
+  "flight": {
+    "ru": "≈ 6 часов прямым рейсом",
+    "en": "≈ 6 hours direct"
+  },
+  "currency": "AED",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=75",
+    "alt": {
+      "ru": "Панорама Дубая на закате",
+      "en": "Dubai skyline at sunset"
+    }
+  },
+  "popular": true,
+  "order": 3
+}

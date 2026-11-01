@@ -1,0 +1,51 @@
+{
+  "slug": "austria",
+  "name": {
+    "ru": "Австрия",
+    "en": "Austria"
+  },
+  "nameIn": {
+    "ru": "Австрию",
+    "en": "Austria"
+  },
+  "region": {
+    "ru": "Европа",
+    "en": "Europe"
+  },
+  "summary": {
+    "ru": "Альпийские курорты, трассы для всех уровней и апре-ски.",
+    "en": "Alpine resorts, slopes for every level and après-ski."
+  },
+  "description": {
+    "ru": [
+      "Австрийские Альпы — эталон горнолыжного отдыха: Санкт-Антон, Ишгль, Зёльден, Майрхофен.",
+      "Летом здесь треккинг, озёра и горные деревушки."
+    ],
+    "en": [
+      "The Austrian Alps are the benchmark for ski holidays: St. Anton, Ischgl, Sölden, Mayrhofen.",
+      "In summer: hiking, lakes and mountain villages."
+    ]
+  },
+  "bestSeason": {
+    "ru": "Декабрь–апрель (лыжи), июнь–сентябрь (горы)",
+    "en": "December–April (skiing), June–September (hiking)"
+  },
+  "visa": {
+    "ru": "Шенгенская зона — виза не нужна.",
+    "en": "Schengen area — no visa needed."
+  },
+  "flight": {
+    "ru": "≈ 2,5 часа до Инсбрука или Мюнхена",
+    "en": "≈ 2.5 hours to Innsbruck or Munich"
+  },
+  "currency": "EUR",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=75",
+    "alt": {
+      "ru": "Горы и леса Австрийских Альп",
+      "en": "Mountains and forests of the Austrian Alps"
+    }
+  },
+  "popular": false,
+  "order": 11
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "maldives",
+  "name": {
+    "ru": "Мальдивы",
+    "en": "Maldives"
+  },
+  "nameIn": {
+    "ru": "Мальдивы",
+    "en": "the Maldives"
+  },
+  "region": {
+    "ru": "Азия",
+    "en": "Asia"
+  },
+  "summary": {
+    "ru": "Виллы над водой, бирюзовые лагуны и полное уединение.",
+    "en": "Overwater villas, turquoise lagoons and total privacy."
+  },
+  "description": {
+    "ru": [
+      "Мальдивы — направление для медового месяца и особых поводов. Каждый курорт расположен на отдельном острове.",
+      "Добраться можно с одной пересадкой, а от аэропорта Мале — на гидроплане или скоростном катере."
+    ],
+    "en": [
+      "The Maldives are made for honeymoons and special occasions. Every resort occupies its own island.",
+      "You get there with one connection, then by seaplane or speedboat from Malé."
+    ]
+  },
+  "bestSeason": {
+    "ru": "Ноябрь–апрель",
+    "en": "November–April"
+  },
+  "visa": {
+    "ru": "Бесплатная виза по прилёте на 30 дней.",
+    "en": "Free 30-day visa on arrival."
+  },
+  "flight": {
+    "ru": "≈ 12 часов с пересадкой",
+    "en": "≈ 12 hours with a connection"
+  },
+  "currency": "MVR",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1600&q=75",
+    "alt": {
+      "ru": "Виллы над водой на Мальдивах",
+      "en": "Overwater villas in the Maldives"
+    }
+  },
+  "popular": true,
+  "order": 5
+}

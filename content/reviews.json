@@ -1,0 +1,120 @@
+[
+  {
+    "id": "r1",
+    "name": "Анна К.",
+    "city": {
+      "ru": "Хельсинки",
+      "en": "Helsinki"
+    },
+    "rating": 5,
+    "date": "2026-10-12",
+    "tour": "turkey-antalya-family-all-inclusive",
+    "trip": {
+      "ru": "Белек, Турция",
+      "en": "Belek, Turkey"
+    },
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1600&q=75",
+    "text": {
+      "ru": "Летали с двумя детьми в Белек. Отель — точь-в-точь как описывал менеджер, дети не вылезали из аквапарка. Когда задержали обратный рейс, нам сразу написали и всё объяснили. Очень спокойно, когда знаешь, что о тебе помнят.",
+      "en": "We flew to Belek with two kids. The hotel was exactly as the manager described, the kids lived in the water park. When our return flight was delayed, they messaged us right away. It's reassuring to know someone has your back."
+    }
+  },
+  {
+    "id": "r2",
+    "name": "Mikko L.",
+    "city": {
+      "ru": "Эспоо",
+      "en": "Espoo"
+    },
+    "rating": 5,
+    "date": "2026-03-02",
+    "tour": "japan-tokyo-kyoto-individual",
+    "trip": {
+      "ru": "Япония",
+      "en": "Japan"
+    },
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=75",
+    "text": {
+      "ru": "Хотел Японию без группы и без головной боли. Получил подробный маршрут, JR Pass и список ресторанов. Ночь в рёкане — лучшее, что было в поездке.",
+      "en": "I wanted Japan without a group and without the hassle. Got a detailed itinerary, a JR Pass and a list of restaurants. The night in the ryokan was the highlight of the trip."
+    }
+  },
+  {
+    "id": "r3",
+    "name": "Ольга и Дмитрий",
+    "city": {
+      "ru": "Вантаа",
+      "en": "Vantaa"
+    },
+    "rating": 5,
+    "date": "2026-02-14",
+    "tour": "maldives-honeymoon-water-villa",
+    "trip": {
+      "ru": "Мальдивы",
+      "en": "Maldives"
+    },
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=1600&q=75",
+    "text": {
+      "ru": "Медовый месяц мечты. Ужин на песчаной косе организовали как сюрприз, о котором мы даже не просили. Спасибо Openroute за внимание к деталям!",
+      "en": "A dream honeymoon. They arranged the sandbank dinner as a surprise we hadn't even asked for. Thank you, Openroute, for the attention to detail!"
+    }
+  },
+  {
+    "id": "r4",
+    "name": "Sergei V.",
+    "city": {
+      "ru": "Тампере",
+      "en": "Tampere"
+    },
+    "rating": 4,
+    "date": "2026-01-20",
+    "tour": "austria-alps-ski-week",
+    "trip": {
+      "ru": "Майрхофен, Австрия",
+      "en": "Mayrhofen, Austria"
+    },
+    "text": {
+      "ru": "Отличный отель у подъёмника и хорошая цена с ски-пассом. Единственное — трансфер из Инсбрука ждали 30 минут, но в целом всё на пятёрку.",
+      "en": "Great hotel by the lift and a good price including the ski pass. Only issue — we waited 30 minutes for the transfer from Innsbruck, but overall excellent."
+    }
+  },
+  {
+    "id": "r5",
+    "name": "Elena M.",
+    "city": {
+      "ru": "Турку",
+      "en": "Turku"
+    },
+    "rating": 5,
+    "date": "2025-12-28",
+    "tour": "lapland-aurora-huskies",
+    "trip": {
+      "ru": "Лапландия",
+      "en": "Lapland"
+    },
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1600&q=75",
+    "text": {
+      "ru": "Ездили на Рождество в Леви. Сияние увидели уже в первую ночь прямо из иглу! Дети до сих пор рассказывают про хаски и Санту.",
+      "en": "We went to Levi for Christmas and saw the aurora from our igloo on the very first night! The kids still talk about the huskies and Santa."
+    }
+  },
+  {
+    "id": "r6",
+    "name": "Ирина П.",
+    "city": {
+      "ru": "Хельсинки",
+      "en": "Helsinki"
+    },
+    "rating": 5,
+    "date": "2025-11-30",
+    "tour": "thailand-phuket-islands",
+    "trip": {
+      "ru": "Пхукет, Таиланд",
+      "en": "Phuket, Thailand"
+    },
+    "text": {
+      "ru": "Подобрали тур буквально за час, как и обещали. Ночью в Таиланде спросила у AI-ассистента, где поблизости аптека, — ответил моментально. Поеду снова!",
+      "en": "They found our tour within an hour, just as promised. At night in Thailand I asked the AI assistant where the nearest pharmacy was — instant answer. I'll travel with them again!"
+    }
+  }
+]

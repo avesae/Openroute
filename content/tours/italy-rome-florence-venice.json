@@ -1,0 +1,161 @@
+{
+  "currency": "EUR",
+  "slug": "italy-rome-florence-venice",
+  "destination": "italy",
+  "city": {
+    "ru": "Рим, Флоренция, Венеция",
+    "en": "Rome, Florence, Venice"
+  },
+  "title": {
+    "ru": "Классическая Италия: Рим, Флоренция, Венеция",
+    "en": "Classic Italy: Rome, Florence, Venice"
+  },
+  "summary": {
+    "ru": "Три главных города за неделю на скоростных поездах.",
+    "en": "Italy's three great cities in a week by high-speed train."
+  },
+  "description": {
+    "ru": "Маршрут для первого знакомства с Италией. Колизей и Ватикан в Риме, Уффици и Дуомо во Флоренции, гондолы и площадь Сан-Марко в Венеции. Между городами — быстрые поезда Frecciarossa, отели в пешей доступности от главных достопримечательностей.",
+    "en": "The perfect first trip to Italy: the Colosseum and Vatican in Rome, the Uffizi and Duomo in Florence, gondolas and St Mark's Square in Venice. Fast Frecciarossa trains between cities and hotels within walking distance of the sights."
+  },
+  "types": [
+    "excursion",
+    "romantic"
+  ],
+  "durationNights": 7,
+  "priceFrom": 1190,
+  "popularity": 82,
+  "rating": 4.9,
+  "departures": [
+    {
+      "date": "2027-03-20",
+      "price": 1190,
+      "seatsLeft": 14
+    },
+    {
+      "date": "2027-04-24",
+      "price": 1290
+    },
+    {
+      "date": "2027-09-18",
+      "price": 1250
+    }
+  ],
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Колизей в Риме",
+        "en": "The Colosseum in Rome"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Мост Риальто в Венеции",
+        "en": "Rialto Bridge in Venice"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Узкая итальянская улочка",
+        "en": "Narrow Italian street"
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1–3",
+      "title": {
+        "ru": "Рим",
+        "en": "Rome"
+      },
+      "text": {
+        "ru": "Колизей и Форум, Ватикан и Сикстинская капелла, фонтан Треви.",
+        "en": "Colosseum and Forum, Vatican and Sistine Chapel, Trevi Fountain."
+      }
+    },
+    {
+      "day": "4–5",
+      "title": {
+        "ru": "Флоренция",
+        "en": "Florence"
+      },
+      "text": {
+        "ru": "Галерея Уффици, Дуомо, закат на площади Микеланджело.",
+        "en": "Uffizi Gallery, the Duomo, sunset at Piazzale Michelangelo."
+      }
+    },
+    {
+      "day": "6–7",
+      "title": {
+        "ru": "Венеция",
+        "en": "Venice"
+      },
+      "text": {
+        "ru": "Сан-Марко, Дворец дожей, острова Мурано и Бурано.",
+        "en": "St Mark's, Doge's Palace, Murano and Burano islands."
+      }
+    },
+    {
+      "day": "8",
+      "title": {
+        "ru": "Вылет",
+        "en": "Departure"
+      },
+      "text": {
+        "ru": "Вылет из Венеции в Хельсинки.",
+        "en": "Flight from Venice to Helsinki."
+      }
+    }
+  ],
+  "included": {
+    "ru": [
+      "Перелёт Хельсинки — туда и обратно",
+      "Трансфер аэропорт — отель — аэропорт",
+      "Проживание в выбранном отеле",
+      "Медицинская страховка",
+      "Поддержка 24/7 во время поездки",
+      "Завтраки",
+      "Поезда между городами",
+      "Билеты в Ватикан без очереди"
+    ],
+    "en": [
+      "Return flight from Helsinki",
+      "Airport–hotel–airport transfer",
+      "Accommodation in the selected hotel",
+      "Medical insurance",
+      "24/7 support during the trip",
+      "Breakfasts",
+      "Trains between cities",
+      "Skip-the-line Vatican tickets"
+    ]
+  },
+  "notIncluded": {
+    "ru": [
+      "Личные расходы и чаевые",
+      "Туристический налог отеля (если взимается)",
+      "Гондола (≈ 90 € за лодку)"
+    ],
+    "en": [
+      "Personal expenses and tips",
+      "Hotel tourist tax (if applicable)",
+      "Gondola ride (≈ €90 per boat)"
+    ]
+  },
+  "hotel": {
+    "name": "Городские отели 4*",
+    "stars": 4,
+    "meal": "BB",
+    "description": {
+      "ru": "Отели в исторических центрах трёх городов.",
+      "en": "Hotels in the historic centres of all three cities."
+    }
+  },
+  "location": {
+    "lat": 43.7696,
+    "lng": 11.2558,
+    "zoom": 6
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "thailand",
+  "name": {
+    "ru": "Таиланд",
+    "en": "Thailand"
+  },
+  "nameIn": {
+    "ru": "Таиланд",
+    "en": "Thailand"
+  },
+  "region": {
+    "ru": "Азия",
+    "en": "Asia"
+  },
+  "summary": {
+    "ru": "Острова Андаманского моря, храмы и лучшая уличная еда.",
+    "en": "Andaman Sea islands, temples and the best street food."
+  },
+  "description": {
+    "ru": [
+      "Таиланд — классика зимнего отдыха: Пхукет, Краби, Самуи, тёплое море и экскурсии на острова.",
+      "Направление отлично подходит для долгих поездок на 10–14 ночей и для совмещения пляжа с Бангкоком."
+    ],
+    "en": [
+      "Thailand is a winter classic: Phuket, Krabi, Koh Samui, warm sea and island-hopping trips.",
+      "It's great for longer trips of 10–14 nights and for combining the beach with Bangkok."
+    ]
+  },
+  "bestSeason": {
+    "ru": "Ноябрь–апрель",
+    "en": "November–April"
+  },
+  "visa": {
+    "ru": "Для граждан ЕС — без визы до 60 дней.",
+    "en": "Visa-free for EU citizens for up to 60 days."
+  },
+  "flight": {
+    "ru": "≈ 10–11 часов, прямые рейсы зимой",
+    "en": "≈ 10–11 hours, direct flights in winter"
+  },
+  "currency": "THB",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1600&q=75",
+    "alt": {
+      "ru": "Лодка у острова в Таиланде",
+      "en": "Long-tail boat by an island in Thailand"
+    }
+  },
+  "popular": true,
+  "order": 4
+}

@@ -1,0 +1,154 @@
+{
+  "currency": "EUR",
+  "slug": "egypt-hurghada-red-sea",
+  "destination": "egypt",
+  "city": {
+    "ru": "Хургада",
+    "en": "Hurghada"
+  },
+  "title": {
+    "ru": "Хургада: Красное море и коралловые рифы",
+    "en": "Hurghada: Red Sea and coral reefs"
+  },
+  "summary": {
+    "ru": "Зимнее солнце, снорклинг с собственного пирса и «всё включено».",
+    "en": "Winter sun, snorkelling from the hotel pier and all-inclusive."
+  },
+  "description": {
+    "ru": "Отель на первой линии с длинным пирсом, откуда можно сразу нырять к рифу. Вода +24 °C даже в январе. Для любителей приключений — дайвинг-центр в отеле, для семей — детский бассейн и анимация.",
+    "en": "A beachfront hotel with a long pier straight onto the reef. The water is +24 °C even in January. Divers get an on-site dive centre; families get a kids' pool and entertainment."
+  },
+  "types": [
+    "beach",
+    "family",
+    "adventure"
+  ],
+  "durationNights": 7,
+  "priceFrom": 690,
+  "popularity": 92,
+  "rating": 4.6,
+  "departures": [
+    {
+      "date": "2026-11-10",
+      "price": 690,
+      "seatsLeft": 3
+    },
+    {
+      "date": "2026-12-05",
+      "price": 760,
+      "seatsLeft": 10
+    },
+    {
+      "date": "2027-01-09",
+      "price": 820
+    }
+  ],
+  "hot": {
+    "oldPrice": 850,
+    "until": "2026-11-08"
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Дайвер у кораллового рифа",
+        "en": "Diver at a coral reef"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Пляж с пальмами и зонтиками",
+        "en": "Beach with palms and umbrellas"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Экскурсия к пирамидам",
+        "en": "Excursion to the pyramids"
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": {
+        "ru": "Перелёт",
+        "en": "Flight"
+      },
+      "text": {
+        "ru": "Прямой рейс из Хельсинки, оформление визы в аэропорту, трансфер.",
+        "en": "Direct flight from Helsinki, visa on arrival, transfer."
+      }
+    },
+    {
+      "day": "2–7",
+      "title": {
+        "ru": "Море и рифы",
+        "en": "Sea and reefs"
+      },
+      "text": {
+        "ru": "Снорклинг, пляж, по желанию — морская прогулка на остров Гифтун или поездка в Луксор.",
+        "en": "Snorkelling, beach, optional boat trip to Giftun Island or a day in Luxor."
+      }
+    },
+    {
+      "day": "8",
+      "title": {
+        "ru": "Домой",
+        "en": "Home"
+      },
+      "text": {
+        "ru": "Трансфер в аэропорт и вылет.",
+        "en": "Airport transfer and flight home."
+      }
+    }
+  ],
+  "included": {
+    "ru": [
+      "Перелёт Хельсинки — туда и обратно",
+      "Трансфер аэропорт — отель — аэропорт",
+      "Проживание в выбранном отеле",
+      "Медицинская страховка",
+      "Поддержка 24/7 во время поездки",
+      "Питание «всё включено»"
+    ],
+    "en": [
+      "Return flight from Helsinki",
+      "Airport–hotel–airport transfer",
+      "Accommodation in the selected hotel",
+      "Medical insurance",
+      "24/7 support during the trip",
+      "All-inclusive meals"
+    ]
+  },
+  "notIncluded": {
+    "ru": [
+      "Личные расходы и чаевые",
+      "Туристический налог отеля (если взимается)",
+      "Виза (≈ 25 USD)",
+      "Дайвинг и экскурсии"
+    ],
+    "en": [
+      "Personal expenses and tips",
+      "Hotel tourist tax (if applicable)",
+      "Visa (≈ 25 USD)",
+      "Diving and excursions"
+    ]
+  },
+  "hotel": {
+    "name": "Coral Bay Resort 5*",
+    "stars": 5,
+    "meal": "AI",
+    "description": {
+      "ru": "Пирс к рифу, 4 бассейна, дайвинг-центр, детский клуб.",
+      "en": "Reef pier, 4 pools, dive centre, kids' club."
+    }
+  },
+  "location": {
+    "lat": 27.2579,
+    "lng": 33.8116,
+    "zoom": 11
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "currency": "EUR",
+  "slug": "greece-santorini-crete",
+  "destination": "greece",
+  "city": {
+    "ru": "Санторини, Крит",
+    "en": "Santorini, Crete"
+  },
+  "title": {
+    "ru": "Санторини и Крит: два острова за одну поездку",
+    "en": "Santorini and Crete: two islands, one trip"
+  },
+  "summary": {
+    "ru": "Закаты Ии, пляжи Крита и паром между островами.",
+    "en": "Oia sunsets, Cretan beaches and a ferry between islands."
+  },
+  "description": {
+    "ru": "Три ночи на Санторини с видом на кальдеру и пять ночей на Крите у моря. Закаты в Ие, винные дегустации, Кносский дворец и розовый пляж Элафониси.",
+    "en": "Three nights on Santorini overlooking the caldera and five nights on Crete by the sea. Oia sunsets, wine tastings, Knossos palace and pink Elafonisi beach."
+  },
+  "types": [
+    "beach",
+    "romantic",
+    "excursion"
+  ],
+  "durationNights": 8,
+  "priceFrom": 1240,
+  "popularity": 72,
+  "rating": 4.8,
+  "departures": [
+    {
+      "date": "2027-05-15",
+      "price": 1240,
+      "seatsLeft": 10
+    },
+    {
+      "date": "2027-06-12",
+      "price": 1390
+    },
+    {
+      "date": "2027-09-11",
+      "price": 1290
+    }
+  ],
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Белые дома Санторини",
+        "en": "White houses of Santorini"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Купола и море Санторини",
+        "en": "Domes and sea in Santorini"
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1–3",
+      "title": {
+        "ru": "Санторини",
+        "en": "Santorini"
+      },
+      "text": {
+        "ru": "Отель в Фире с видом на кальдеру, закат в Ие, винодельни.",
+        "en": "Fira hotel with caldera view, sunset in Oia, wineries."
+      }
+    },
+    {
+      "day": "4",
+      "title": {
+        "ru": "Паром на Крит",
+        "en": "Ferry to Crete"
+      },
+      "text": {
+        "ru": "Скоростной паром ≈ 2 часа, заселение у моря.",
+        "en": "Fast ferry ≈ 2 hours, beach hotel check-in."
+      }
+    },
+    {
+      "day": "5–8",
+      "title": {
+        "ru": "Крит",
+        "en": "Crete"
+      },
+      "text": {
+        "ru": "Кносс, Ханья, пляж Элафониси, отдых.",
+        "en": "Knossos, Chania, Elafonisi beach, relaxing."
+      }
+    },
+    {
+      "day": "9",
+      "title": {
+        "ru": "Вылет",
+        "en": "Departure"
+      },
+      "text": {
+        "ru": "Вылет из Ираклиона.",
+        "en": "Flight from Heraklion."
+      }
+    }
+  ],
+  "included": {
+    "ru": [
+      "Перелёт Хельсинки — туда и обратно",
+      "Трансфер аэропорт — отель — аэропорт",
+      "Проживание в выбранном отеле",
+      "Медицинская страховка",
+      "Поддержка 24/7 во время поездки",
+      "Завтраки",
+      "Паром Санторини — Крит"
+    ],
+    "en": [
+      "Return flight from Helsinki",
+      "Airport–hotel–airport transfer",
+      "Accommodation in the selected hotel",
+      "Medical insurance",
+      "24/7 support during the trip",
+      "Breakfasts",
+      "Santorini–Crete ferry"
+    ]
+  },
+  "notIncluded": {
+    "ru": [
+      "Личные расходы и чаевые",
+      "Туристический налог отеля (если взимается)",
+      "Экскурсии на Крите"
+    ],
+    "en": [
+      "Personal expenses and tips",
+      "Hotel tourist tax (if applicable)",
+      "Excursions on Crete"
+    ]
+  },
+  "hotel": {
+    "name": "Caldera View 4* + Crete Beach 4*",
+    "stars": 4,
+    "meal": "BB",
+    "description": {
+      "ru": "Бутик-отель на скале и пляжный отель на Крите.",
+      "en": "Cliffside boutique hotel and a beach hotel on Crete."
+    }
+  },
+  "location": {
+    "lat": 36.3932,
+    "lng": 25.4615,
+    "zoom": 8
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "currency": "EUR",
+  "slug": "spain-tenerife-family",
+  "destination": "spain",
+  "city": {
+    "ru": "Тенерифе, Канары",
+    "en": "Tenerife, Canary Islands"
+  },
+  "title": {
+    "ru": "Тенерифе: вечная весна для всей семьи",
+    "en": "Tenerife: eternal spring for the whole family"
+  },
+  "summary": {
+    "ru": "+23 °C зимой, Лоро-парк, вулкан Тейде и киты.",
+    "en": "+23 °C in winter, Loro Parque, Mount Teide and whales."
+  },
+  "description": {
+    "ru": "Самое тёплое место Европы зимой. Семейный отель на юге острова, где солнечнее всего, а в программе — Лоро-парк, аквапарк Siam Park, прогулка к китам и подъём на вулкан Тейде.",
+    "en": "Europe's warmest winter spot. A family hotel in the sunny south of the island with Loro Parque, Siam Park water park, whale watching and a trip up Mount Teide."
+  },
+  "types": [
+    "beach",
+    "family"
+  ],
+  "durationNights": 9,
+  "priceFrom": 980,
+  "popularity": 70,
+  "rating": 4.7,
+  "departures": [
+    {
+      "date": "2026-12-19",
+      "price": 1180,
+      "seatsLeft": 7
+    },
+    {
+      "date": "2027-01-30",
+      "price": 980
+    },
+    {
+      "date": "2027-02-27",
+      "price": 1040
+    }
+  ],
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Пляж с пальмами на Тенерифе",
+        "en": "Palm-lined beach in Tenerife"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Отель с бассейном",
+        "en": "Hotel with pools"
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": {
+        "ru": "Перелёт",
+        "en": "Flight"
+      },
+      "text": {
+        "ru": "Прямой рейс ≈ 6 часов, трансфер в Коста-Адехе.",
+        "en": "Direct flight ≈ 6 hours, transfer to Costa Adeje."
+      }
+    },
+    {
+      "day": "2–9",
+      "title": {
+        "ru": "Отдых и развлечения",
+        "en": "Beach and fun"
+      },
+      "text": {
+        "ru": "Пляж, Siam Park, Лоро-парк, вулкан Тейде, морская прогулка к дельфинам.",
+        "en": "Beach, Siam Park, Loro Parque, Mount Teide, dolphin boat trip."
+      }
+    },
+    {
+      "day": "10",
+      "title": {
+        "ru": "Домой",
+        "en": "Home"
+      },
+      "text": {
+        "ru": "Трансфер и вылет.",
+        "en": "Transfer and flight."
+      }
+    }
+  ],
+  "included": {
+    "ru": [
+      "Перелёт Хельсинки — туда и обратно",
+      "Трансфер аэропорт — отель — аэропорт",
+      "Проживание в выбранном отеле",
+      "Медицинская страховка",
+      "Поддержка 24/7 во время поездки",
+      "Полупансион"
+    ],
+    "en": [
+      "Return flight from Helsinki",
+      "Airport–hotel–airport transfer",
+      "Accommodation in the selected hotel",
+      "Medical insurance",
+      "24/7 support during the trip",
+      "Half board"
+    ]
+  },
+  "notIncluded": {
+    "ru": [
+      "Личные расходы и чаевые",
+      "Туристический налог отеля (если взимается)",
+      "Билеты в парки",
+      "Аренда авто"
+    ],
+    "en": [
+      "Personal expenses and tips",
+      "Hotel tourist tax (if applicable)",
+      "Theme park tickets",
+      "Car hire"
+    ]
+  },
+  "hotel": {
+    "name": "Costa Adeje Family Club 4*",
+    "stars": 4,
+    "meal": "HB",
+    "description": {
+      "ru": "Семейные номера, подогреваемые бассейны, мини-клуб, 300 м до пляжа.",
+      "en": "Family rooms, heated pools, kids' club, 300 m to the beach."
+    }
+  },
+  "location": {
+    "lat": 28.0916,
+    "lng": -16.7264,
+    "zoom": 11
+  }
+}

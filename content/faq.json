@@ -1,0 +1,82 @@
+[
+  {
+    "q": {
+      "ru": "Как быстро вы подберёте тур?",
+      "en": "How quickly will you find a tour?"
+    },
+    "a": {
+      "ru": "В рабочее время — в течение часа после заявки. Мы пришлём 2–3 варианта с ценами и фото отелей. Ночью и в выходные на вопросы отвечает AI-ассистент, а менеджер свяжется утром.",
+      "en": "During office hours — within an hour of your request. We send 2–3 options with prices and hotel photos. At night and at weekends the AI assistant answers questions and a manager follows up in the morning."
+    }
+  },
+  {
+    "q": {
+      "ru": "Откуда вылеты?",
+      "en": "Where do flights depart from?"
+    },
+    "a": {
+      "ru": "Основные вылеты — из аэропорта Хельсинки-Вантаа. По запросу подберём рейсы из Турку, Тампере, Оулу или Таллина.",
+      "en": "Mainly from Helsinki-Vantaa airport. On request we can find flights from Turku, Tampere, Oulu or Tallinn."
+    }
+  },
+  {
+    "q": {
+      "ru": "Что входит в стоимость тура?",
+      "en": "What is included in the tour price?"
+    },
+    "a": {
+      "ru": "Обычно — перелёт, трансфер, проживание, питание по выбранной программе и страховка. Точный список указан на странице каждого тура в блоке «Включено».",
+      "en": "Usually flights, transfers, accommodation, meals as selected and insurance. The exact list is on each tour page under 'Included'."
+    }
+  },
+  {
+    "q": {
+      "ru": "Нужна ли виза?",
+      "en": "Do I need a visa?"
+    },
+    "a": {
+      "ru": "Зависит от страны и вашего паспорта. На странице каждого направления есть раздел о визе, а менеджер проверит условия именно для вас.",
+      "en": "It depends on the country and your passport. Each destination page has a visa section, and a manager will check the rules for you."
+    }
+  },
+  {
+    "q": {
+      "ru": "Как оплатить тур?",
+      "en": "How do I pay?"
+    },
+    "a": {
+      "ru": "Картой онлайн или банковским переводом. Обычно достаточно предоплаты 20–30 %, остаток — за 30 дней до вылета.",
+      "en": "By card online or bank transfer. Usually a 20–30% deposit is enough, with the balance due 30 days before departure."
+    }
+  },
+  {
+    "q": {
+      "ru": "Можно ли отменить или перенести поездку?",
+      "en": "Can I cancel or change my trip?"
+    },
+    "a": {
+      "ru": "Да, условия зависят от тура и указаны в договоре. Рекомендуем страховку от невыезда — мы поможем её оформить.",
+      "en": "Yes, terms depend on the tour and are stated in the contract. We recommend cancellation insurance — we can arrange it."
+    }
+  },
+  {
+    "q": {
+      "ru": "Что если что-то пойдёт не так в поездке?",
+      "en": "What if something goes wrong during the trip?"
+    },
+    "a": {
+      "ru": "Пишите в WhatsApp или Telegram в любое время — менеджер и AI-ассистент на связи 24/7 и помогут с отелем, трансфером или задержкой рейса.",
+      "en": "Message us on WhatsApp or Telegram any time — a manager and the AI assistant are available 24/7 to help with hotels, transfers or flight delays."
+    }
+  },
+  {
+    "q": {
+      "ru": "Делаете ли вы индивидуальные туры?",
+      "en": "Do you organise tailor-made trips?"
+    },
+    "a": {
+      "ru": "Да. Соберём путешествие под ключ в любую точку мира: маршрут, отели, гиды, рестораны и билеты на мероприятия.",
+      "en": "Yes. We build turnkey trips anywhere in the world: itinerary, hotels, guides, restaurants and event tickets."
+    }
+  }
+]

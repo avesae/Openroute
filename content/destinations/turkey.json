@@ -1,0 +1,51 @@
+{
+  "slug": "turkey",
+  "name": {
+    "ru": "Турция",
+    "en": "Turkey"
+  },
+  "nameIn": {
+    "ru": "Турцию",
+    "en": "Turkey"
+  },
+  "region": {
+    "ru": "Европа / Азия",
+    "en": "Europe / Asia"
+  },
+  "summary": {
+    "ru": "Отели «всё включено», тёплое море и Каппадокия с воздушными шарами.",
+    "en": "All-inclusive resorts, warm sea and Cappadocia's hot-air balloons."
+  },
+  "description": {
+    "ru": [
+      "Турция — самое простое направление для семейного отпуска: короткий перелёт, огромный выбор отелей «всё включено» с аквапарками и детскими клубами.",
+      "Помимо пляжей Антальи и Бодрума, стоит увидеть Стамбул и Каппадокию — их легко совместить с отдыхом на море."
+    ],
+    "en": [
+      "Turkey is the easiest choice for a family holiday: a short flight and a huge range of all-inclusive resorts with water parks and kids' clubs.",
+      "Beyond the beaches of Antalya and Bodrum, Istanbul and Cappadocia are well worth seeing and easy to combine with a beach stay."
+    ]
+  },
+  "bestSeason": {
+    "ru": "Май–октябрь для пляжа, апрель–май и сентябрь–ноябрь для экскурсий",
+    "en": "May–October for the beach; April–May and September–November for sightseeing"
+  },
+  "visa": {
+    "ru": "Для граждан ЕС виза не нужна. Для других паспортов — проверим условия при подборе.",
+    "en": "No visa for EU citizens. For other passports we will check the rules for you."
+  },
+  "flight": {
+    "ru": "≈ 4 часа прямым рейсом",
+    "en": "≈ 4 hours direct"
+  },
+  "currency": "TRY",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?auto=format&fit=crop&w=1600&q=75",
+    "alt": {
+      "ru": "Воздушные шары над Каппадокией",
+      "en": "Hot-air balloons over Cappadocia"
+    }
+  },
+  "popular": true,
+  "order": 1
+}

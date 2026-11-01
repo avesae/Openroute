@@ -1,0 +1,157 @@
+{
+  "currency": "EUR",
+  "slug": "austria-alps-ski-week",
+  "destination": "austria",
+  "city": {
+    "ru": "Майрхофен, Циллерталь",
+    "en": "Mayrhofen, Zillertal"
+  },
+  "title": {
+    "ru": "Неделя на лыжах в Австрийских Альпах",
+    "en": "Ski week in the Austrian Alps"
+  },
+  "summary": {
+    "ru": "540 км трасс Циллерталя, ски-пасс и отель у подъёмника.",
+    "en": "540 km of Zillertal slopes, ski pass and a hotel by the lift."
+  },
+  "description": {
+    "ru": "Майрхофен — один из лучших курортов Австрии для смешанных компаний: трассы для новичков и экспертов, сноупарк, школа для детей. Отель в 200 м от подъёмника, сауна и ужины с местной кухней.",
+    "en": "Mayrhofen is one of Austria's best resorts for mixed groups: slopes for beginners and experts, a snow park and a ski school for kids. The hotel is 200 m from the lift, with a sauna and dinners of local cuisine."
+  },
+  "types": [
+    "ski",
+    "family",
+    "adventure"
+  ],
+  "durationNights": 7,
+  "priceFrom": 1290,
+  "popularity": 78,
+  "rating": 4.7,
+  "departures": [
+    {
+      "date": "2026-12-12",
+      "price": 1290,
+      "seatsLeft": 6
+    },
+    {
+      "date": "2027-01-23",
+      "price": 1390
+    },
+    {
+      "date": "2027-03-06",
+      "price": 1340
+    }
+  ],
+  "hot": {
+    "oldPrice": 1490,
+    "until": "2026-11-30"
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Лыжник в прыжке на фоне гор",
+        "en": "Skier jumping against the mountains"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1418985991508-e47386d96a71?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Заснеженные вершины Альп",
+        "en": "Snowy Alpine peaks"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Горное озеро летом",
+        "en": "Mountain lake in summer"
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": {
+        "ru": "Перелёт в Инсбрук",
+        "en": "Flight to Innsbruck"
+      },
+      "text": {
+        "ru": "Трансфер ≈ 1 час, выдача ски-пасса.",
+        "en": "Transfer ≈ 1 hour, ski pass pick-up."
+      }
+    },
+    {
+      "day": "2–7",
+      "title": {
+        "ru": "Катание",
+        "en": "Skiing"
+      },
+      "text": {
+        "ru": "Ледник Хинтертукс, трассы Пенкен и Аренберг, вечерами — апре-ски и сауна.",
+        "en": "Hintertux glacier, Penken and Ahorn slopes, après-ski and sauna in the evenings."
+      }
+    },
+    {
+      "day": "8",
+      "title": {
+        "ru": "Вылет",
+        "en": "Departure"
+      },
+      "text": {
+        "ru": "Трансфер и рейс домой.",
+        "en": "Transfer and flight home."
+      }
+    }
+  ],
+  "included": {
+    "ru": [
+      "Перелёт Хельсинки — туда и обратно",
+      "Трансфер аэропорт — отель — аэропорт",
+      "Проживание в выбранном отеле",
+      "Медицинская страховка",
+      "Поддержка 24/7 во время поездки",
+      "Полупансион",
+      "Ски-пасс на 6 дней",
+      "Провоз лыжного снаряжения"
+    ],
+    "en": [
+      "Return flight from Helsinki",
+      "Airport–hotel–airport transfer",
+      "Accommodation in the selected hotel",
+      "Medical insurance",
+      "24/7 support during the trip",
+      "Half board",
+      "6-day ski pass",
+      "Ski equipment on the flight"
+    ]
+  },
+  "notIncluded": {
+    "ru": [
+      "Личные расходы и чаевые",
+      "Туристический налог отеля (если взимается)",
+      "Аренда снаряжения (≈ 150 €)",
+      "Лыжная школа"
+    ],
+    "en": [
+      "Personal expenses and tips",
+      "Hotel tourist tax (if applicable)",
+      "Equipment rental (≈ €150)",
+      "Ski school"
+    ]
+  },
+  "hotel": {
+    "name": "Alpenhof Zillertal 4*",
+    "stars": 4,
+    "meal": "HB",
+    "description": {
+      "ru": "200 м до подъёмника, спа с сауной, лыжная комната.",
+      "en": "200 m to the lift, spa with sauna, ski room."
+    }
+  },
+  "location": {
+    "lat": 47.1667,
+    "lng": 11.8667,
+    "zoom": 11
+  }
+}

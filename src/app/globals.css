@@ -1,26 +1,188 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ───────────── Цвета бренда: белый + салатовый ─────────────
+   Меняйте здесь — весь сайт подхватит новые значения. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #ffffff;
+  --surface: #f6faf1;
+  --surface-2: #ecf4e2;
+  --fg: #142012;
+  --muted: #56634f;
+  --border: #e0e9d6;
+  --brand: #a3e635; /* салатовый — фон кнопок, акценты */
+  --brand-hover: #94d82d;
+  --brand-ink: #142012; /* текст на салатовом */
+  --brand-strong: #3f6b0d; /* ссылки и акцентный текст на белом (контраст AA) */
+  --brand-soft: #ecfccb;
+  --hot: #c2410c;
+  --shadow: 0 1px 2px rgb(20 32 18 / 0.04), 0 8px 24px -12px rgb(20 32 18 / 0.18);
+}
+
+.dark {
+  --bg: #0c120b;
+  --surface: #131b12;
+  --surface-2: #1a2518;
+  --fg: #eef5e8;
+  --muted: #a5b29e;
+  --border: #263322;
+  --brand: #a3e635;
+  --brand-hover: #bef264;
+  --brand-ink: #0c120b;
+  --brand-strong: #bef264;
+  --brand-soft: #1f2e14;
+  --hot: #fb923c;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -12px rgb(0 0 0 / 0.6);
+  color-scheme: dark;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-soft: var(--brand-soft);
+  --color-hot: var(--hot);
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-heading), var(--font-body), ui-sans-serif, sans-serif;
+  --shadow-card: var(--shadow);
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading), var(--font-body), sans-serif;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+:focus-visible {
+  outline: 3px solid var(--brand-strong);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@utility container-x {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+@utility btn {
+  @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 text-base font-semibold transition duration-200 disabled:cursor-not-allowed disabled:opacity-60;
+}
+@utility btn-primary {
+  @apply btn bg-brand text-brand-ink hover:bg-brand-hover active:scale-[0.98];
+}
+@utility btn-dark {
+  @apply btn bg-fg text-bg hover:opacity-90;
+}
+@utility btn-ghost {
+  @apply btn border border-border bg-bg text-fg hover:border-brand-strong;
+}
+@utility card {
+  @apply rounded-2xl border border-border bg-bg shadow-card;
+}
+@utility eyebrow {
+  @apply text-sm font-semibold tracking-wide text-brand-strong uppercase;
+}
+@utility field {
+  @apply min-h-12 w-full rounded-xl border border-border bg-bg px-4 text-base text-fg placeholder:text-muted focus:border-brand-strong focus:ring-3 focus:ring-brand/40 focus:outline-none;
+}
+@utility label {
+  @apply mb-1.5 block text-sm font-medium text-fg;
+}
+@utility chip {
+  @apply inline-flex items-center gap-1 rounded-full bg-brand-soft px-3 py-1 text-xs font-semibold text-brand-strong;
+}
+
+.prose-article {
+  @apply text-lg leading-relaxed text-fg;
+}
+.prose-article h2 {
+  @apply mt-10 mb-3 text-2xl font-bold;
+}
+.prose-article p,
+.prose-article ul,
+.prose-article ol {
+  @apply mb-5;
+}
+.prose-article ul {
+  @apply list-disc pl-6;
+}
+.prose-article ol {
+  @apply list-decimal pl-6;
+}
+.prose-article li {
+  @apply mb-1.5;
+}
+.prose-article strong {
+  @apply font-semibold;
+}
+
+/* Плавное появление блоков при прокрутке — только CSS, без JS. */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 25%;
+    }
+  }
+  .rise {
+    animation: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+}
+
+.prose-article table {
+  @apply mb-6 w-full border-collapse text-sm;
+}
+.prose-article th,
+.prose-article td {
+  @apply border border-border px-3 py-2 text-left align-top;
+}
+.prose-article th {
+  @apply bg-surface font-semibold;
+}
+.prose-article a {
+  @apply font-medium text-brand-strong underline underline-offset-2;
+}
+.prose-article em {
+  @apply text-muted;
 }

@@ -1,0 +1,51 @@
+{
+  "slug": "lapland",
+  "name": {
+    "ru": "Лапландия",
+    "en": "Lapland"
+  },
+  "nameIn": {
+    "ru": "Лапландию",
+    "en": "Lapland"
+  },
+  "region": {
+    "ru": "Финляндия",
+    "en": "Finland"
+  },
+  "summary": {
+    "ru": "Северное сияние, хаски, Санта-Клаус и горнолыжный Леви.",
+    "en": "Northern lights, huskies, Santa Claus and Levi ski resort."
+  },
+  "description": {
+    "ru": [
+      "Финская Лапландия — зимняя сказка без загранпаспорта: катание на хаски и оленях, стеклянные иглу и северное сияние.",
+      "Горнолыжные курорты Леви, Рука и Юллас подходят и новичкам, и семьям с детьми."
+    ],
+    "en": [
+      "Finnish Lapland is a winter fairytale: husky and reindeer rides, glass igloos and the northern lights.",
+      "Levi, Ruka and Ylläs ski resorts suit beginners and families alike."
+    ]
+  },
+  "bestSeason": {
+    "ru": "Декабрь–март, сияние — сентябрь–март",
+    "en": "December–March; northern lights September–March"
+  },
+  "visa": {
+    "ru": "Виза не нужна.",
+    "en": "No visa needed."
+  },
+  "flight": {
+    "ru": "≈ 1,5 часа перелёт или ночной поезд",
+    "en": "≈ 1.5 hours by air or overnight train"
+  },
+  "currency": "EUR",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=1600&q=75",
+    "alt": {
+      "ru": "Северное сияние над Лапландией",
+      "en": "Northern lights over Lapland"
+    }
+  },
+  "popular": false,
+  "order": 10
+}

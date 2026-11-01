@@ -1,0 +1,164 @@
+{
+  "currency": "EUR",
+  "slug": "maldives-honeymoon-water-villa",
+  "destination": "maldives",
+  "city": {
+    "ru": "Атолл Баа",
+    "en": "Baa Atoll"
+  },
+  "title": {
+    "ru": "Мальдивы: медовый месяц на вилле над водой",
+    "en": "Maldives honeymoon in an overwater villa"
+  },
+  "summary": {
+    "ru": "Вилла с выходом в лагуну, ужин на песчаной косе и гидроплан.",
+    "en": "Villa with lagoon access, sandbank dinner and seaplane transfer."
+  },
+  "description": {
+    "ru": "Путешествие для двоих: перелёт на гидроплане над атоллами, вилла над водой с собственной террасой и лестницей в лагуну, романтический ужин на пустынной песчаной косе. Атолл Баа — биосферный заповедник ЮНЕСКО, где можно встретить мант и китовых акул.",
+    "en": "A trip for two: a seaplane flight over the atolls, an overwater villa with a private deck and steps into the lagoon, and a romantic dinner on a deserted sandbank. Baa Atoll is a UNESCO biosphere reserve with manta rays and whale sharks."
+  },
+  "types": [
+    "beach",
+    "romantic",
+    "individual"
+  ],
+  "durationNights": 7,
+  "priceFrom": 2890,
+  "popularity": 75,
+  "rating": 5,
+  "departures": [
+    {
+      "date": "2026-12-02",
+      "price": 2890,
+      "seatsLeft": 2
+    },
+    {
+      "date": "2027-01-20",
+      "price": 3190
+    },
+    {
+      "date": "2027-03-03",
+      "price": 2990
+    }
+  ],
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Виллы над лагуной",
+        "en": "Villas over the lagoon"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Бирюзовая вода Мальдив",
+        "en": "Turquoise Maldivian water"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1543731068-7e0f5beff43a?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Пирс к вилле",
+        "en": "Pier to the villa"
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": {
+        "ru": "Перелёт",
+        "en": "Flight"
+      },
+      "text": {
+        "ru": "Вылет из Хельсинки с одной пересадкой.",
+        "en": "Flight from Helsinki with one connection."
+      }
+    },
+    {
+      "day": "2",
+      "title": {
+        "ru": "Гидроплан",
+        "en": "Seaplane"
+      },
+      "text": {
+        "ru": "Перелёт над атоллами, заселение на виллу.",
+        "en": "Flight over the atolls, villa check-in."
+      }
+    },
+    {
+      "day": "3–7",
+      "title": {
+        "ru": "Остров",
+        "en": "Island time"
+      },
+      "text": {
+        "ru": "Снорклинг с мантами, спа для двоих, ужин на песчаной косе.",
+        "en": "Snorkelling with mantas, couples' spa, sandbank dinner."
+      }
+    },
+    {
+      "day": "8",
+      "title": {
+        "ru": "Обратный путь",
+        "en": "Return"
+      },
+      "text": {
+        "ru": "Гидроплан в Мале и перелёт домой.",
+        "en": "Seaplane to Malé and flight home."
+      }
+    }
+  ],
+  "included": {
+    "ru": [
+      "Перелёт Хельсинки — туда и обратно",
+      "Трансфер аэропорт — отель — аэропорт",
+      "Проживание в выбранном отеле",
+      "Медицинская страховка",
+      "Поддержка 24/7 во время поездки",
+      "Полупансион",
+      "Гидроплан туда и обратно",
+      "Романтический ужин"
+    ],
+    "en": [
+      "Return flight from Helsinki",
+      "Airport–hotel–airport transfer",
+      "Accommodation in the selected hotel",
+      "Medical insurance",
+      "24/7 support during the trip",
+      "Half board",
+      "Return seaplane transfer",
+      "Romantic dinner"
+    ]
+  },
+  "notIncluded": {
+    "ru": [
+      "Личные расходы и чаевые",
+      "Туристический налог отеля (если взимается)",
+      "Напитки к ужину",
+      "Спа-процедуры"
+    ],
+    "en": [
+      "Personal expenses and tips",
+      "Hotel tourist tax (if applicable)",
+      "Drinks with dinner",
+      "Spa treatments"
+    ]
+  },
+  "hotel": {
+    "name": "Baa Lagoon Villas 5*",
+    "stars": 5,
+    "meal": "HB",
+    "description": {
+      "ru": "Виллы над водой, дом-риф, дайвинг-центр, спа на воде.",
+      "en": "Overwater villas, house reef, dive centre, overwater spa."
+    }
+  },
+  "location": {
+    "lat": 5.2,
+    "lng": 73.05,
+    "zoom": 9
+  }
+}
