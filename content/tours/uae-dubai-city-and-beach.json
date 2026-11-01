@@ -1,0 +1,164 @@
+{
+  "currency": "EUR",
+  "slug": "uae-dubai-city-and-beach",
+  "destination": "uae",
+  "city": {
+    "ru": "Дубай",
+    "en": "Dubai"
+  },
+  "title": {
+    "ru": "Дубай: небоскрёбы, пустыня и пляж",
+    "en": "Dubai: skyscrapers, desert and beach"
+  },
+  "summary": {
+    "ru": "Отель на пляже Джумейра, Бурдж-Халифа и сафари на джипах.",
+    "en": "Jumeirah beach hotel, Burj Khalifa and a desert jeep safari."
+  },
+  "description": {
+    "ru": "Идеальный зимний city-break с морем: живём у пляжа Джумейра, а вечерами смотрим поющие фонтаны, поднимаемся на Бурдж-Халифа и гуляем по Старому Дубаю. Включено джип-сафари с ужином в пустыне.",
+    "en": "The perfect winter city break with a beach: stay by Jumeirah Beach and spend evenings at the Dubai Fountain, the top of Burj Khalifa and Old Dubai. A desert jeep safari with dinner is included."
+  },
+  "types": [
+    "beach",
+    "excursion",
+    "romantic"
+  ],
+  "durationNights": 5,
+  "priceFrom": 1090,
+  "popularity": 85,
+  "rating": 4.7,
+  "departures": [
+    {
+      "date": "2026-11-20",
+      "price": 1090,
+      "seatsLeft": 8
+    },
+    {
+      "date": "2026-12-18",
+      "price": 1290
+    },
+    {
+      "date": "2027-02-12",
+      "price": 1150
+    }
+  ],
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Небоскрёбы Дубая на закате",
+        "en": "Dubai skyscrapers at sunset"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Отель с бассейном вечером",
+        "en": "Hotel pool at night"
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": {
+        "ru": "Прилёт",
+        "en": "Arrival"
+      },
+      "text": {
+        "ru": "Прямой рейс, заселение у пляжа Джумейра.",
+        "en": "Direct flight, check-in by Jumeirah Beach."
+      }
+    },
+    {
+      "day": "2",
+      "title": {
+        "ru": "Современный Дубай",
+        "en": "Modern Dubai"
+      },
+      "text": {
+        "ru": "Бурдж-Халифа, Dubai Mall, шоу фонтанов.",
+        "en": "Burj Khalifa, Dubai Mall, fountain show."
+      }
+    },
+    {
+      "day": "3",
+      "title": {
+        "ru": "Пустыня",
+        "en": "Desert"
+      },
+      "text": {
+        "ru": "Джип-сафари по дюнам, ужин в бедуинском лагере.",
+        "en": "Jeep safari over the dunes, dinner in a Bedouin camp."
+      }
+    },
+    {
+      "day": "4–5",
+      "title": {
+        "ru": "Пляж и Старый город",
+        "en": "Beach and old town"
+      },
+      "text": {
+        "ru": "Отдых на море, абра через залив, рынки специй и золота.",
+        "en": "Beach time, abra across the creek, spice and gold souks."
+      }
+    },
+    {
+      "day": "6",
+      "title": {
+        "ru": "Вылет",
+        "en": "Departure"
+      },
+      "text": {
+        "ru": "Трансфер в аэропорт.",
+        "en": "Airport transfer."
+      }
+    }
+  ],
+  "included": {
+    "ru": [
+      "Перелёт Хельсинки — туда и обратно",
+      "Трансфер аэропорт — отель — аэропорт",
+      "Проживание в выбранном отеле",
+      "Медицинская страховка",
+      "Поддержка 24/7 во время поездки",
+      "Завтраки",
+      "Джип-сафари с ужином"
+    ],
+    "en": [
+      "Return flight from Helsinki",
+      "Airport–hotel–airport transfer",
+      "Accommodation in the selected hotel",
+      "Medical insurance",
+      "24/7 support during the trip",
+      "Breakfasts",
+      "Jeep safari with dinner"
+    ]
+  },
+  "notIncluded": {
+    "ru": [
+      "Личные расходы и чаевые",
+      "Туристический налог отеля (если взимается)",
+      "Билет на Бурдж-Халифа (≈ 45 €)"
+    ],
+    "en": [
+      "Personal expenses and tips",
+      "Hotel tourist tax (if applicable)",
+      "Burj Khalifa ticket (≈ €45)"
+    ]
+  },
+  "hotel": {
+    "name": "Jumeirah Beach Hotel 5*",
+    "stars": 5,
+    "meal": "BB",
+    "description": {
+      "ru": "Собственный пляж, бассейн на крыше, 10 минут до Дубай Марины.",
+      "en": "Private beach, rooftop pool, 10 minutes to Dubai Marina."
+    }
+  },
+  "location": {
+    "lat": 25.2048,
+    "lng": 55.2708,
+    "zoom": 11
+  }
+}

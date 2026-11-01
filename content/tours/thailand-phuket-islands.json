@@ -1,0 +1,164 @@
+{
+  "currency": "EUR",
+  "slug": "thailand-phuket-islands",
+  "destination": "thailand",
+  "city": {
+    "ru": "Пхукет",
+    "en": "Phuket"
+  },
+  "title": {
+    "ru": "Пхукет и острова Андаманского моря",
+    "en": "Phuket and the Andaman Sea islands"
+  },
+  "summary": {
+    "ru": "10 ночей у моря, острова Пхи-Пхи и залив Пханг-Нга.",
+    "en": "10 nights by the sea, Phi Phi Islands and Phang Nga Bay."
+  },
+  "description": {
+    "ru": "Длинный отпуск, чтобы по-настоящему перезагрузиться. Живём на пляже Ката, а в программе — морские прогулки на Пхи-Пхи, к «острову Джеймса Бонда» и Большому Будде. Вечера — ночные рынки и тайский массаж.",
+    "en": "A long holiday to truly recharge. Stay at Kata Beach with boat trips to Phi Phi, 'James Bond Island' and the Big Buddha. Evenings mean night markets and Thai massage."
+  },
+  "types": [
+    "beach",
+    "adventure",
+    "romantic"
+  ],
+  "durationNights": 10,
+  "priceFrom": 1390,
+  "popularity": 90,
+  "rating": 4.8,
+  "departures": [
+    {
+      "date": "2026-11-22",
+      "price": 1390,
+      "seatsLeft": 5
+    },
+    {
+      "date": "2027-01-15",
+      "price": 1590
+    },
+    {
+      "date": "2027-02-20",
+      "price": 1490
+    }
+  ],
+  "hot": {
+    "oldPrice": 1590,
+    "until": "2026-11-18"
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Лодка у острова в Андаманском море",
+        "en": "Long-tail boat in the Andaman Sea"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Скалистый остров в заливе",
+        "en": "Rocky island in the bay"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Тайский храм",
+        "en": "Thai temple"
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1–2",
+      "title": {
+        "ru": "Перелёт и заселение",
+        "en": "Flight and check-in"
+      },
+      "text": {
+        "ru": "Прямой зимний рейс, отдых после перелёта.",
+        "en": "Direct winter flight, rest after the journey."
+      }
+    },
+    {
+      "day": "3",
+      "title": {
+        "ru": "Острова Пхи-Пхи",
+        "en": "Phi Phi Islands"
+      },
+      "text": {
+        "ru": "Скоростной катер, бухта Майя, снорклинг.",
+        "en": "Speedboat, Maya Bay, snorkelling."
+      }
+    },
+    {
+      "day": "4–10",
+      "title": {
+        "ru": "Пляж и экскурсии",
+        "en": "Beach and trips"
+      },
+      "text": {
+        "ru": "Залив Пханг-Нга, Большой Будда, старый город Пхукета.",
+        "en": "Phang Nga Bay, Big Buddha, Phuket Old Town."
+      }
+    },
+    {
+      "day": "11",
+      "title": {
+        "ru": "Вылет",
+        "en": "Departure"
+      },
+      "text": {
+        "ru": "Трансфер в аэропорт.",
+        "en": "Airport transfer."
+      }
+    }
+  ],
+  "included": {
+    "ru": [
+      "Перелёт Хельсинки — туда и обратно",
+      "Трансфер аэропорт — отель — аэропорт",
+      "Проживание в выбранном отеле",
+      "Медицинская страховка",
+      "Поддержка 24/7 во время поездки",
+      "Завтраки",
+      "Экскурсия на Пхи-Пхи"
+    ],
+    "en": [
+      "Return flight from Helsinki",
+      "Airport–hotel–airport transfer",
+      "Accommodation in the selected hotel",
+      "Medical insurance",
+      "24/7 support during the trip",
+      "Breakfasts",
+      "Phi Phi Islands trip"
+    ]
+  },
+  "notIncluded": {
+    "ru": [
+      "Личные расходы и чаевые",
+      "Туристический налог отеля (если взимается)",
+      "Остальные экскурсии"
+    ],
+    "en": [
+      "Personal expenses and tips",
+      "Hotel tourist tax (if applicable)",
+      "Other excursions"
+    ]
+  },
+  "hotel": {
+    "name": "Kata Palm Resort 4*",
+    "stars": 4,
+    "meal": "BB",
+    "description": {
+      "ru": "200 м до пляжа Ката, 3 бассейна, спа.",
+      "en": "200 m from Kata Beach, 3 pools, spa."
+    }
+  },
+  "location": {
+    "lat": 7.8206,
+    "lng": 98.2983,
+    "zoom": 11
+  }
+}

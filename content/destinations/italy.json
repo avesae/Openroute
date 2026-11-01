@@ -1,0 +1,51 @@
+{
+  "slug": "italy",
+  "name": {
+    "ru": "Италия",
+    "en": "Italy"
+  },
+  "nameIn": {
+    "ru": "Италию",
+    "en": "Italy"
+  },
+  "region": {
+    "ru": "Европа",
+    "en": "Europe"
+  },
+  "summary": {
+    "ru": "Рим, Венеция, Флоренция — искусство, история и паста.",
+    "en": "Rome, Venice, Florence — art, history and pasta."
+  },
+  "description": {
+    "ru": [
+      "Италия — главное экскурсионное направление Европы. Рим, Флоренция и Венеция легко соединяются скоростными поездами.",
+      "Летом добавьте к городам несколько дней на побережье Амальфи или Сардинии."
+    ],
+    "en": [
+      "Italy is Europe's top sightseeing destination. Rome, Florence and Venice are linked by fast trains.",
+      "In summer, add a few days on the Amalfi Coast or Sardinia."
+    ]
+  },
+  "bestSeason": {
+    "ru": "Апрель–июнь, сентябрь–октябрь",
+    "en": "April–June, September–October"
+  },
+  "visa": {
+    "ru": "Шенгенская зона — для резидентов Финляндии виза не нужна.",
+    "en": "Schengen area — no visa for Finnish residents."
+  },
+  "flight": {
+    "ru": "≈ 3 часа прямым рейсом",
+    "en": "≈ 3 hours direct"
+  },
+  "currency": "EUR",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=75",
+    "alt": {
+      "ru": "Колизей в Риме",
+      "en": "The Colosseum in Rome"
+    }
+  },
+  "popular": true,
+  "order": 6
+}

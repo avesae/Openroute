@@ -1,0 +1,51 @@
+{
+  "slug": "spain",
+  "name": {
+    "ru": "Испания",
+    "en": "Spain"
+  },
+  "nameIn": {
+    "ru": "Испанию",
+    "en": "Spain"
+  },
+  "region": {
+    "ru": "Европа",
+    "en": "Europe"
+  },
+  "summary": {
+    "ru": "Канары с вечной весной, Мадрид и Барселона.",
+    "en": "The Canaries' eternal spring, Madrid and Barcelona."
+  },
+  "description": {
+    "ru": [
+      "Канарские острова — лучший вариант пляжа в Европе зимой: +22…25 °C и никакой смены часовых поясов.",
+      "Материковая Испания — это Мадрид, Барселона, Андалусия и побережья Коста-Брава и Коста-дель-Соль."
+    ],
+    "en": [
+      "The Canary Islands are Europe's best winter beach option: +22…25 °C with almost no time difference.",
+      "Mainland Spain offers Madrid, Barcelona, Andalusia and the Costa Brava and Costa del Sol."
+    ]
+  },
+  "bestSeason": {
+    "ru": "Канары — круглый год, материк — май–октябрь",
+    "en": "Canaries all year, mainland May–October"
+  },
+  "visa": {
+    "ru": "Шенгенская зона — виза не нужна.",
+    "en": "Schengen area — no visa needed."
+  },
+  "flight": {
+    "ru": "≈ 4,5–6 часов прямым рейсом",
+    "en": "≈ 4.5–6 hours direct"
+  },
+  "currency": "EUR",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=1600&q=75",
+    "alt": {
+      "ru": "Улицы Мадрида на закате",
+      "en": "Madrid streets at sunset"
+    }
+  },
+  "popular": false,
+  "order": 7
+}

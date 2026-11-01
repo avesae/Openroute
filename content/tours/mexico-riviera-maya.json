@@ -1,0 +1,149 @@
+{
+  "currency": "EUR",
+  "slug": "mexico-riviera-maya",
+  "destination": "mexico",
+  "city": {
+    "ru": "Плайя-дель-Кармен",
+    "en": "Playa del Carmen"
+  },
+  "title": {
+    "ru": "Мексика: Ривьера Майя и пирамиды",
+    "en": "Mexico: Riviera Maya and pyramids"
+  },
+  "summary": {
+    "ru": "Карибское море, «всё включено», Чичен-Ица и сеноты.",
+    "en": "Caribbean Sea, all-inclusive, Chichén Itzá and cenotes."
+  },
+  "description": {
+    "ru": "Пляж с белым песком, отель «всё включено» и самые яркие экскурсии Юкатана: пирамида Кукулькана в Чичен-Ице, купание в подземных сенотах, руины Тулума над морем и колоритный Вальядолид.",
+    "en": "White-sand beaches, an all-inclusive resort and Yucatán's best trips: the Kukulcán pyramid at Chichén Itzá, swimming in underground cenotes, the Tulum ruins above the sea and colourful Valladolid."
+  },
+  "types": [
+    "beach",
+    "excursion",
+    "adventure"
+  ],
+  "durationNights": 10,
+  "priceFrom": 1690,
+  "popularity": 60,
+  "rating": 4.8,
+  "departures": [
+    {
+      "date": "2027-01-08",
+      "price": 1790,
+      "seatsLeft": 8
+    },
+    {
+      "date": "2027-02-05",
+      "price": 1690
+    },
+    {
+      "date": "2027-03-12",
+      "price": 1750
+    }
+  ],
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1543731068-7e0f5beff43a?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Пирс над Карибским морем",
+        "en": "Pier over the Caribbean Sea"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Цветная улица мексиканского городка",
+        "en": "Colourful Mexican town street"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Пляжный отель",
+        "en": "Beach resort"
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": {
+        "ru": "Перелёт в Канкун",
+        "en": "Flight to Cancún"
+      },
+      "text": {
+        "ru": "Перелёт с одной пересадкой, трансфер в Плайя-дель-Кармен.",
+        "en": "Flight with one connection, transfer to Playa del Carmen."
+      }
+    },
+    {
+      "day": "2–10",
+      "title": {
+        "ru": "Карибы и Юкатан",
+        "en": "Caribbean and Yucatán"
+      },
+      "text": {
+        "ru": "Пляж, Чичен-Ица, сеноты, Тулум, Вальядолид.",
+        "en": "Beach, Chichén Itzá, cenotes, Tulum, Valladolid."
+      }
+    },
+    {
+      "day": "11",
+      "title": {
+        "ru": "Домой",
+        "en": "Home"
+      },
+      "text": {
+        "ru": "Вылет из Канкуна.",
+        "en": "Flight from Cancún."
+      }
+    }
+  ],
+  "included": {
+    "ru": [
+      "Перелёт Хельсинки — туда и обратно",
+      "Трансфер аэропорт — отель — аэропорт",
+      "Проживание в выбранном отеле",
+      "Медицинская страховка",
+      "Поддержка 24/7 во время поездки",
+      "Питание «всё включено»",
+      "Экскурсия в Чичен-Ицу"
+    ],
+    "en": [
+      "Return flight from Helsinki",
+      "Airport–hotel–airport transfer",
+      "Accommodation in the selected hotel",
+      "Medical insurance",
+      "24/7 support during the trip",
+      "All-inclusive meals",
+      "Chichén Itzá excursion"
+    ]
+  },
+  "notIncluded": {
+    "ru": [
+      "Личные расходы и чаевые",
+      "Туристический налог отеля (если взимается)",
+      "Туристический сбор Мексики"
+    ],
+    "en": [
+      "Personal expenses and tips",
+      "Hotel tourist tax (if applicable)",
+      "Mexico visitor fee"
+    ]
+  },
+  "hotel": {
+    "name": "Riviera Maya Beach Resort 5*",
+    "stars": 5,
+    "meal": "AI",
+    "description": {
+      "ru": "Первая линия, 5 ресторанов, детский клуб, спа.",
+      "en": "Beachfront, 5 restaurants, kids' club, spa."
+    }
+  },
+  "location": {
+    "lat": 20.6296,
+    "lng": -87.0739,
+    "zoom": 10
+  }
+}

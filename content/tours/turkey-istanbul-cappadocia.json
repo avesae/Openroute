@@ -1,0 +1,175 @@
+{
+  "currency": "EUR",
+  "slug": "turkey-istanbul-cappadocia",
+  "destination": "turkey",
+  "city": {
+    "ru": "Стамбул, Каппадокия",
+    "en": "Istanbul, Cappadocia"
+  },
+  "title": {
+    "ru": "Стамбул и Каппадокия: город и воздушные шары",
+    "en": "Istanbul & Cappadocia: city and balloons"
+  },
+  "summary": {
+    "ru": "Два мира за одну неделю: Босфор, базары и рассвет на воздушном шаре.",
+    "en": "Two worlds in one week: the Bosphorus, bazaars and a sunrise balloon flight."
+  },
+  "description": {
+    "ru": "Начинаем с Айя-Софии, Голубой мечети и прогулки на кораблике по Босфору, затем — короткий перелёт в Каппадокию. Пещерный отель, долины с «каменными грибами» и главное впечатление поездки — полёт на воздушном шаре на рассвете.",
+    "en": "We start with Hagia Sophia, the Blue Mosque and a Bosphorus cruise, then take a short flight to Cappadocia. A cave hotel, valleys of fairy chimneys and the highlight of the trip — a sunrise hot-air balloon flight."
+  },
+  "types": [
+    "excursion",
+    "adventure",
+    "romantic"
+  ],
+  "durationNights": 6,
+  "priceFrom": 990,
+  "popularity": 80,
+  "rating": 4.9,
+  "departures": [
+    {
+      "date": "2027-04-10",
+      "price": 990,
+      "seatsLeft": 12
+    },
+    {
+      "date": "2027-05-08",
+      "price": 1050
+    }
+  ],
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Воздушные шары над долинами Каппадокии",
+        "en": "Balloons over Cappadocia's valleys"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Вид на Стамбул и Галатскую башню",
+        "en": "Istanbul view with Galata Tower"
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": {
+        "ru": "Прилёт в Стамбул",
+        "en": "Arrival in Istanbul"
+      },
+      "text": {
+        "ru": "Трансфер в отель в историческом районе Султанахмет.",
+        "en": "Transfer to a hotel in the historic Sultanahmet district."
+      }
+    },
+    {
+      "day": "2",
+      "title": {
+        "ru": "Исторический Стамбул",
+        "en": "Historic Istanbul"
+      },
+      "text": {
+        "ru": "Айя-София, Голубая мечеть, Цистерна Базилика, Гранд-базар.",
+        "en": "Hagia Sophia, Blue Mosque, Basilica Cistern, Grand Bazaar."
+      }
+    },
+    {
+      "day": "3",
+      "title": {
+        "ru": "Босфор",
+        "en": "The Bosphorus"
+      },
+      "text": {
+        "ru": "Круиз по Босфору, дворец Долмабахче, вечер в Галате.",
+        "en": "Bosphorus cruise, Dolmabahçe Palace, evening in Galata."
+      }
+    },
+    {
+      "day": "4",
+      "title": {
+        "ru": "Перелёт в Каппадокию",
+        "en": "Flight to Cappadocia"
+      },
+      "text": {
+        "ru": "Заселение в пещерный отель, закат в Красной долине.",
+        "en": "Check in to a cave hotel, sunset in the Red Valley."
+      }
+    },
+    {
+      "day": "5",
+      "title": {
+        "ru": "Воздушный шар",
+        "en": "Balloon flight"
+      },
+      "text": {
+        "ru": "Полёт на рассвете, подземный город Деринкую, музей Гёреме.",
+        "en": "Sunrise flight, Derinkuyu underground city, Göreme open-air museum."
+      }
+    },
+    {
+      "day": "6–7",
+      "title": {
+        "ru": "Свободный день и вылет",
+        "en": "Free day and departure"
+      },
+      "text": {
+        "ru": "Прогулки по долинам, вылет домой через Стамбул.",
+        "en": "Hiking the valleys, flight home via Istanbul."
+      }
+    }
+  ],
+  "included": {
+    "ru": [
+      "Перелёт Хельсинки — туда и обратно",
+      "Трансфер аэропорт — отель — аэропорт",
+      "Проживание в выбранном отеле",
+      "Медицинская страховка",
+      "Поддержка 24/7 во время поездки",
+      "Завтраки",
+      "Внутренний перелёт Стамбул — Каппадокия",
+      "Экскурсии с русскоговорящим гидом"
+    ],
+    "en": [
+      "Return flight from Helsinki",
+      "Airport–hotel–airport transfer",
+      "Accommodation in the selected hotel",
+      "Medical insurance",
+      "24/7 support during the trip",
+      "Breakfasts",
+      "Domestic flight Istanbul–Cappadocia",
+      "Guided tours"
+    ]
+  },
+  "notIncluded": {
+    "ru": [
+      "Личные расходы и чаевые",
+      "Туристический налог отеля (если взимается)",
+      "Полёт на воздушном шаре (≈ 220 €)",
+      "Обеды и ужины"
+    ],
+    "en": [
+      "Personal expenses and tips",
+      "Hotel tourist tax (if applicable)",
+      "Balloon flight (≈ €220)",
+      "Lunches and dinners"
+    ]
+  },
+  "hotel": {
+    "name": "Sultanahmet Boutique 4* + Cave Suites 4*",
+    "stars": 4,
+    "meal": "BB",
+    "description": {
+      "ru": "Бутик-отель в старом городе и пещерный отель с террасой на долину.",
+      "en": "Boutique hotel in the old town and a cave hotel with a valley-view terrace."
+    }
+  },
+  "location": {
+    "lat": 38.6431,
+    "lng": 34.8289,
+    "zoom": 10
+  }
+}

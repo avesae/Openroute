@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "siteName": "Openroute",
+    "tagline": "Tours worldwide from Helsinki",
+    "homeTitle": "Openroute — tours worldwide from Helsinki",
+    "homeDescription": "Beach holidays, sightseeing and ski tours, tailor-made trips. We find your tour within 1 hour, flights from Helsinki, 24/7 support."
+  },
+  "nav": {
+    "home": "Home",
+    "tours": "Tours",
+    "destinations": "Destinations",
+    "hot": "Hot deals",
+    "about": "About",
+    "reviews": "Reviews",
+    "blog": "Blog",
+    "contacts": "Contact",
+    "menu": "Menu",
+    "close": "Close",
+    "skip": "Skip to content",
+    "language": "Language",
+    "theme": "Toggle theme"
+  },
+  "common": {
+    "from": "from",
+    "perPerson": "per person",
+    "nights": { "one": "night", "few": "nights", "many": "nights", "other": "nights" },
+    "tours": { "one": "tour", "few": "tours", "many": "tours", "other": "tours" },
+    "seatsLeft": "{n} seats left",
+    "details": "Details",
+    "allTours": "All tours",
+    "pickTour": "Find my tour",
+    "bookTour": "Book now",
+    "readMore": "Read",
+    "hot": "Hot deal",
+    "until": "until {date}",
+    "breadcrumbs": "Breadcrumbs",
+    "replacePhoto": "Replace with your photo",
+    "minRead": "min read"
+  },
+  "tourTypes": {
+    "beach": "Beach",
+    "excursion": "Sightseeing",
+    "ski": "Ski",
+    "individual": "Tailor-made",
+    "family": "Family",
+    "romantic": "For couples",
+    "adventure": "Adventure"
+  },
+  "meals": {
+    "RO": "Room only",
+    "BB": "Breakfast",
+    "HB": "Half board",
+    "FB": "Full board",
+    "AI": "All inclusive",
+    "UAI": "Ultra all inclusive"
+  },
+  "hero": {
+    "eyebrow": "Flights from Helsinki · 24/7 support",
+    "title": "Your dream holiday starts with one message",
+    "subtitle": "Beaches, cities, mountains and tailor-made trips worldwide. We find your tour within an hour — you just pack your suitcase.",
+    "rating": "Rated 4.9 out of 5 by travellers"
+  },
+  "quick": {
+    "title": "Quick tour finder",
+    "where": "Where to",
+    "wherePlaceholder": "Any country",
+    "anywhere": "Not sure — advise me",
+    "when": "When",
+    "people": "Travellers",
+    "budget": "Budget per person",
+    "budgetAny": "Any",
+    "contact": "Phone or Telegram",
+    "submit": "Find my tour",
+    "note": "We reply within an hour during office hours"
+  },
+  "home": {
+    "destinationsTitle": "Popular destinations",
+    "destinationsText": "Where people fly most this autumn and winter",
+    "hotTitle": "Hot deals",
+    "hotText": "Special prices on upcoming departures — limited seats",
+    "benefitsTitle": "Why Openroute",
+    "stepsTitle": "How it works",
+    "reviewsTitle": "What travellers say",
+    "faqTitle": "FAQ",
+    "trustTitle": "Why you can trust us",
+    "ctaTitle": "Not sure where to go?",
+    "ctaText": "Tell us what kind of holiday you want — we will suggest the 3 best options for your budget. Free and with no obligation."
+  },
+  "benefits": [
+    { "title": "Tour in 1 hour", "text": "We send 2–3 hand-picked options with prices within an hour during office hours." },
+    { "title": "24/7 support", "text": "AI assistant and a real manager available throughout your trip, day and night." },
+    { "title": "Flights from Helsinki", "text": "Convenient direct and connecting flights from Helsinki-Vantaa." },
+    { "title": "Transparent prices", "text": "No hidden fees: the contract lists everything included in the price." }
+  ],
+  "steps": [
+    { "title": "Request", "text": "Leave your contact or message us — it takes a minute." },
+    { "title": "Selection", "text": "A manager clarifies your wishes and sends the best options." },
+    { "title": "Booking", "text": "Sign the contract online, pay by card or bank transfer." },
+    { "title": "Travel", "text": "Documents on your phone, and we are available 24/7 during the trip." }
+  ],
+  "trust": ["Protected package holidays", "Secure payments", "Travel insurance", "Verified hotels"],
+  "catalog": {
+    "title": "Tour catalogue",
+    "description": "Tours worldwide from Helsinki: beaches, sightseeing, skiing and tailor-made trips.",
+    "filters": "Filters",
+    "country": "Country",
+    "allCountries": "All countries",
+    "type": "Holiday type",
+    "allTypes": "All types",
+    "price": "Max price",
+    "anyPrice": "Any",
+    "duration": "Duration",
+    "anyDuration": "Any",
+    "short": "up to 6 nights",
+    "week": "7–9 nights",
+    "long": "10+ nights",
+    "sort": "Sort by",
+    "sortPopular": "Popular",
+    "sortPriceAsc": "Price: low to high",
+    "sortPriceDesc": "Price: high to low",
+    "sortDuration": "Duration",
+    "reset": "Reset",
+    "found": "Found",
+    "empty": "No tours match these filters. Reset them or send a request — we will find one for you.",
+    "showFilters": "Show filters"
+  },
+  "tour": {
+    "overview": "Overview",
+    "program": "Day-by-day itinerary",
+    "day": "Day {n}",
+    "included": "Included",
+    "notIncluded": "Not included",
+    "datesPrices": "Dates & prices",
+    "date": "Departure",
+    "priceCol": "Price per person",
+    "seats": "Seats",
+    "hotel": "Hotel",
+    "meal": "Meals",
+    "map": "On the map",
+    "bookTitle": "Book this tour",
+    "bookText": "Leave your contact — a manager will check availability and call you back.",
+    "similar": "Similar tours",
+    "duration": "Duration",
+    "departure": "Departure",
+    "fromHelsinki": "from Helsinki",
+    "gallery": "Gallery",
+    "photo": "Photo {n} of {total}",
+    "next": "Next photo",
+    "prev": "Previous photo"
+  },
+  "destinations": {
+    "title": "Destinations",
+    "description": "Countries we send travellers to: best season, visas, tips and current tours.",
+    "bestSeason": "Best season",
+    "visa": "Visa",
+    "flight": "Flight from Helsinki",
+    "currency": "Currency",
+    "tours": "Tours to {country}",
+    "noTours": "No ready-made tours right now, but we will build a tailor-made one — send a request."
+  },
+  "hot": {
+    "title": "Hot deals & offers",
+    "description": "Discounted tours on upcoming dates. Prices valid while seats last.",
+    "save": "Save {amount}",
+    "empty": "No hot deals right now — follow us on Telegram so you don't miss them."
+  },
+  "about": {
+    "title": "About us",
+    "description": "Openroute is a Helsinki-based travel agency. We plan trips worldwide and support travellers 24/7.",
+    "storyTitle": "Our story",
+    "story": [
+      "Openroute started with a simple idea: travelling from Finland should be as easy as ordering a taxi. No endless browser tabs, no comparing hundreds of hotels, no fear that something will go wrong.",
+      "Today we put together beach, sightseeing and ski tours, as well as tailor-made trips — from a honeymoon in the Maldives to a family visit to Santa Claus in Lapland.",
+      "We combine experienced human managers with an AI assistant that answers travellers' questions around the clock in Russian and English."
+    ],
+    "teamTitle": "Team",
+    "guaranteesTitle": "Licences & guarantees",
+    "guarantees": [
+      { "title": "KKV registration", "text": "Registration number will appear here once issued. [TO FILL]" },
+      { "title": "Package travel guarantee", "text": "Travellers' funds are protected under the Finnish Package Travel Act. [TO FILL]" },
+      { "title": "Contract & transparency", "text": "Every trip comes with a contract listing all services and cancellation terms." }
+    ],
+    "officeTitle": "Our office",
+    "officeText": "Drop by for a coffee and let's plan your trip in person. Address and hours are on the contact page.",
+    "stats": [
+      { "value": "60+", "label": "countries" },
+      { "value": "1 hour", "label": "to find your tour" },
+      { "value": "24/7", "label": "support while travelling" },
+      { "value": "4.9", "label": "average rating" }
+    ]
+  },
+  "reviews": {
+    "title": "Traveller reviews",
+    "description": "Real impressions from travellers who went with Openroute.",
+    "average": "Average rating {rating} out of 5 from {count} reviews",
+    "trip": "Trip"
+  },
+  "blog": {
+    "title": "Blog & travel tips",
+    "description": "Useful articles on travelling from Finland: visas, seasons, checklists and tips.",
+    "back": "All articles",
+    "related": "Matching tours"
+  },
+  "contacts": {
+    "title": "Contact",
+    "description": "Get in touch with Openroute: phone, email, WhatsApp, Telegram and our Helsinki office.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Opening hours",
+    "messengers": "Messengers",
+    "formTitle": "Write to us",
+    "mapTitle": "How to find us"
+  },
+  "form": {
+    "name": "Your name",
+    "contact": "Phone, email or Telegram",
+    "message": "Message",
+    "messagePlaceholder": "Where do you want to go, when and how many people?",
+    "date": "Preferred date",
+    "people": "Travellers",
+    "consent": "I agree to the processing of my personal data under the",
+    "privacy": "privacy policy",
+    "submit": "Send request",
+    "sending": "Sending…",
+    "successTitle": "Request sent!",
+    "successText": "Thank you! A manager will contact you within an hour during office hours.",
+    "again": "Send another",
+    "errorGeneric": "Could not send. Please try again or message us directly.",
+    "errors": {
+      "name": "Enter your name (at least 2 characters)",
+      "contact": "Enter a phone, email or Telegram",
+      "consent": "Consent is required"
+    }
+  },
+  "cta": {
+    "title": "Ready to travel?",
+    "text": "Leave your contact — we'll find your tour within 1 hour.",
+    "button": "Send request",
+    "orWrite": "or message us"
+  },
+  "fab": {
+    "label": "Contact us",
+    "whatsapp": "Message on WhatsApp",
+    "telegram": "Message on Telegram",
+    "call": "Call"
+  },
+  "chat": {
+    "open": "Open AI assistant chat",
+    "title": "Openroute AI assistant",
+    "subtitle": "Available 24/7 · may make mistakes",
+    "greeting": "Hi! I can help you pick a tour and tell you about visas and seasons. Where would you like to go?",
+    "placeholder": "Type your question…",
+    "send": "Send",
+    "error": "The assistant is unavailable right now. Send a request — a manager will reply.",
+    "handoff": "Contact a manager"
+  },
+  "cookie": {
+    "text": "We use cookies for analytics and maps. Necessary cookies keep the site working; others are used only with your consent.",
+    "accept": "Accept all",
+    "reject": "Necessary only",
+    "more": "Learn more",
+    "settings": "Cookie settings"
+  },
+  "map": {
+    "consent": "Google Maps will load after you accept third-party cookies.",
+    "show": "Show map"
+  },
+  "footer": {
+    "about": "Tours worldwide from Helsinki. Beaches, sightseeing, skiing and tailor-made trips.",
+    "sections": "Explore",
+    "info": "Information",
+    "privacy": "Privacy policy",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The tour may have ended or the address has changed.",
+    "home": "Back to home"
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "description": "How Openroute processes personal data and uses cookies in line with GDPR."
+  }
+}

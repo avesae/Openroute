@@ -1,0 +1,51 @@
+{
+  "slug": "japan",
+  "name": {
+    "ru": "Япония",
+    "en": "Japan"
+  },
+  "nameIn": {
+    "ru": "Японию",
+    "en": "Japan"
+  },
+  "region": {
+    "ru": "Азия",
+    "en": "Asia"
+  },
+  "summary": {
+    "ru": "Неоновый Токио, храмы Киото, сакура и момидзи.",
+    "en": "Neon Tokyo, Kyoto temples, cherry blossom and autumn leaves."
+  },
+  "description": {
+    "ru": [
+      "Япония — страна контрастов: футуристичный Токио, древний Киото, горячие источники и гора Фудзи.",
+      "Из Хельсинки летают прямые рейсы Finnair, а по стране удобно перемещаться на синкансэне."
+    ],
+    "en": [
+      "Japan is a land of contrasts: futuristic Tokyo, ancient Kyoto, hot springs and Mount Fuji.",
+      "Finnair flies direct from Helsinki, and the shinkansen makes travel inside the country easy."
+    ]
+  },
+  "bestSeason": {
+    "ru": "Март–май и октябрь–ноябрь",
+    "en": "March–May and October–November"
+  },
+  "visa": {
+    "ru": "Для граждан ЕС — без визы до 90 дней.",
+    "en": "Visa-free for EU citizens for up to 90 days."
+  },
+  "flight": {
+    "ru": "≈ 13 часов прямым рейсом",
+    "en": "≈ 13 hours direct"
+  },
+  "currency": "JPY",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=75",
+    "alt": {
+      "ru": "Старая улица Киото с пагодой",
+      "en": "Old Kyoto street with a pagoda"
+    }
+  },
+  "popular": false,
+  "order": 9
+}

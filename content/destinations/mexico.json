@@ -1,0 +1,51 @@
+{
+  "slug": "mexico",
+  "name": {
+    "ru": "Мексика",
+    "en": "Mexico"
+  },
+  "nameIn": {
+    "ru": "Мексику",
+    "en": "Mexico"
+  },
+  "region": {
+    "ru": "Америка",
+    "en": "Americas"
+  },
+  "summary": {
+    "ru": "Карибское побережье, пирамиды майя и сеноты.",
+    "en": "The Caribbean coast, Mayan pyramids and cenotes."
+  },
+  "description": {
+    "ru": [
+      "Ривьера Майя — белый песок, Карибское море и отели «всё включено» мирового уровня.",
+      "Обязательно съездите к пирамидам Чичен-Ицы и искупайтесь в сенотах."
+    ],
+    "en": [
+      "The Riviera Maya means white sand, the Caribbean Sea and world-class all-inclusive resorts.",
+      "Don't miss the Chichén Itzá pyramids and a swim in the cenotes."
+    ]
+  },
+  "bestSeason": {
+    "ru": "Ноябрь–апрель",
+    "en": "November–April"
+  },
+  "visa": {
+    "ru": "Для граждан ЕС — без визы до 180 дней.",
+    "en": "Visa-free for EU citizens for up to 180 days."
+  },
+  "flight": {
+    "ru": "≈ 13–15 часов с пересадкой",
+    "en": "≈ 13–15 hours with a connection"
+  },
+  "currency": "MXN",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1543731068-7e0f5beff43a?auto=format&fit=crop&w=1600&q=75",
+    "alt": {
+      "ru": "Деревянный пирс над бирюзовой водой",
+      "en": "Wooden pier over turquoise water"
+    }
+  },
+  "popular": false,
+  "order": 12
+}

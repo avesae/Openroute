@@ -1,0 +1,154 @@
+{
+  "currency": "EUR",
+  "slug": "japan-tokyo-kyoto-individual",
+  "destination": "japan",
+  "city": {
+    "ru": "Токио, Хаконэ, Киото",
+    "en": "Tokyo, Hakone, Kyoto"
+  },
+  "title": {
+    "ru": "Япония под ключ: Токио, Хаконэ, Киото",
+    "en": "Tailor-made Japan: Tokyo, Hakone, Kyoto"
+  },
+  "summary": {
+    "ru": "Индивидуальный маршрут с JR Pass, рёканом и онсэном у Фудзи.",
+    "en": "Private itinerary with JR Pass, a ryokan and hot springs near Mt Fuji."
+  },
+  "description": {
+    "ru": "Маршрут собирается под вас: даты, темп и интересы. Базовый вариант — неоновый Токио, ночь в традиционном рёкане с онсэном с видом на Фудзи и древний Киото с храмами и садами. Вся логистика, билеты и рекомендации ресторанов — от нас.",
+    "en": "The route is built around you: dates, pace and interests. The base version covers neon Tokyo, a night in a traditional ryokan with an onsen facing Mt Fuji, and ancient Kyoto's temples and gardens. We handle all logistics, tickets and restaurant tips."
+  },
+  "types": [
+    "excursion",
+    "individual"
+  ],
+  "durationNights": 10,
+  "priceFrom": 2490,
+  "popularity": 65,
+  "rating": 4.9,
+  "departures": [
+    {
+      "date": "2027-03-27",
+      "price": 2790,
+      "seatsLeft": 6
+    },
+    {
+      "date": "2027-04-10",
+      "price": 2690
+    },
+    {
+      "date": "2027-10-30",
+      "price": 2490
+    }
+  ],
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Перекрёсток Сибуя в Токио",
+        "en": "Shibuya crossing in Tokyo"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Пагода Ясака в Киото",
+        "en": "Yasaka pagoda in Kyoto"
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1–4",
+      "title": {
+        "ru": "Токио",
+        "en": "Tokyo"
+      },
+      "text": {
+        "ru": "Сибуя, Асакуса, рынок Цукидзи, музей teamLab.",
+        "en": "Shibuya, Asakusa, Tsukiji market, teamLab museum."
+      }
+    },
+    {
+      "day": "5",
+      "title": {
+        "ru": "Хаконэ",
+        "en": "Hakone"
+      },
+      "text": {
+        "ru": "Ночь в рёкане с онсэном, вид на Фудзи.",
+        "en": "Night in a ryokan with an onsen and Mt Fuji views."
+      }
+    },
+    {
+      "day": "6–10",
+      "title": {
+        "ru": "Киото и Нара",
+        "en": "Kyoto and Nara"
+      },
+      "text": {
+        "ru": "Фусими Инари, Киёмидзу-дэра, бамбуковая роща, олени Нары.",
+        "en": "Fushimi Inari, Kiyomizu-dera, bamboo grove, Nara's deer."
+      }
+    },
+    {
+      "day": "11",
+      "title": {
+        "ru": "Вылет",
+        "en": "Departure"
+      },
+      "text": {
+        "ru": "Вылет из Осаки или Токио.",
+        "en": "Flight from Osaka or Tokyo."
+      }
+    }
+  ],
+  "included": {
+    "ru": [
+      "Перелёт Хельсинки — туда и обратно",
+      "Трансфер аэропорт — отель — аэропорт",
+      "Проживание в выбранном отеле",
+      "Медицинская страховка",
+      "Поддержка 24/7 во время поездки",
+      "Завтраки",
+      "JR Pass на 7 дней",
+      "Ужин кайсэки в рёкане"
+    ],
+    "en": [
+      "Return flight from Helsinki",
+      "Airport–hotel–airport transfer",
+      "Accommodation in the selected hotel",
+      "Medical insurance",
+      "24/7 support during the trip",
+      "Breakfasts",
+      "7-day JR Pass",
+      "Kaiseki dinner at the ryokan"
+    ]
+  },
+  "notIncluded": {
+    "ru": [
+      "Личные расходы и чаевые",
+      "Туристический налог отеля (если взимается)",
+      "Входные билеты в храмы"
+    ],
+    "en": [
+      "Personal expenses and tips",
+      "Hotel tourist tax (if applicable)",
+      "Temple entrance fees"
+    ]
+  },
+  "hotel": {
+    "name": "Отели 4* + рёкан",
+    "stars": 4,
+    "meal": "BB",
+    "description": {
+      "ru": "Городские отели у станций метро и традиционный рёкан в Хаконэ.",
+      "en": "City hotels near metro stations and a traditional ryokan in Hakone."
+    }
+  },
+  "location": {
+    "lat": 35.0116,
+    "lng": 135.7681,
+    "zoom": 6
+  }
+}

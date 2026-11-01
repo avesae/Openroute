@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Openroute — сайт туристического агентства
 
-## Getting Started
+Быстрый мультиязычный (RU / EN) сайт туристического агентства на **Next.js 16 + TypeScript + Tailwind CSS 4**.
+Туры, направления, отзывы и статьи хранятся в обычных файлах в папке `content/`, поэтому их можно добавлять без программиста.
 
-First, run the development server:
+**Что есть на сайте:** главная с быстрым подбором тура, каталог с фильтрами, страницы туров, направлений, горящих туров, «О нас», отзывов, блога и контактов, а также политика конфиденциальности. Кроме того: AI-ассистент на Claude, cookie-баннер по GDPR, Google Analytics и Google Maps (подключаются только после согласия посетителя), светлая и тёмная тема, Schema.org, sitemap и hreflang.
+
+---
+
+## 1. Как запустить
+
+Нужен [Node.js](https://nodejs.org) 20.9 или новее.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env.local   # при необходимости заполните ключи
+npm run dev                  # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Другие команды:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Команда | Что делает |
+|---|---|
+| `npm run build` | Собирает продакшен-версию и заодно проверяет все файлы в `content/` |
+| `npm start` | Запускает собранную версию |
+| `npm run lint` | Проверяет код |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 2. Как добавить новый тур
 
-To learn more about Next.js, take a look at the following resources:
+1. Скопируйте любой файл из `content/tours/`, например `turkey-istanbul-cappadocia.json`.
+2. Переименуйте копию. Имя файла может быть любым, а адрес страницы задаёт поле `slug`: только латиница, цифры и дефисы.
+3. Заполните поля. Каждый текст указывается на двух языках: `{ "ru": "...", "en": "..." }`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Поле | Что это |
+|---|---|
+| `slug` | Адрес страницы: `/ru/tours/<slug>` |
+| `title`, `summary`, `description` | Название, короткое описание для карточки, полное описание |
+| `destination` | Страна, совпадает с именем файла в `content/destinations/` (например, `turkey`) |
+| `city` | Город или курорт |
+| `types` | Типы отдыха: `beach`, `excursion`, `ski`, `individual`, `family`, `romantic`, `adventure` |
+| `durationNights` | Количество ночей |
+| `priceFrom` | Цена «от» за человека в евро |
+| `popularity` | 0–100, по этому полю сортируется каталог |
+| `departures` | Даты вылета: `{ "date": "2027-01-15", "price": 990, "seatsLeft": 5 }` |
+| `hot` | Если указать `{ "oldPrice": 1200, "until": "2026-12-01" }`, тур попадёт в «Горящие туры» |
+| `images` | Фото: `{ "src": "...", "alt": { "ru": "...", "en": "..." } }`, первое станет обложкой |
+| `itinerary` | Программа по дням |
+| `included` / `notIncluded` | Что входит и что не входит в стоимость |
+| `hotel` | `name`, `stars`, `meal` (`RO`, `BB`, `HB`, `FB`, `AI`, `UAI`), `description` |
+| `location` | Координаты для карты: `{ "lat": 36.86, "lng": 31.05, "zoom": 12 }` |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Запустите `npm run build`. Если в файле опечатка или пропущено поле, сборка покажет имя файла и поле с ошибкой.
 
-## Deploy on Vercel
+Тур автоматически появится в каталоге, на странице страны, в sitemap и в базе знаний AI-ассистента.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Новая страна:** скопируйте файл в `content/destinations/`. Если указать `"popular": true`, страна появится на главной.
+**Отзывы, FAQ, команда:** `content/reviews.json`, `content/faq.json`, `content/team.json`.
+**Статья в блоге:** создайте два файла с одинаковым именем, `content/blog/ru/<имя>.md` и `content/blog/en/<имя>.md`. Сверху файла идёт блок с заголовком, описанием, датой и обложкой (см. примеры), ниже текст в формате Markdown.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 3. Как поменять контакты
+
+Все контакты лежат в одном файле, `content/site.json`:
+
+```json
+{
+  "phone": "+358 40 000 0000",
+  "email": "hello@openroute.example",
+  "whatsapp": "358400000000",      // номер без «+» и пробелов
+  "telegram": "openroute_travel",  // имя пользователя без @
+  "address": { "street": "...", "postalCode": "...", ... },
+  "hours": { "ru": [...], "en": [...] },
+  "geo": { "lat": 60.1699, "lng": 24.9384 },
+  "mapQuery": "Mannerheimintie, Helsinki"  // что искать на Google-карте
+}
+```
+
+Здесь же поле `url` задаёт основной адрес сайта. Изменения сразу появятся в шапке, подвале, мобильной панели связи, на странице контактов, в Schema.org и в ответах AI-ассистента.
+
+---
+
+## 4. Что ещё нужно заполнить
+
+| Где | Что |
+|---|---|
+| Фото | Сейчас стоят тестовые фото с Unsplash. В коде такие места помечены комментарием `ЗАМЕНИТЕ ФОТО`. Свои фото кладите в `public/images/` и указывайте путь вида `/images/tour.jpg`. Главное фото первого экрана задаётся в `src/app/[locale]/page.tsx` (`HERO_IMAGE`) |
+| Лицензии | `messages/ru.json` и `messages/en.json` → `about.guarantees`, места с пометкой `[ЗАПОЛНИТЬ]` |
+| Политика конфиденциальности | `content/legal/privacy.ru.md` и `privacy.en.md`. Это шаблон, перед запуском покажите его юристу |
+| Тексты интерфейса | `messages/ru.json` и `messages/en.json` |
+| Цвета бренда | `src/app/globals.css`, переменные в начале файла |
+
+---
+
+## 5. Переменные окружения
+
+Все переменные необязательны. Полный список с пояснениями есть в `.env.example`.
+
+| Переменная | Зачем |
+|---|---|
+| `NEXT_PUBLIC_SITE_URL` | Адрес сайта для canonical, sitemap и Open Graph |
+| `RESEND_API_KEY`, `LEAD_EMAIL_TO`, `LEAD_EMAIL_FROM` | Отправка заявок на почту через [Resend](https://resend.com). Без них заявки пишутся в лог сервера |
+| `ANTHROPIC_API_KEY` | AI-ассистент. Без ключа кнопка чата скрыта |
+| `ANTHROPIC_MODEL` | Модель ассистента, по умолчанию `claude-opus-5-5`. Для экономии можно указать `claude-sonnet-5-5` или `claude-haiku-5-5` |
+| `NEXT_PUBLIC_GA_ID` | Google Analytics 4 (`G-XXXXXXX`), включается только после согласия посетителя |
+
+**AI-ассистент** знает каталог туров, направления, FAQ и контакты из `content/`. Он отвечает на языке посетителя и предлагает связаться с менеджером. На один IP действует ограничение: 20 сообщений за 10 минут.
+
+---
+
+## 6. Как задеплоить на Vercel
+
+1. Загрузите проект на GitHub.
+2. Зайдите на [vercel.com](https://vercel.com), нажмите **Add New → Project** и выберите репозиторий. Vercel сам определит Next.js, менять настройки сборки не нужно.
+3. В разделе **Environment Variables** добавьте переменные из раздела 5. Минимум нужен `NEXT_PUBLIC_SITE_URL`.
+4. Нажмите **Deploy**.
+5. Подключите свой домен: **Settings → Domains**. Затем обновите `NEXT_PUBLIC_SITE_URL` и сделайте Redeploy.
+6. Добавьте сайт в [Google Search Console](https://search.google.com/search-console) и отправьте `https://ваш-домен/sitemap.xml`.
+
+Дальше каждый `git push` в ветку `main` автоматически обновляет сайт. Добавили тур, сделали коммит и push, и через минуту тур уже на сайте.
+
+---
+
+## Структура проекта
+
+```
+content/                 ← контент: туры, страны, отзывы, FAQ, блог, политика
+messages/ru.json, en.json ← тексты интерфейса
+src/app/[locale]/        ← страницы (/ru/..., /en/...)
+src/app/api/chat/        ← AI-ассистент
+src/actions/lead.ts      ← обработка заявок (Zod + Resend)
+src/components/          ← компоненты интерфейса
+src/lib/                 ← загрузка контента, SEO, Schema.org, cookie-согласие
+src/proxy.ts             ← перенаправление с / на /ru или /en по языку браузера
+```

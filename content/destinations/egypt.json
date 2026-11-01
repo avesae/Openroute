@@ -1,0 +1,51 @@
+{
+  "slug": "egypt",
+  "name": {
+    "ru": "Египет",
+    "en": "Egypt"
+  },
+  "nameIn": {
+    "ru": "Египет",
+    "en": "Egypt"
+  },
+  "region": {
+    "ru": "Африка",
+    "en": "Africa"
+  },
+  "summary": {
+    "ru": "Красное море круглый год, коралловые рифы и пирамиды Гизы.",
+    "en": "The Red Sea all year round, coral reefs and the Pyramids of Giza."
+  },
+  "description": {
+    "ru": [
+      "Египет — пляжный отдых даже зимой: в Хургаде и Шарм-эль-Шейхе солнце светит почти 365 дней в году.",
+      "Здесь одни из лучших в мире мест для дайвинга и снорклинга, а за день можно съездить к пирамидам или в Луксор."
+    ],
+    "en": [
+      "Egypt means beach holidays even in winter: Hurghada and Sharm el-Sheikh enjoy sunshine almost 365 days a year.",
+      "It has some of the world's best diving and snorkelling, and the pyramids or Luxor are a day trip away."
+    ]
+  },
+  "bestSeason": {
+    "ru": "Октябрь–май",
+    "en": "October–May"
+  },
+  "visa": {
+    "ru": "Виза по прилёте или электронная виза, ≈ 25 USD.",
+    "en": "Visa on arrival or e-visa, ≈ 25 USD."
+  },
+  "flight": {
+    "ru": "≈ 5 часов прямым рейсом",
+    "en": "≈ 5 hours direct"
+  },
+  "currency": "EGP",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1600&q=75",
+    "alt": {
+      "ru": "Пирамиды Гизы в пустыне",
+      "en": "The Pyramids of Giza in the desert"
+    }
+  },
+  "popular": true,
+  "order": 2
+}
