@@ -25,6 +25,6 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  // Пропускаем служебные пути, API и файлы с расширением (картинки, sitemap.xml, robots.txt…)
-  matcher: ["/((?!_next|api|.*\\..*).*)"],
+  // Пропускаем служебные пути, API, картинку для соцсетей и файлы с расширением (sitemap.xml, robots.txt…)
+  matcher: ["/((?!_next|api|opengraph-image|.*\\..*).*)"],
 };
