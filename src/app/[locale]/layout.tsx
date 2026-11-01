@@ -44,7 +44,7 @@ export const viewport: Viewport = {
 
 export default async function LocaleLayout({ children }: LayoutProps<"/[locale]">) {
   const { locale, t } = await getDictionary();
-  const chatEnabled = Boolean(process.env.ANTHROPIC_API_KEY);
+  const chatEnabled = Boolean(process.env.AI_API_KEY);
 
   return (
     <html lang={locale} className={`${body.variable} ${heading.variable}`} suppressHydrationWarning>

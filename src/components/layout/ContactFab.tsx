@@ -7,7 +7,7 @@ import { Phone, Telegram, WhatsApp } from "@/components/icons";
 export async function ContactFab() {
   const { t } = await getDictionary();
   const links = contactLinks(await getSite());
-  const chatEnabled = Boolean(process.env.ANTHROPIC_API_KEY);
+  const chatEnabled = Boolean(process.env.AI_API_KEY);
 
   const item = "flex flex-1 flex-col items-center gap-0.5 py-2 text-xs font-semibold";
   return (

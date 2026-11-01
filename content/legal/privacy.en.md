@@ -22,7 +22,7 @@ The data controller is Openroute, [legal name and Business ID], Mannerheimintie 
 
 ## 4. Who we share data with
 
-Tour operators, airlines, hotels and insurers — only as needed for your trip. Also service providers: hosting (Vercel), email delivery (Resend), AI assistant (Anthropic), analytics and maps (Google). Some are located outside the EU; transfers are protected by EU Standard Contractual Clauses.
+Tour operators, airlines, hotels and insurers — only as needed for your trip. Also service providers: hosting (Vercel), email delivery (Resend), AI assistant (Polza AI, DeepSeek model), analytics and maps (Google). Some are located outside the EU; transfers are protected by EU Standard Contractual Clauses.
 
 ## 5. How long we keep data
 
