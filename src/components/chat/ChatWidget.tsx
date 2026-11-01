@@ -24,13 +24,15 @@ type Props = {
 
 /** Делает ссылки в ответах ассистента кликабельными, без HTML-инъекций. */
 function Linkify({ text }: { text: string }) {
-  const parts = text.split(/(https?:\/\/[^\s)]+)/g);
+  // Ссылка без завершающих знаков препинания: «…/tours/x.» → «…/tours/x»
+  const parts = text.split(/(https?:\/\/[^\s)]*[^\s).,;:!?])/g);
   return (
     <>
       {parts.map((part, i) =>
         /^https?:\/\//.test(part) ? (
           <a key={i} href={part} className="break-all font-semibold underline underline-offset-2" target={part.includes(location.host) ? undefined : "_blank"} rel="noopener noreferrer">
-            {part.replace(/^https?:\/\/[^/]+/, "") || part}
+            {/* Ссылки на свой сайт показываем коротко (/ru/tours/…), чужие — с адресом сайта */}
+            {part.includes(location.host) ? part.replace(/^https?:\/\/[^/]+/, "") || "/" : part.replace(/^https?:\/\//, "")}
           </a>
         ) : (
           <span key={i}>{part}</span>

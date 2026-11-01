@@ -103,11 +103,11 @@ npm run dev                  # http://localhost:3000
 | `NEXT_PUBLIC_SITE_URL` | Адрес сайта для canonical, sitemap и Open Graph |
 | `RESEND_API_KEY`, `LEAD_EMAIL_TO`, `LEAD_EMAIL_FROM` | Отправка заявок на почту через [Resend](https://resend.com). Без них заявки пишутся в лог сервера |
 | `AI_API_KEY` | Ключ [Polza AI](https://polza.ai) для AI-ассистента. Без ключа кнопка чата скрыта |
-| `AI_MODEL` | Модель ассистента, по умолчанию `deepseek/deepseek-v4-flash`. Список моделей: `https://polza.ai/api/v1/models` |
+| `AI_MODEL` | Модель ассистента, по умолчанию `deepseek/deepseek-v4.1-flash`. Список моделей: `https://polza.ai/api/v1/models`. Модель `deepseek/deepseek-v4-flash` у Polza обрывает длинные ответы, её лучше не ставить |
 | `AI_BASE_URL` | Адрес API, по умолчанию `https://polza.ai/api/v1`. Подойдёт любой OpenAI-совместимый сервис |
 | `NEXT_PUBLIC_GA_ID` | Google Analytics 4 (`G-XXXXXXX`), включается только после согласия посетителя |
 
-**AI-ассистент** знает каталог туров, направления, FAQ и контакты из `content/`. Он отвечает на языке посетителя и предлагает связаться с менеджером. На один IP действует ограничение: 20 сообщений за 10 минут.
+**AI-ассистент** работает через [Polza AI](https://polza.ai). Функция чата запускается во Франкфурте (`vercel.json`): из Стокгольма, региона Vercel по умолчанию, Polza отвечала нестабильно. Ассистент знает каталог туров, направления, FAQ и контакты из `content/`. Он отвечает на языке посетителя и предлагает связаться с менеджером. На один IP действует ограничение: 20 сообщений за 10 минут.
 
 ---
 
