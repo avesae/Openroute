@@ -8,7 +8,7 @@ import { z } from "zod";
  * иначе печатается в лог сервера (удобно, пока сайт — шаблон).
  */
 const leadSchema = z.object({
-  source: z.enum(["quick", "tour", "contact", "cta"]),
+  source: z.enum(["quick", "quiz", "tour", "contact", "cta"]),
   locale: z.enum(["ru", "en"]),
   name: z.string().trim().min(2, "name").max(80),
   contact: z.string().trim().min(5, "contact").max(120),

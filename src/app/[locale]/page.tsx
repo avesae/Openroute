@@ -11,6 +11,8 @@ import { CtaBand } from "@/components/CtaBand";
 import { FaqList, ReviewCard, SectionHeader, Stars } from "@/components/ui";
 import { TourCard } from "@/components/tours/TourCard";
 import { QuickSearch } from "@/components/forms/QuickSearch";
+import { TourQuiz } from "@/components/quiz/TourQuiz";
+import { CountUp } from "@/components/CountUp";
 import { Arrow, Check, Headset, Plane, Shield, Sparkle, Wallet } from "@/components/icons";
 
 // ЗАМЕНИТЕ ФОТО: главное фото первого экрана
@@ -53,7 +55,7 @@ export default async function HomePage() {
 
       {/* ───── Первый экран ───── */}
       <section className="relative isolate overflow-hidden">
-        <Image src={HERO_IMAGE} alt="" fill priority sizes="100vw" quality={60} className="-z-10 object-cover" />
+        <Image src={HERO_IMAGE} alt="" fill priority sizes="100vw" quality={60} className="hero-zoom -z-10 object-cover" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/55 via-black/35 to-black/65 lg:bg-gradient-to-r lg:from-black/70 lg:via-black/35 lg:to-black/10" />
         <div className="container-x grid items-center gap-10 py-12 sm:py-16 lg:grid-cols-[1.1fr_1fr] lg:py-24">
           <div className="text-white">
@@ -68,7 +70,7 @@ export default async function HomePage() {
             </div>
           </div>
 
-          <div id="pick" className="scroll-mt-24 rounded-3xl bg-bg p-5 shadow-2xl sm:p-7">
+          <div id="pick" className="rise rise-late scroll-mt-24 rounded-3xl bg-bg p-5 shadow-2xl sm:p-7">
             <h2 className="mb-5 font-sans text-xl font-bold">{t.quick.title}</h2>
             <QuickSearch
               locale={locale}
@@ -123,6 +125,29 @@ export default async function HomePage() {
         </ul>
       </section>
 
+      {/* ───── Квиз «Подбор за минуту» ───── */}
+      <section id="quiz" className="container-x mt-20 scroll-mt-24 sm:mt-28">
+        <SectionHeader eyebrow={t.quiz.eyebrow} title={t.quiz.title} text={t.quiz.text} />
+        <TourQuiz
+          locale={locale}
+          labels={t.quiz}
+          form={t.form}
+          nightsLabel={t.common.nights}
+          tours={tours.map((tour) => ({
+            slug: tour.slug,
+            title: pick(tour.title, locale),
+            place: [countryName(tour.destination), pick(tour.city, locale)].filter(Boolean).join(", "),
+            image: { src: tour.images[0].src, alt: pick(tour.images[0].alt, locale) },
+            price: tour.priceFrom,
+            currency: tour.currency,
+            nights: tour.durationNights,
+            types: tour.types,
+            months: tour.departures.map((d) => Number(d.date.slice(5, 7))),
+            popularity: tour.popularity,
+          }))}
+        />
+      </section>
+
       {/* ───── Горящие туры ───── */}
       {hot.length > 0 && (
         <section className="container-x mt-20 sm:mt-28">
@@ -150,6 +175,19 @@ export default async function HomePage() {
       <section className="mt-20 bg-surface py-16 sm:mt-28 sm:py-24">
         <div className="container-x">
           <SectionHeader title={t.home.benefitsTitle} />
+          <dl className="mb-10 grid grid-cols-2 gap-4 sm:mb-14 lg:grid-cols-4">
+            {[
+              { value: <CountUp value={tours.length} locale={locale} />, label: t.stats.tours },
+              { value: <CountUp value={destinations.length} locale={locale} />, label: t.stats.destinations },
+              { value: <CountUp value={Number(avg.toFixed(1))} decimals={1} locale={locale} />, label: t.stats.rating },
+              { value: "24/7", label: t.stats.support },
+            ].map((s) => (
+              <div key={s.label} className="reveal flex flex-col-reverse gap-1 border-l-2 border-brand pl-4 sm:pl-5">
+                <dt className="text-sm text-muted sm:text-base">{s.label}</dt>
+                <dd className="font-display text-4xl font-bold sm:text-5xl">{s.value}</dd>
+              </div>
+            ))}
+          </dl>
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {t.benefits.map((b, i) => {
               const Icon = benefitIcons[i];
