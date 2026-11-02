@@ -4,6 +4,7 @@ import { locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { siteUrl } from "@/lib/seo";
 import { Header } from "@/components/layout/Header";
+import { DemoBar } from "@/components/layout/DemoBar";
 import { Footer } from "@/components/layout/Footer";
 import { ContactFab } from "@/components/layout/ContactFab";
 import { Providers } from "@/components/layout/Providers";
@@ -53,6 +54,7 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
           <a href="#main" className="sr-only z-50 rounded-full bg-fg px-4 py-2 text-bg focus:not-sr-only focus:fixed focus:top-3 focus:left-3">
             {t.nav.skip}
           </a>
+          <DemoBar />
           <Header />
           <main id="main" className="flex-1">
             {children}

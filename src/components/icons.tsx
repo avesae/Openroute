@@ -35,7 +35,7 @@ export const Moonlight = (p: P) => (<svg {...base(p)}><path d="M18 15a7 7 0 0 1-
 export const Star = (p: P) => (<svg {...base(p)} fill="currentColor" stroke="none"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" /></svg>);
 export const Check = (p: P) => (<svg {...base(p)}><path d="m5 12 5 5 9-10" /></svg>);
 export const Minus = (p: P) => (<svg {...base(p)}><path d="M6 12h12" /></svg>);
-export const Arrow = (p: P) => (<svg {...base(p)}><path d="M5 12h14M13 6l6 6-6 6" /></svg>);
+export const Arrow = (p: P) => (<svg {...base(p)} className={`icon-arrow ${p.className ?? ""}`}><path d="M5 12h14M13 6l6 6-6 6" /></svg>);
 export const ChevronLeft = (p: P) => (<svg {...base(p)}><path d="m15 6-6 6 6 6" /></svg>);
 export const ChevronRight = (p: P) => (<svg {...base(p)}><path d="m9 6 6 6-6 6" /></svg>);
 export const Plane = (p: P) => (<svg {...base(p)}><path d="M10.5 13.5 3 11l1.5-1.5 7 1L16 6a2 2 0 0 1 3 3l-4.5 4.5 1 7L14 22l-2.5-7.5L8 18v3l-1.5 1-1-3.5L2 17.5 3 16h3z" /></svg>);

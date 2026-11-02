@@ -11,7 +11,8 @@ import { JsonLd } from "@/components/JsonLd";
 import { Breadcrumbs, DetailSkeleton, ReviewCard, SectionHeader, Stars } from "@/components/ui";
 import { Gallery } from "@/components/tours/Gallery";
 import { TourCard } from "@/components/tours/TourCard";
-import { LeadForm } from "@/components/forms/LeadForm";
+import { TourBooking } from "@/components/tours/TourBooking";
+import { StickyBookBar } from "@/components/tours/StickyBookBar";
 import { MapEmbed } from "@/components/MapEmbed";
 import { Calendar, Check, Flame, Minus, Moonlight, Pin, Plane, Star } from "@/components/icons";
 
@@ -124,7 +125,7 @@ async function Content({ params }: PageProps<"/[locale]/tours/[slug]">) {
           )}
         </p>
         {/* На мобильных форма бронирования внизу страницы — даём быстрый переход к ней */}
-        <div className="mt-5 flex items-center justify-between gap-4 rounded-2xl bg-surface p-4 lg:hidden">
+        <div id="price-mobile" className="mt-5 flex items-center justify-between gap-4 rounded-2xl bg-surface p-4 lg:hidden">
           <p>
             <span className="text-sm text-muted">{t.common.from} </span>
             <span className="font-display text-2xl font-bold">{price(locale, tour.priceFrom, tour.currency)}</span>
@@ -254,7 +255,7 @@ async function Content({ params }: PageProps<"/[locale]/tours/[slug]">) {
         </div>
 
         <aside aria-labelledby="book" className="lg:row-span-1">
-          <div id="book-form" className="card scroll-mt-24 p-6 lg:sticky lg:top-24">
+          <div id="book-form" className="card scroll-mt-24 p-6">
             <p className="text-sm text-muted">
               {t.common.from}{" "}
               {tour.hot && <span className="line-through">{price(locale, tour.hot.oldPrice, tour.currency)}</span>}
@@ -267,22 +268,26 @@ async function Content({ params }: PageProps<"/[locale]/tours/[slug]">) {
                 {fill(t.common.until, { date: date(locale, tour.hot.until, { year: undefined }) })}
               </p>
             )}
-            <h2 id="book" className="mt-6 font-sans text-lg font-bold">{t.tour.bookTitle}</h2>
-            <p className="mb-5 text-sm text-muted">{t.tour.bookText}</p>
-            <LeadForm
+            <TourBooking
+              heading={{ id: "book", title: t.tour.bookTitle, text: t.tour.bookText }}
               locale={locale}
-              source="tour"
-              labels={t.form}
+              labels={t.calc}
+              form={t.form}
               tour={title}
-              withTrip
-              dates={tour.departures.map((d) => ({
-                value: d.date,
-                label: `${date(locale, d.date)} — ${price(locale, d.price, tour.currency)}`,
-              }))}
+              currency={tour.currency}
+              departures={tour.departures.map((d) => ({ ...d, label: date(locale, d.date) }))}
             />
           </div>
         </aside>
       </div>
+
+      <StickyBookBar
+        watch="price-mobile"
+        target="book-form"
+        title={title}
+        price={`${t.common.from} ${price(locale, tour.priceFrom, tour.currency)}`}
+        cta={t.common.bookTour}
+      />
 
       {similar.length > 0 && (
         <section className="container-x mt-20">

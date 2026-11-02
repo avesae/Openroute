@@ -18,11 +18,13 @@ type Props = {
   withTrip?: boolean;
   withMessage?: boolean;
   dates?: { value: string; label: string }[];
+  /** Дополнительные скрытые поля (например, расчёт из калькулятора) */
+  hidden?: Record<string, string>;
 };
 
 const initial: LeadState = { status: "idle" };
 
-export function LeadForm({ locale, source, labels, tour, withTrip, withMessage, dates }: Props) {
+export function LeadForm({ locale, source, labels, tour, withTrip, withMessage, dates, hidden }: Props) {
   const [state, action, pending] = useActionState(submitLead, initial);
   const id = useId();
 
@@ -35,6 +37,7 @@ export function LeadForm({ locale, source, labels, tour, withTrip, withMessage, 
       <input type="hidden" name="source" value={source} />
       <input type="hidden" name="locale" value={locale} />
       {tour && <input type="hidden" name="tour" value={tour} />}
+      {hidden && Object.entries(hidden).map(([name, value]) => <input key={name} type="hidden" name={name} value={value} />)}
       <HoneyPot />
 
       <Field id={`${id}-name`} label={labels.name} error={err.name && labels.errors.name}>

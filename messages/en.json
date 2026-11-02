@@ -23,8 +23,18 @@
   "common": {
     "from": "from",
     "perPerson": "per person",
-    "nights": { "one": "night", "few": "nights", "many": "nights", "other": "nights" },
-    "tours": { "one": "tour", "few": "tours", "many": "tours", "other": "tours" },
+    "nights": {
+      "one": "night",
+      "few": "nights",
+      "many": "nights",
+      "other": "nights"
+    },
+    "tours": {
+      "one": "tour",
+      "few": "tours",
+      "many": "tours",
+      "other": "tours"
+    },
     "seatsLeft": "{n} seats left",
     "details": "Details",
     "allTours": "All tours",
@@ -87,18 +97,47 @@
     "ctaText": "Tell us what kind of holiday you want — we will suggest the 3 best options for your budget. Free and with no obligation."
   },
   "benefits": [
-    { "title": "Tour in 1 hour", "text": "We send 2–3 hand-picked options with prices within an hour during office hours." },
-    { "title": "24/7 support", "text": "AI assistant and a real manager available throughout your trip, day and night." },
-    { "title": "Flights from Helsinki", "text": "Convenient direct and connecting flights from Helsinki-Vantaa." },
-    { "title": "Transparent prices", "text": "No hidden fees: the contract lists everything included in the price." }
+    {
+      "title": "Tour in 1 hour",
+      "text": "We send 2–3 hand-picked options with prices within an hour during office hours."
+    },
+    {
+      "title": "24/7 support",
+      "text": "AI assistant and a real manager available throughout your trip, day and night."
+    },
+    {
+      "title": "Flights from Helsinki",
+      "text": "Convenient direct and connecting flights from Helsinki-Vantaa."
+    },
+    {
+      "title": "Transparent prices",
+      "text": "No hidden fees: the contract lists everything included in the price."
+    }
   ],
   "steps": [
-    { "title": "Request", "text": "Leave your contact or message us — it takes a minute." },
-    { "title": "Selection", "text": "A manager clarifies your wishes and sends the best options." },
-    { "title": "Booking", "text": "Sign the contract online, pay by card or bank transfer." },
-    { "title": "Travel", "text": "Documents on your phone, and we are available 24/7 during the trip." }
+    {
+      "title": "Request",
+      "text": "Leave your contact or message us — it takes a minute."
+    },
+    {
+      "title": "Selection",
+      "text": "A manager clarifies your wishes and sends the best options."
+    },
+    {
+      "title": "Booking",
+      "text": "Sign the contract online, pay by card or bank transfer."
+    },
+    {
+      "title": "Travel",
+      "text": "Documents on your phone, and we are available 24/7 during the trip."
+    }
   ],
-  "trust": ["Protected package holidays", "Secure payments", "Travel insurance", "Verified hotels"],
+  "trust": [
+    "Protected package holidays",
+    "Secure payments",
+    "Travel insurance",
+    "Verified hotels"
+  ],
   "catalog": {
     "title": "Tour catalogue",
     "description": "Tours worldwide from Helsinki: beaches, sightseeing, skiing and tailor-made trips.",
@@ -176,17 +215,38 @@
     "teamTitle": "Team",
     "guaranteesTitle": "Licences & guarantees",
     "guarantees": [
-      { "title": "KKV registration", "text": "Registration number will appear here once issued. [TO FILL]" },
-      { "title": "Package travel guarantee", "text": "Travellers' funds are protected under the Finnish Package Travel Act. [TO FILL]" },
-      { "title": "Contract & transparency", "text": "Every trip comes with a contract listing all services and cancellation terms." }
+      {
+        "title": "KKV registration",
+        "text": "Registration number will appear here once issued. [TO FILL]"
+      },
+      {
+        "title": "Package travel guarantee",
+        "text": "Travellers' funds are protected under the Finnish Package Travel Act. [TO FILL]"
+      },
+      {
+        "title": "Contract & transparency",
+        "text": "Every trip comes with a contract listing all services and cancellation terms."
+      }
     ],
     "officeTitle": "Our office",
     "officeText": "Drop by for a coffee and let's plan your trip in person. Address and hours are on the contact page.",
     "stats": [
-      { "value": "60+", "label": "countries" },
-      { "value": "1 hour", "label": "to find your tour" },
-      { "value": "24/7", "label": "support while travelling" },
-      { "value": "4.9", "label": "average rating" }
+      {
+        "value": "60+",
+        "label": "countries"
+      },
+      {
+        "value": "1 hour",
+        "label": "to find your tour"
+      },
+      {
+        "value": "24/7",
+        "label": "support while travelling"
+      },
+      {
+        "value": "4.9",
+        "label": "average rating"
+      }
     ]
   },
   "reviews": {
@@ -281,5 +341,81 @@
   "privacy": {
     "title": "Privacy policy",
     "description": "How Openroute processes personal data and uses cookies in line with GDPR."
+  },
+  "demo": {
+    "label": "Demo project",
+    "text": "Design & development by",
+    "author": "Ivan Sandyga",
+    "credit": "Website design & development"
+  },
+  "stats": {
+    "tours": "tours in the catalogue",
+    "destinations": "destinations worldwide",
+    "rating": "average rating",
+    "support": "support while you travel"
+  },
+  "quiz": {
+    "eyebrow": "1-minute tour finder",
+    "title": "Answer 4 questions — we'll show tours that fit",
+    "text": "No sign-up, no calls. See results instantly and get a priced shortlist if you like.",
+    "step": "Step {n} of {total}",
+    "back": "Back",
+    "restart": "Start over",
+    "type": {
+      "title": "What kind of holiday?",
+      "options": {
+        "beach": "Beach & sea",
+        "excursion": "Cities & sightseeing",
+        "ski": "Mountains & snow",
+        "adventure": "Adventure"
+      }
+    },
+    "season": {
+      "title": "When are you travelling?",
+      "options": {
+        "winter": "Winter",
+        "spring": "Spring",
+        "summer": "Summer",
+        "autumn": "Autumn",
+        "any": "Not sure yet"
+      }
+    },
+    "budget": {
+      "title": "Budget per person?",
+      "options": {
+        "low": "under €1,000",
+        "mid": "€1,000–1,500",
+        "high": "€1,500–2,500",
+        "top": "€2,500+"
+      }
+    },
+    "who": {
+      "title": "Who's coming?",
+      "options": {
+        "solo": "Just me",
+        "couple": "Two of us",
+        "family": "With kids",
+        "friends": "With friends"
+      }
+    },
+    "resultTitle": "Here's what we found",
+    "resultText": "Match is based on holiday type, departure dates, budget and company.",
+    "match": "{n}% match",
+    "leadTitle": "Want a shortlist with live prices?",
+    "leadText": "A travel expert will check availability and send you the 3 best options.",
+    "submit": "Get my shortlist"
+  },
+  "calc": {
+    "title": "Price calculator",
+    "date": "Departure date",
+    "adults": "Adults",
+    "children": "Children under 12",
+    "childNote": "−30% for children",
+    "total": "Total",
+    "note": "Estimate only. Your travel expert will confirm the final price after checking availability.",
+    "decrease": "Remove",
+    "increase": "Add",
+    "summary": "{adults} adults + {children} children",
+    "lastSeats": "Last seats"
   }
 }

@@ -12,7 +12,7 @@ export async function Header() {
   const items = mainNav(t);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-border/70 bg-bg/85 backdrop-blur-md">
+    <header className="header-shadow sticky top-0 z-40 border-b border-border/70 bg-bg/85 backdrop-blur-md">
       <div className="container-x flex h-16 items-center gap-4 lg:h-18">
         <Link href={`/${locale}`} className="flex items-center gap-2 text-fg" aria-label={`${t.meta.siteName} — ${t.nav.home}`}>
           <span className="grid size-9 place-items-center rounded-full bg-brand text-brand-ink">

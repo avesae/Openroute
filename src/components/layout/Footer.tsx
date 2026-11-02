@@ -6,6 +6,7 @@ import { contactLinks } from "@/lib/contact";
 import { mainNav } from "@/lib/nav";
 import { Logo, Mail, Phone, Pin, Telegram, WhatsApp } from "@/components/icons";
 import { CookieSettingsButton } from "@/components/consent/CookieSettingsButton";
+import { AUTHOR, GitHubIcon } from "./DemoBar";
 
 export async function Footer() {
   const { locale, t } = await getDictionary();
@@ -88,9 +89,17 @@ export async function Footer() {
         </div>
       </div>
       <div className="border-t border-border">
-        <p className="container-x py-6 text-xs text-muted">
-          © 2026 {site.name}. {t.footer.rights}
-        </p>
+        <div className="container-x flex flex-col gap-2 py-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
+          <p>
+            © 2026 {site.name}. {t.footer.rights}
+          </p>
+          <p className="flex items-center gap-2">
+            {t.demo.credit}:{" "}
+            <a href={AUTHOR.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 font-semibold text-fg hover:text-brand-strong">
+              <GitHubIcon className="size-3.5" /> {t.demo.author}
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
