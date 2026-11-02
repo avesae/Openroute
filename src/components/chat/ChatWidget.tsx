@@ -114,7 +114,7 @@ export function ChatWidget({ locale, contactHref, labels }: Props) {
         <section
           id="ai-chat"
           aria-label={labels.title}
-          className="chat-panel fixed inset-x-3 bottom-22 z-40 flex h-[min(78dvh,680px)] flex-col overflow-hidden rounded-2xl border border-border bg-bg shadow-2xl sm:left-auto sm:w-[26rem] lg:right-5 lg:bottom-24 lg:h-[min(80dvh,760px)] lg:w-[clamp(26rem,32vw,34rem)]"
+          className="chat-panel fixed inset-x-3 bottom-22 z-[60] flex h-[min(78dvh,680px)] flex-col overflow-hidden rounded-2xl border border-border bg-bg shadow-2xl sm:left-auto sm:w-[26rem] lg:right-5 lg:bottom-24 lg:h-[min(80dvh,760px)] lg:w-[clamp(26rem,32vw,34rem)]"
         >
           <header className="flex items-center gap-3 border-b border-border bg-surface px-4 py-3">
             <span className="grid size-9 place-items-center rounded-full bg-brand text-brand-ink">
