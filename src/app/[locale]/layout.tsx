@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Manrope, Unbounded } from "next/font/google";
+import localFont from "next/font/local";
 import { locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { siteUrl } from "@/lib/seo";
@@ -13,13 +13,9 @@ import { Analytics } from "@/components/consent/Analytics";
 import { ChatWidget } from "@/components/chat/ChatWidget";
 import "../globals.css";
 
-const body = Manrope({ subsets: ["latin", "cyrillic"], variable: "--font-body", display: "swap" });
-const heading = Unbounded({
-  subsets: ["latin", "cyrillic"],
-  variable: "--font-heading",
-  weight: ["500", "700"],
-  display: "swap",
-});
+// Шрифты лежат в проекте (OFL), а не грузятся с Google Fonts: сборка не зависит от зарубежных сервисов.
+const body = localFont({ src: "../fonts/Manrope-Variable.woff2", variable: "--font-body", weight: "200 800", display: "swap" });
+const heading = localFont({ src: "../fonts/Unbounded-Variable.woff2", variable: "--font-heading", weight: "200 900", display: "swap" });
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
