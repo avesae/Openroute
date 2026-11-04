@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "RUB",
   "slug": "japan-tokyo-kyoto-individual",
   "destination": "japan",
   "city": {
@@ -23,22 +23,22 @@
     "individual"
   ],
   "durationNights": 10,
-  "priceFrom": 2490,
+  "priceFrom": 249000,
   "popularity": 65,
   "rating": 4.9,
   "departures": [
     {
       "date": "2027-03-27",
-      "price": 2790,
+      "price": 279000,
       "seatsLeft": 6
     },
     {
       "date": "2027-04-10",
-      "price": 2690
+      "price": 269000
     },
     {
       "date": "2027-10-30",
-      "price": 2490
+      "price": 249000
     }
   ],
   "images": [
@@ -105,7 +105,7 @@
   ],
   "included": {
     "ru": [
-      "Перелёт Хельсинки — туда и обратно",
+      "Перелёт Москва — туда и обратно",
       "Трансфер аэропорт — отель — аэропорт",
       "Проживание в выбранном отеле",
       "Медицинская страховка",
@@ -115,7 +115,7 @@
       "Ужин кайсэки в рёкане"
     ],
     "en": [
-      "Return flight from Helsinki",
+      "Return flight from Moscow",
       "Airport–hotel–airport transfer",
       "Accommodation in the selected hotel",
       "Medical insurance",

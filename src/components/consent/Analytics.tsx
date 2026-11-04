@@ -4,21 +4,21 @@ import Script from "next/script";
 import { useConsent } from "@/lib/consent";
 
 /**
- * Google Analytics 4. Загружается только после согласия «Принять все».
- * ID берётся из NEXT_PUBLIC_GA_ID (см. .env.example). Без ID ничего не грузится.
+ * Яндекс Метрика (серверы в России). Загружается только после согласия на аналитические cookie.
+ * Номер счётчика берётся из NEXT_PUBLIC_YM_ID (см. .env.example). Без номера ничего не грузится.
+ * Вебвизор выключен: запись сессий посетителей — лишний сбор данных для сайта-визитки.
  */
-export function Analytics({ gaId }: { gaId?: string }) {
+export function Analytics({ ymId }: { ymId?: string }) {
   const consent = useConsent();
-  if (!gaId || consent !== "all") return null;
+  if (!ymId || !/^\d+$/.test(ymId) || consent === "pending" || !consent?.analytics) return null;
 
   return (
-    <>
-      <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="afterInteractive" />
-      <Script id="ga4" strategy="afterInteractive">
-        {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
-gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
-gtag('js',new Date());gtag('config','${gaId}',{anonymize_ip:true});`}
-      </Script>
-    </>
+    <Script id="yandex-metrika" strategy="afterInteractive">
+      {`(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();
+for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}
+k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
+ym(${ymId},"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:false});`}
+    </Script>
   );
 }

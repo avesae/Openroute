@@ -4,7 +4,8 @@ import { getDictionary } from "@/i18n/dictionaries";
 import { getSite } from "@/lib/content";
 import { contactLinks } from "@/lib/contact";
 import { mainNav } from "@/lib/nav";
-import { Logo, Mail, Phone, Pin, Telegram, WhatsApp } from "@/components/icons";
+import { fill } from "@/lib/format";
+import { Logo, Mail, Phone, Pin, Telegram, MaxMessenger } from "@/components/icons";
 import { CookieSettingsButton } from "@/components/consent/CookieSettingsButton";
 import { AUTHOR, GitHubIcon } from "./DemoBar";
 
@@ -25,8 +26,8 @@ export async function Footer() {
           </Link>
           <p className="mt-4 max-w-xs text-sm text-muted">{t.footer.about}</p>
           <div className="mt-5 flex gap-2">
-            <a href={links.whatsapp} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="grid size-11 place-items-center rounded-full bg-bg text-fg hover:text-brand-strong">
-              <WhatsApp className="size-5" />
+            <a href={links.max} target="_blank" rel="noopener noreferrer" aria-label="MAX" className="grid size-11 place-items-center rounded-full bg-bg text-fg hover:text-brand-strong">
+              <MaxMessenger className="size-5" />
             </a>
             <a href={links.telegram} target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="grid size-11 place-items-center rounded-full bg-bg text-fg hover:text-brand-strong">
               <Telegram className="size-5" />
@@ -63,7 +64,7 @@ export async function Footer() {
             <li className="flex items-start gap-2 text-muted">
               <Pin className="mt-0.5 size-4 shrink-0" />
               <span>
-                {site.address.street}, {site.address.postalCode} {pick(site.address.city, locale)}
+                {site.address.postalCode}, {pick(site.address.city, locale)}, {pick(site.address.street, locale)}
               </span>
             </li>
           </ul>
@@ -75,6 +76,16 @@ export async function Footer() {
             <li>
               <Link href={`/${locale}/privacy`} className="text-muted hover:text-fg">
                 {t.footer.privacy}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${locale}/consent`} className="text-muted hover:text-fg">
+                {t.footer.consent}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${locale}/cookies`} className="text-muted hover:text-fg">
+                {t.footer.cookies}
               </Link>
             </li>
             <li>
@@ -91,7 +102,8 @@ export async function Footer() {
       <div className="border-t border-border">
         <div className="container-x flex flex-col gap-2 py-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © 2026 {site.name}. {t.footer.rights}
+            © 2026 {pick(site.legal.operator, locale)}. {t.footer.rights}{" "}
+            {fill(t.footer.requisites, { inn: site.legal.inn, ogrn: site.legal.ogrn })}
           </p>
           <p className="flex items-center gap-2">
             {t.demo.credit}:{" "}

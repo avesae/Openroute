@@ -31,12 +31,12 @@
     "en": "Canaries all year, mainland May–October"
   },
   "visa": {
-    "ru": "Шенгенская зона — виза не нужна.",
-    "en": "Schengen area — no visa needed."
+    "ru": "Нужна шенгенская виза. Поможем собрать документы и записаться в визовый центр.",
+    "en": "A Schengen visa is required. We help with documents and visa centre appointments."
   },
   "flight": {
-    "ru": "≈ 4,5–6 часов прямым рейсом",
-    "en": "≈ 4.5–6 hours direct"
+    "ru": "≈ 9–11 часов с пересадкой",
+    "en": "≈ 9–11 hours with a connection"
   },
   "currency": "EUR",
   "image": {

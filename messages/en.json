@@ -1,9 +1,9 @@
 {
   "meta": {
     "siteName": "Openroute",
-    "tagline": "Tours worldwide from Helsinki",
-    "homeTitle": "Openroute — tours worldwide from Helsinki",
-    "homeDescription": "Beach holidays, sightseeing and ski tours, tailor-made trips. We find your tour within 1 hour, flights from Helsinki, 24/7 support."
+    "tagline": "Tours worldwide from Moscow",
+    "homeTitle": "Openroute — tours worldwide from Moscow",
+    "homeDescription": "Beach holidays, sightseeing and ski tours, tailor-made trips. We find your tour within 1 hour, flights from Moscow, 24/7 support."
   },
   "nav": {
     "home": "Home",
@@ -65,10 +65,10 @@
     "UAI": "Ultra all inclusive"
   },
   "hero": {
-    "eyebrow": "Flights from Helsinki · 24/7 support",
+    "eyebrow": "Flights from Moscow · 24/7 support",
     "title": "Your dream holiday starts with one message",
     "subtitle": "Beaches, cities, mountains and tailor-made trips worldwide. We find your tour within an hour — you just pack your suitcase.",
-    "rating": "Rated 4.9 out of 5 by travellers"
+    "rating": "Rated 4.8 out of 5 by travellers"
   },
   "quick": {
     "title": "Quick tour finder",
@@ -106,8 +106,8 @@
       "text": "AI assistant and a real manager available throughout your trip, day and night."
     },
     {
-      "title": "Flights from Helsinki",
-      "text": "Convenient direct and connecting flights from Helsinki-Vantaa."
+      "title": "Flights from Moscow",
+      "text": "Direct and connecting flights from Sheremetyevo and Vnukovo."
     },
     {
       "title": "Transparent prices",
@@ -140,7 +140,7 @@
   ],
   "catalog": {
     "title": "Tour catalogue",
-    "description": "Tours worldwide from Helsinki: beaches, sightseeing, skiing and tailor-made trips.",
+    "description": "Tours worldwide from Moscow: beaches, sightseeing, skiing and tailor-made trips.",
     "filters": "Filters",
     "country": "Country",
     "allCountries": "All countries",
@@ -181,18 +181,18 @@
     "similar": "Similar tours",
     "duration": "Duration",
     "departure": "Departure",
-    "fromHelsinki": "from Helsinki",
     "gallery": "Gallery",
     "photo": "Photo {n} of {total}",
     "next": "Next photo",
-    "prev": "Previous photo"
+    "prev": "Previous photo",
+    "fromCity": "from Moscow"
   },
   "destinations": {
     "title": "Destinations",
-    "description": "Countries we send travellers to: best season, visas, tips and current tours.",
+    "description": "Countries we send travellers to: best season, entry rules for Russian citizens, tips and current tours.",
     "bestSeason": "Best season",
-    "visa": "Visa",
-    "flight": "Flight from Helsinki",
+    "visa": "Entry for Russian citizens",
+    "flight": "Flight from Moscow",
     "currency": "Currency",
     "tours": "Tours to {country}",
     "noTours": "No ready-made tours right now, but we will build a tailor-made one — send a request."
@@ -205,23 +205,23 @@
   },
   "about": {
     "title": "About us",
-    "description": "Openroute is a Helsinki-based travel agency. We plan trips worldwide and support travellers 24/7.",
+    "description": "Openroute is a Moscow-based travel agency. We plan trips worldwide and support travellers 24/7.",
     "storyTitle": "Our story",
     "story": [
-      "Openroute started with a simple idea: travelling from Finland should be as easy as ordering a taxi. No endless browser tabs, no comparing hundreds of hotels, no fear that something will go wrong.",
-      "Today we put together beach, sightseeing and ski tours, as well as tailor-made trips — from a honeymoon in the Maldives to a family visit to Santa Claus in Lapland.",
-      "We combine experienced human managers with an AI assistant that answers travellers' questions around the clock in Russian and English."
+      "Openroute started with a simple idea: planning a holiday should be as easy as ordering a taxi. No endless browser tabs, no comparing hundreds of hotels, no fear that something will go wrong.",
+      "Today we put together beach, sightseeing and ski tours, as well as tailor-made trips — from a honeymoon in the Maldives to a family northern-lights trip to Murmansk.",
+      "We combine experienced human managers with an AI assistant that answers travellers' questions around the clock."
     ],
     "teamTitle": "Team",
     "guaranteesTitle": "Licences & guarantees",
     "guarantees": [
       {
-        "title": "KKV registration",
-        "text": "Registration number will appear here once issued. [TO FILL]"
+        "title": "Registered tour operators only",
+        "text": "We sell tours only from operators listed in the Unified Federal Register of Tour Operators. The register number is stated in every contract. [TO FILL]"
       },
       {
-        "title": "Package travel guarantee",
-        "text": "Travellers' funds are protected under the Finnish Package Travel Act. [TO FILL]"
+        "title": "Financial security",
+        "text": "Tour operators' liability to travellers is financially secured under Russian tourism law. [TO FILL]"
       },
       {
         "title": "Contract & transparency",
@@ -244,7 +244,7 @@
         "label": "support while travelling"
       },
       {
-        "value": "4.9",
+        "value": "4.8",
         "label": "average rating"
       }
     ]
@@ -257,13 +257,13 @@
   },
   "blog": {
     "title": "Blog & travel tips",
-    "description": "Useful articles on travelling from Finland: visas, seasons, checklists and tips.",
+    "description": "Useful travel articles: entry rules, seasons, checklists and tips.",
     "back": "All articles",
     "related": "Matching tours"
   },
   "contacts": {
     "title": "Contact",
-    "description": "Get in touch with Openroute: phone, email, WhatsApp, Telegram and our Helsinki office.",
+    "description": "Get in touch with Openroute: phone, email, MAX, Telegram and our Moscow office.",
     "phone": "Phone",
     "email": "Email",
     "address": "Address",
@@ -279,8 +279,8 @@
     "messagePlaceholder": "Where do you want to go, when and how many people?",
     "date": "Preferred date",
     "people": "Travellers",
-    "consent": "I agree to the processing of my personal data under the",
-    "privacy": "privacy policy",
+    "consent": "I consent to the processing of my personal data under the",
+    "privacy": "Privacy Policy",
     "submit": "Send request",
     "sending": "Sending…",
     "successTitle": "Request sent!",
@@ -291,7 +291,9 @@
       "name": "Enter your name (at least 2 characters)",
       "contact": "Enter a phone, email or Telegram",
       "consent": "Consent is required"
-    }
+    },
+    "consentLink": "Consent terms",
+    "consentAnd": "and confirm I have read the"
   },
   "cta": {
     "title": "Ready to travel?",
@@ -301,37 +303,49 @@
   },
   "fab": {
     "label": "Contact us",
-    "whatsapp": "Message on WhatsApp",
     "telegram": "Message on Telegram",
-    "call": "Call"
+    "call": "Call",
+    "max": "Message on MAX"
   },
   "chat": {
     "open": "Open AI assistant chat",
     "title": "Openroute AI assistant",
-    "subtitle": "Available 24/7 · may make mistakes",
-    "greeting": "Hi! I can help you pick a tour and tell you about visas and seasons. Where would you like to go?",
+    "subtitle": "Available 24/7 · may make mistakes · don't share passport details",
+    "greeting": "Hi! I can help you pick a tour and tell you about entry rules and seasons. Where would you like to go? Please don't share passport or card details in the chat.",
     "placeholder": "Type your question…",
     "send": "Send",
     "error": "The assistant is unavailable right now. Send a request — a manager will reply.",
     "handoff": "Contact a manager"
   },
   "cookie": {
-    "text": "We use cookies for analytics and maps. Necessary cookies keep the site working; others are used only with your consent.",
+    "text": "We use cookies. Necessary ones keep the site working; analytics (Yandex Metrica) and map cookies are used only with your consent.",
     "accept": "Accept all",
-    "reject": "Necessary only",
-    "more": "Learn more",
-    "settings": "Cookie settings"
+    "reject": "Reject optional",
+    "customize": "Customise",
+    "save": "Save choice",
+    "more": "Cookie policy",
+    "settings": "Cookie settings",
+    "necessary": "Necessary",
+    "necessaryText": "Language, theme and your choice in this window.",
+    "alwaysOn": "always on",
+    "analytics": "Analytics",
+    "analyticsText": "Yandex Metrica: counts visits, no session recording.",
+    "maps": "Maps",
+    "mapsText": "Yandex Maps widget on the contact and tour pages."
   },
   "map": {
-    "consent": "Google Maps will load after you accept third-party cookies.",
+    "consent": "Yandex Maps will load after you accept map cookies.",
     "show": "Show map"
   },
   "footer": {
-    "about": "Tours worldwide from Helsinki. Beaches, sightseeing, skiing and tailor-made trips.",
+    "about": "Tours worldwide from Moscow. Beaches, sightseeing, skiing and tailor-made trips.",
     "sections": "Explore",
     "info": "Information",
     "privacy": "Privacy policy",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "consent": "Consent terms",
+    "cookies": "Cookie policy",
+    "requisites": "INN {inn}, OGRN {ogrn}."
   },
   "notFound": {
     "title": "Page not found",
@@ -340,7 +354,7 @@
   },
   "privacy": {
     "title": "Privacy policy",
-    "description": "How Openroute processes personal data and uses cookies in line with GDPR."
+    "description": "How Openroute processes personal data under Russian Federal Law 152-FZ."
   },
   "demo": {
     "label": "Demo project",
@@ -383,10 +397,10 @@
     "budget": {
       "title": "Budget per person?",
       "options": {
-        "low": "under €1,000",
-        "mid": "€1,000–1,500",
-        "high": "€1,500–2,500",
-        "top": "€2,500+"
+        "low": "under ₽100,000",
+        "mid": "₽100–150k",
+        "high": "₽150–250k",
+        "top": "₽250,000+"
       }
     },
     "who": {
@@ -417,5 +431,13 @@
     "increase": "Add",
     "summary": "{adults} adults + {children} children",
     "lastSeats": "Last seats"
+  },
+  "consentPage": {
+    "title": "Consent to personal data processing",
+    "description": "Terms of consent given when sending a request on the site."
+  },
+  "cookiesPage": {
+    "title": "Cookie policy",
+    "description": "Which cookies the Openroute site uses and how to change your choice."
   }
 }

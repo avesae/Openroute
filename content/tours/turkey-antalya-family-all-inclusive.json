@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "RUB",
   "slug": "turkey-antalya-family-all-inclusive",
   "destination": "turkey",
   "city": {
@@ -23,28 +23,28 @@
     "family"
   ],
   "durationNights": 7,
-  "priceFrom": 790,
+  "priceFrom": 79000,
   "popularity": 98,
   "rating": 4.8,
   "departures": [
     {
       "date": "2026-11-14",
-      "price": 790,
+      "price": 79000,
       "seatsLeft": 4
     },
     {
       "date": "2026-11-28",
-      "price": 840,
+      "price": 84000,
       "seatsLeft": 9
     },
     {
       "date": "2026-12-26",
-      "price": 1190,
+      "price": 119000,
       "seatsLeft": 6
     }
   ],
   "hot": {
-    "oldPrice": 990,
+    "oldPrice": 99000,
     "until": "2026-11-12"
   },
   "images": [
@@ -78,8 +78,8 @@
         "en": "Flight and check-in"
       },
       "text": {
-        "ru": "Утренний вылет из Хельсинки, трансфер в отель (≈ 40 минут), обед и отдых.",
-        "en": "Morning flight from Helsinki, transfer to the hotel (≈ 40 min), lunch and rest."
+        "ru": "Утренний вылет из Москвы, трансфер в отель (≈ 40 минут), обед и отдых.",
+        "en": "Morning flight from Moscow, transfer to the hotel (≈ 40 min), lunch and rest."
       }
     },
     {
@@ -100,14 +100,14 @@
         "en": "Return home"
       },
       "text": {
-        "ru": "Завтрак, трансфер в аэропорт, вылет в Хельсинки.",
-        "en": "Breakfast, airport transfer, flight back to Helsinki."
+        "ru": "Завтрак, трансфер в аэропорт, вылет в Москву.",
+        "en": "Breakfast, airport transfer, flight back to Moscow."
       }
     }
   ],
   "included": {
     "ru": [
-      "Перелёт Хельсинки — туда и обратно",
+      "Перелёт Москва — туда и обратно",
       "Трансфер аэропорт — отель — аэропорт",
       "Проживание в выбранном отеле",
       "Медицинская страховка",
@@ -115,7 +115,7 @@
       "Питание «всё включено»"
     ],
     "en": [
-      "Return flight from Helsinki",
+      "Return flight from Moscow",
       "Airport–hotel–airport transfer",
       "Accommodation in the selected hotel",
       "Medical insurance",
@@ -127,12 +127,12 @@
     "ru": [
       "Личные расходы и чаевые",
       "Туристический налог отеля (если взимается)",
-      "Экскурсии (от 40 €)"
+      "Экскурсии (от 4 000 ₽)"
     ],
     "en": [
       "Personal expenses and tips",
       "Hotel tourist tax (if applicable)",
-      "Excursions (from €40)"
+      "Excursions (from ₽4,000)"
     ]
   },
   "hotel": {

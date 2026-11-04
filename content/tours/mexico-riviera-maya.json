@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "RUB",
   "slug": "mexico-riviera-maya",
   "destination": "mexico",
   "city": {
@@ -24,22 +24,22 @@
     "adventure"
   ],
   "durationNights": 10,
-  "priceFrom": 1690,
+  "priceFrom": 169000,
   "popularity": 60,
   "rating": 4.8,
   "departures": [
     {
       "date": "2027-01-08",
-      "price": 1790,
+      "price": 179000,
       "seatsLeft": 8
     },
     {
       "date": "2027-02-05",
-      "price": 1690
+      "price": 169000
     },
     {
       "date": "2027-03-12",
-      "price": 1750
+      "price": 175000
     }
   ],
   "images": [
@@ -102,7 +102,7 @@
   ],
   "included": {
     "ru": [
-      "Перелёт Хельсинки — туда и обратно",
+      "Перелёт Москва — туда и обратно",
       "Трансфер аэропорт — отель — аэропорт",
       "Проживание в выбранном отеле",
       "Медицинская страховка",
@@ -111,7 +111,7 @@
       "Экскурсия в Чичен-Ицу"
     ],
     "en": [
-      "Return flight from Helsinki",
+      "Return flight from Moscow",
       "Airport–hotel–airport transfer",
       "Accommodation in the selected hotel",
       "Medical insurance",

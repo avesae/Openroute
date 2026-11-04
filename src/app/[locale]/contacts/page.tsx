@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/seo";
 import { Breadcrumbs, PageHero } from "@/components/ui";
 import { LeadForm } from "@/components/forms/LeadForm";
 import { MapEmbed } from "@/components/MapEmbed";
-import { Clock, Mail, Phone, Pin, Telegram, WhatsApp } from "@/components/icons";
+import { Clock, Mail, Phone, Pin, Telegram, MaxMessenger } from "@/components/icons";
 
 export async function generateMetadata() {
   const { locale, t } = await getDictionary();
@@ -18,7 +18,7 @@ export default async function ContactsPage() {
   const site = await getSite();
   const links = contactLinks(site);
   const c = t.contacts;
-  const address = `${site.address.street}, ${site.address.postalCode} ${pick(site.address.city, locale)}, ${pick(site.address.country, locale)}`;
+  const address = `${site.address.postalCode}, ${pick(site.address.country, locale)}, ${pick(site.address.city, locale)}, ${pick(site.address.street, locale)}`;
 
   const rows = [
     { icon: Phone, label: c.phone, value: site.phone, href: links.tel },
@@ -66,8 +66,8 @@ export default async function ContactsPage() {
 
           <h2 className="mt-8 font-sans text-lg font-bold">{c.messengers}</h2>
           <div className="mt-3 flex flex-wrap gap-3">
-            <a href={links.whatsapp} target="_blank" rel="noopener noreferrer" className="btn bg-[#128c4a] text-white hover:opacity-90">
-              <WhatsApp className="size-5" /> WhatsApp
+            <a href={links.max} target="_blank" rel="noopener noreferrer" className="btn bg-[#5b4bdb] text-white hover:opacity-90">
+              <MaxMessenger className="size-5" /> MAX
             </a>
             <a href={links.telegram} target="_blank" rel="noopener noreferrer" className="btn bg-[#1c7fbf] text-white hover:opacity-90">
               <Telegram className="size-5" /> Telegram
@@ -83,7 +83,7 @@ export default async function ContactsPage() {
 
       <section className="container-x mt-16" aria-labelledby="map-title">
         <h2 id="map-title" className="mb-5 text-2xl font-bold">{c.mapTitle}</h2>
-        <MapEmbed query={site.mapQuery} zoom={15} title={c.mapTitle} locale={locale} labels={t.map} />
+        <MapEmbed lat={site.geo.lat} lng={site.geo.lng} zoom={16} title={c.mapTitle} locale={locale} labels={t.map} />
       </section>
     </>
   );

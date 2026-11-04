@@ -5,7 +5,7 @@ import { useMemo, useState } from "react";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries";
 import { tourTypes, type Tour } from "@/lib/schema";
-import { plural } from "@/lib/format";
+import { plural, price } from "@/lib/format";
 import { Filter } from "@/components/icons";
 import { TourCard } from "./TourCard";
 
@@ -92,9 +92,9 @@ export function CatalogClient({ tours, countries, locale, t }: Props) {
           </Select>
           <Select id="f-max" label={c.price} value={max} onChange={(v) => update("max", v)}>
             <option value="">{c.anyPrice}</option>
-            {[800, 1000, 1500, 2000, 3000].map((p) => (
+            {[80000, 100000, 150000, 200000, 300000].map((p) => (
               <option key={p} value={p}>
-                {p} €
+                {price(locale, p, "RUB")}
               </option>
             ))}
           </Select>

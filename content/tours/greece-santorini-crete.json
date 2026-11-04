@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "RUB",
   "slug": "greece-santorini-crete",
   "destination": "greece",
   "city": {
@@ -24,22 +24,22 @@
     "excursion"
   ],
   "durationNights": 8,
-  "priceFrom": 1240,
+  "priceFrom": 124000,
   "popularity": 72,
   "rating": 4.8,
   "departures": [
     {
       "date": "2027-05-15",
-      "price": 1240,
+      "price": 124000,
       "seatsLeft": 10
     },
     {
       "date": "2027-06-12",
-      "price": 1390
+      "price": 139000
     },
     {
       "date": "2027-09-11",
-      "price": 1290
+      "price": 129000
     }
   ],
   "images": [
@@ -106,7 +106,7 @@
   ],
   "included": {
     "ru": [
-      "Перелёт Хельсинки — туда и обратно",
+      "Перелёт Москва — туда и обратно",
       "Трансфер аэропорт — отель — аэропорт",
       "Проживание в выбранном отеле",
       "Медицинская страховка",
@@ -115,7 +115,7 @@
       "Паром Санторини — Крит"
     ],
     "en": [
-      "Return flight from Helsinki",
+      "Return flight from Moscow",
       "Airport–hotel–airport transfer",
       "Accommodation in the selected hotel",
       "Medical insurance",

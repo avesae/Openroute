@@ -1,7 +1,7 @@
 import { getDictionary } from "@/i18n/dictionaries";
 import { getSite } from "@/lib/content";
 import { contactLinks } from "@/lib/contact";
-import { Phone, Telegram, WhatsApp } from "@/components/icons";
+import { Phone, Telegram, MaxMessenger } from "@/components/icons";
 
 /** Нижняя панель быстрой связи — только на мобильных. */
 export async function ContactFab() {
@@ -15,8 +15,8 @@ export async function ContactFab() {
       aria-label={t.fab.label}
       className={`fixed inset-x-3 bottom-3 z-30 flex rounded-2xl border border-border bg-bg/95 shadow-card backdrop-blur-md lg:hidden ${chatEnabled ? "pr-16" : ""}`}
     >
-      <a href={links.whatsapp} target="_blank" rel="noopener noreferrer" aria-label={t.fab.whatsapp} className={`${item} text-[#128c4a] dark:text-[#4ade80]`}>
-        <WhatsApp className="size-6" /> WhatsApp
+      <a href={links.max} target="_blank" rel="noopener noreferrer" aria-label={t.fab.max} className={`${item} text-[#5b4bdb] dark:text-[#a5a0ff]`}>
+        <MaxMessenger className="size-6" /> MAX
       </a>
       <a href={links.telegram} target="_blank" rel="noopener noreferrer" aria-label={t.fab.telegram} className={`${item} text-[#1c7fbf] dark:text-[#60a5fa]`}>
         <Telegram className="size-6" /> Telegram

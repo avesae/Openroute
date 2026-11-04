@@ -1,0 +1,51 @@
+{
+  "slug": "murmansk",
+  "name": {
+    "ru": "Мурманск",
+    "en": "Murmansk"
+  },
+  "nameIn": {
+    "ru": "Мурманск",
+    "en": "Murmansk"
+  },
+  "region": {
+    "ru": "Россия, Кольский полуостров",
+    "en": "Russia, Kola Peninsula"
+  },
+  "summary": {
+    "ru": "Северное сияние, хаски, Териберка и Баренцево море.",
+    "en": "Northern lights, huskies, Teriberka and the Barents Sea."
+  },
+  "description": {
+    "ru": [
+      "Кольский полуостров — зимняя сказка без загранпаспорта: собачьи упряжки, олени, глэмпинги со стеклянной крышей и северное сияние.",
+      "Териберка на берегу Баренцева моря подходит и для однодневной поездки, и для пары ночей подальше от городской засветки."
+    ],
+    "en": [
+      "The Kola Peninsula is a winter fairytale without a passport: husky sleds, reindeer, glass-roof glamping and the northern lights.",
+      "Teriberka on the Barents Sea works for a day trip or a couple of nights away from city lights."
+    ]
+  },
+  "bestSeason": {
+    "ru": "Сияние — с сентября по март, лучше всего декабрь–февраль",
+    "en": "Aurora September–March, best December–February"
+  },
+  "visa": {
+    "ru": "Внутренний туризм, нужен только паспорт РФ.",
+    "en": "Domestic trip, only a Russian internal passport is needed."
+  },
+  "flight": {
+    "ru": "≈ 2,5 часа прямым рейсом",
+    "en": "≈ 2.5 hours direct"
+  },
+  "currency": "RUB",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=1600&q=75",
+    "alt": {
+      "ru": "Северное сияние над Кольским полуостровом",
+      "en": "Northern lights over the Kola Peninsula"
+    }
+  },
+  "popular": true,
+  "order": 10
+}

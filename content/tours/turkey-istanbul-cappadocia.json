@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "RUB",
   "slug": "turkey-istanbul-cappadocia",
   "destination": "turkey",
   "city": {
@@ -24,18 +24,18 @@
     "romantic"
   ],
   "durationNights": 6,
-  "priceFrom": 990,
+  "priceFrom": 99000,
   "popularity": 80,
   "rating": 4.9,
   "departures": [
     {
       "date": "2027-04-10",
-      "price": 990,
+      "price": 99000,
       "seatsLeft": 12
     },
     {
       "date": "2027-05-08",
-      "price": 1050
+      "price": 105000
     }
   ],
   "images": [
@@ -124,7 +124,7 @@
   ],
   "included": {
     "ru": [
-      "Перелёт Хельсинки — туда и обратно",
+      "Перелёт Москва — туда и обратно",
       "Трансфер аэропорт — отель — аэропорт",
       "Проживание в выбранном отеле",
       "Медицинская страховка",
@@ -134,7 +134,7 @@
       "Экскурсии с русскоговорящим гидом"
     ],
     "en": [
-      "Return flight from Helsinki",
+      "Return flight from Moscow",
       "Airport–hotel–airport transfer",
       "Accommodation in the selected hotel",
       "Medical insurance",
@@ -148,13 +148,13 @@
     "ru": [
       "Личные расходы и чаевые",
       "Туристический налог отеля (если взимается)",
-      "Полёт на воздушном шаре (≈ 220 €)",
+      "Полёт на воздушном шаре (≈ 22 000 ₽)",
       "Обеды и ужины"
     ],
     "en": [
       "Personal expenses and tips",
       "Hotel tourist tax (if applicable)",
-      "Balloon flight (≈ €220)",
+      "Balloon flight (≈ ₽22,000)",
       "Lunches and dinners"
     ]
   },

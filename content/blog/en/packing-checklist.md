@@ -14,7 +14,7 @@ Half of pre-trip stress is the fear of forgetting something. Save this list and 
 - Passport (valid for at least 6 months after your return)
 - E-tickets and hotel voucher — on your phone and printed just in case
 - Insurance policy and assistance phone number
-- Bank card + a spare, some cash in local currency
+- Cash in dollars or euros: Russian bank cards do not work abroad in most countries. For domestic trips — a card plus a spare
 
 ## First-aid kit
 

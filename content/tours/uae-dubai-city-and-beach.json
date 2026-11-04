@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "RUB",
   "slug": "uae-dubai-city-and-beach",
   "destination": "uae",
   "city": {
@@ -24,22 +24,22 @@
     "romantic"
   ],
   "durationNights": 5,
-  "priceFrom": 1090,
+  "priceFrom": 109000,
   "popularity": 85,
   "rating": 4.7,
   "departures": [
     {
       "date": "2026-11-20",
-      "price": 1090,
+      "price": 109000,
       "seatsLeft": 8
     },
     {
       "date": "2026-12-18",
-      "price": 1290
+      "price": 129000
     },
     {
       "date": "2027-02-12",
-      "price": 1150
+      "price": 115000
     }
   ],
   "images": [
@@ -117,7 +117,7 @@
   ],
   "included": {
     "ru": [
-      "Перелёт Хельсинки — туда и обратно",
+      "Перелёт Москва — туда и обратно",
       "Трансфер аэропорт — отель — аэропорт",
       "Проживание в выбранном отеле",
       "Медицинская страховка",
@@ -126,7 +126,7 @@
       "Джип-сафари с ужином"
     ],
     "en": [
-      "Return flight from Helsinki",
+      "Return flight from Moscow",
       "Airport–hotel–airport transfer",
       "Accommodation in the selected hotel",
       "Medical insurance",
@@ -139,12 +139,12 @@
     "ru": [
       "Личные расходы и чаевые",
       "Туристический налог отеля (если взимается)",
-      "Билет на Бурдж-Халифа (≈ 45 €)"
+      "Билет на Бурдж-Халифа (≈ 4 500 ₽)"
     ],
     "en": [
       "Personal expenses and tips",
       "Hotel tourist tax (if applicable)",
-      "Burj Khalifa ticket (≈ €45)"
+      "Burj Khalifa ticket (≈ ₽4,500)"
     ]
   },
   "hotel": {

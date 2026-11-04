@@ -31,12 +31,12 @@
     "en": "November–April"
   },
   "visa": {
-    "ru": "Для граждан ЕС — без визы до 60 дней.",
-    "en": "Visa-free for EU citizens for up to 60 days."
+    "ru": "Для граждан РФ въезд без визы; допустимый срок пребывания уточним при подборе.",
+    "en": "Visa-free for Russian citizens; we will confirm the permitted length of stay."
   },
   "flight": {
-    "ru": "≈ 10–11 часов, прямые рейсы зимой",
-    "en": "≈ 10–11 hours, direct flights in winter"
+    "ru": "≈ 9 часов прямым рейсом",
+    "en": "≈ 9 hours direct"
   },
   "currency": "THB",
   "image": {

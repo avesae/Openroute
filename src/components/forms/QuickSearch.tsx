@@ -53,10 +53,10 @@ export function QuickSearch({ locale, labels, form, countries }: Props) {
       <Field id={`${id}-budget`} label={labels.budget}>
         <select id={`${id}-budget`} name="budget" defaultValue={v.budget} className="field">
           <option value="">{labels.budgetAny}</option>
-          <option>&lt; 800 €</option>
-          <option>800–1500 €</option>
-          <option>1500–2500 €</option>
-          <option>2500+ €</option>
+          <option>до 80 000 ₽</option>
+          <option>80–150 тыс. ₽</option>
+          <option>150–250 тыс. ₽</option>
+          <option>от 250 000 ₽</option>
         </select>
       </Field>
       <Field id={`${id}-name`} label={form.name} error={err.name && form.errors.name}>

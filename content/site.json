@@ -1,39 +1,49 @@
 {
   "name": "Openroute",
   "url": "https://openroute.example",
-  "phone": "+358 40 000 0000",
+  "phone": "+7 (495) 000-00-00",
   "email": "hello@openroute.example",
-  "whatsapp": "358400000000",
+  "max": "https://max.ru/",
   "telegram": "openroute_travel",
-  "instagram": "https://instagram.com/openroute",
-  "facebook": "https://facebook.com/openroute",
   "address": {
-    "street": "Mannerheimintie 00",
-    "postalCode": "00100",
+    "street": {
+      "ru": "ул. Тверская, д. 0, офис 00",
+      "en": "Tverskaya St. 0, office 00"
+    },
+    "postalCode": "125009",
     "city": {
-      "ru": "Хельсинки",
-      "en": "Helsinki"
+      "ru": "Москва",
+      "en": "Moscow"
     },
     "country": {
-      "ru": "Финляндия",
-      "en": "Finland"
+      "ru": "Россия",
+      "en": "Russia"
     }
   },
   "hours": {
     "ru": [
-      "Пн–Пт: 9:00–18:00",
-      "Сб: 10:00–15:00",
-      "Вс: выходной (AI-ассистент 24/7)"
+      "Пн–Пт: 9:00–19:00",
+      "Сб: 10:00–16:00",
+      "Вс: выходной (ИИ-ассистент 24/7)"
     ],
     "en": [
-      "Mon–Fri: 9:00–18:00",
-      "Sat: 10:00–15:00",
+      "Mon–Fri: 9:00–19:00",
+      "Sat: 10:00–16:00",
       "Sun: closed (AI assistant 24/7)"
     ]
   },
   "geo": {
-    "lat": 60.1699,
-    "lng": 24.9384
+    "lat": 55.7616,
+    "lng": 37.6094
   },
-  "mapQuery": "Mannerheimintie, Helsinki"
+  "vk": "https://vk.com/openroute",
+  "legal": {
+    "operator": {
+      "ru": "ООО «Опенроут»",
+      "en": "Openroute LLC"
+    },
+    "inn": "0000000000",
+    "ogrn": "0000000000000",
+    "privacyEmail": "privacy@openroute.example"
+  }
 }

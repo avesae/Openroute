@@ -64,11 +64,8 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
               labels={{ ...t.chat, close: t.nav.close }}
             />
           )}
-          <CookieBanner
-            privacyHref={`/${locale}/privacy`}
-            labels={{ text: t.cookie.text, accept: t.cookie.accept, reject: t.cookie.reject, more: t.cookie.more }}
-          />
-          <Analytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+          <CookieBanner cookiesHref={`/${locale}/cookies`} labels={t.cookie} />
+          <Analytics ymId={process.env.NEXT_PUBLIC_YM_ID} />
         </Providers>
       </body>
     </html>

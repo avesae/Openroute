@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Openroute — tours worldwide from Helsinki";
+export const alt = "Openroute — tours worldwide from Moscow";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -25,7 +25,7 @@ export default function OpenGraphImage() {
           Openroute
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-          <div style={{ fontSize: 76, fontWeight: 800, lineHeight: 1.05 }}>Tours worldwide from Helsinki</div>
+          <div style={{ fontSize: 76, fontWeight: 800, lineHeight: 1.05 }}>Tours worldwide from Moscow</div>
           <div style={{ fontSize: 34, color: "#d9f99d" }}>Beach · Sightseeing · Ski · Tailor-made · 24/7 support</div>
         </div>
       </div>

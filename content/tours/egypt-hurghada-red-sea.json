@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "RUB",
   "slug": "egypt-hurghada-red-sea",
   "destination": "egypt",
   "city": {
@@ -24,27 +24,27 @@
     "adventure"
   ],
   "durationNights": 7,
-  "priceFrom": 690,
+  "priceFrom": 69000,
   "popularity": 92,
   "rating": 4.6,
   "departures": [
     {
       "date": "2026-11-10",
-      "price": 690,
+      "price": 69000,
       "seatsLeft": 3
     },
     {
       "date": "2026-12-05",
-      "price": 760,
+      "price": 76000,
       "seatsLeft": 10
     },
     {
       "date": "2027-01-09",
-      "price": 820
+      "price": 82000
     }
   ],
   "hot": {
-    "oldPrice": 850,
+    "oldPrice": 85000,
     "until": "2026-11-08"
   },
   "images": [
@@ -78,8 +78,8 @@
         "en": "Flight"
       },
       "text": {
-        "ru": "Прямой рейс из Хельсинки, оформление визы в аэропорту, трансфер.",
-        "en": "Direct flight from Helsinki, visa on arrival, transfer."
+        "ru": "Прямой рейс из Москвы, оформление визы в аэропорту, трансфер.",
+        "en": "Direct flight from Moscow, visa on arrival, transfer."
       }
     },
     {
@@ -107,7 +107,7 @@
   ],
   "included": {
     "ru": [
-      "Перелёт Хельсинки — туда и обратно",
+      "Перелёт Москва — туда и обратно",
       "Трансфер аэропорт — отель — аэропорт",
       "Проживание в выбранном отеле",
       "Медицинская страховка",
@@ -115,7 +115,7 @@
       "Питание «всё включено»"
     ],
     "en": [
-      "Return flight from Helsinki",
+      "Return flight from Moscow",
       "Airport–hotel–airport transfer",
       "Accommodation in the selected hotel",
       "Medical insurance",

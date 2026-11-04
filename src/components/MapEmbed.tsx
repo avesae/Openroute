@@ -4,7 +4,8 @@ import { setConsent, useConsent } from "@/lib/consent";
 import { Pin } from "@/components/icons";
 
 type Props = {
-  query: string;
+  lat: number;
+  lng: number;
   zoom?: number;
   title: string;
   locale: string;
@@ -12,14 +13,15 @@ type Props = {
 };
 
 /**
- * Google Maps без API-ключа (встраивание через iframe).
- * Загружается только после согласия на сторонние cookie — требование GDPR.
+ * Яндекс Карты без API-ключа (виджет в iframe).
+ * Загружается только после согласия на cookie карт: виджет ставит собственные cookie.
  */
-export function MapEmbed({ query, zoom = 12, title, locale, labels }: Props) {
+export function MapEmbed({ lat, lng, zoom = 12, title, locale, labels }: Props) {
   const consent = useConsent();
-  const src = `https://maps.google.com/maps?q=${encodeURIComponent(query)}&z=${zoom}&hl=${locale}&output=embed`;
+  const lang = locale === "ru" ? "ru_RU" : "en_US";
+  const src = `https://yandex.ru/map-widget/v1/?ll=${lng},${lat}&z=${zoom}&pt=${lng},${lat},pm2rdm&lang=${lang}`;
 
-  if (consent === "all") {
+  if (consent !== "pending" && consent?.maps) {
     return (
       <iframe
         src={src}
@@ -36,7 +38,11 @@ export function MapEmbed({ query, zoom = 12, title, locale, labels }: Props) {
       <div className="max-w-xs">
         <Pin className="mx-auto size-8 text-brand-strong" />
         <p className="mt-3 text-sm text-muted">{labels.consent}</p>
-        <button type="button" onClick={() => setConsent("all")} className="btn-ghost mt-4 min-h-11 text-sm">
+        <button
+          type="button"
+          onClick={() => setConsent({ analytics: consent !== "pending" && consent ? consent.analytics : false, maps: true })}
+          className="btn-ghost mt-4 min-h-11 text-sm"
+        >
           {labels.show}
         </button>
       </div>

@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "RUB",
   "slug": "spain-tenerife-family",
   "destination": "spain",
   "city": {
@@ -23,22 +23,22 @@
     "family"
   ],
   "durationNights": 9,
-  "priceFrom": 980,
+  "priceFrom": 98000,
   "popularity": 70,
   "rating": 4.7,
   "departures": [
     {
       "date": "2026-12-19",
-      "price": 1180,
+      "price": 118000,
       "seatsLeft": 7
     },
     {
       "date": "2027-01-30",
-      "price": 980
+      "price": 98000
     },
     {
       "date": "2027-02-27",
-      "price": 1040
+      "price": 104000
     }
   ],
   "images": [
@@ -65,8 +65,8 @@
         "en": "Flight"
       },
       "text": {
-        "ru": "Прямой рейс ≈ 6 часов, трансфер в Коста-Адехе.",
-        "en": "Direct flight ≈ 6 hours, transfer to Costa Adeje."
+        "ru": "Перелёт с пересадкой ≈ 10 часов, трансфер в Коста-Адехе.",
+        "en": "Flight with a connection ≈ 10 hours, transfer to Costa Adeje."
       }
     },
     {
@@ -94,7 +94,7 @@
   ],
   "included": {
     "ru": [
-      "Перелёт Хельсинки — туда и обратно",
+      "Перелёт Москва — туда и обратно",
       "Трансфер аэропорт — отель — аэропорт",
       "Проживание в выбранном отеле",
       "Медицинская страховка",
@@ -102,7 +102,7 @@
       "Полупансион"
     ],
     "en": [
-      "Return flight from Helsinki",
+      "Return flight from Moscow",
       "Airport–hotel–airport transfer",
       "Accommodation in the selected hotel",
       "Medical insurance",

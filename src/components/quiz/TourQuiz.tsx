@@ -31,12 +31,12 @@ type Question = keyof Answers;
 const QUESTIONS: { key: Question; icons: Record<string, string> }[] = [
   { key: "type", icons: { beach: "🏖️", excursion: "🏛️", ski: "🏔️", adventure: "🧭" } },
   { key: "season", icons: { winter: "❄️", spring: "🌸", summer: "☀️", autumn: "🍂", any: "🗓️" } },
-  { key: "budget", icons: { low: "€", mid: "€€", high: "€€€", top: "€€€€" } },
+  { key: "budget", icons: { low: "₽", mid: "₽₽", high: "₽₽₽", top: "₽₽₽₽" } },
   { key: "who", icons: { solo: "🎒", couple: "💑", family: "👨‍👩‍👧", friends: "🥂" } },
 ];
 
 const SEASONS: Record<string, number[]> = { winter: [12, 1, 2], spring: [3, 4, 5], summer: [6, 7, 8], autumn: [9, 10, 11] };
-const BUDGETS: Record<string, [number, number]> = { low: [0, 1000], mid: [1000, 1500], high: [1500, 2500], top: [2500, Infinity] };
+const BUDGETS: Record<string, [number, number]> = { low: [0, 100000], mid: [100000, 150000], high: [150000, 250000], top: [250000, Infinity] };
 const BUDGET_ORDER = ["low", "mid", "high", "top"];
 const COMPANY: Record<string, string[]> = { solo: ["adventure", "excursion"], couple: ["romantic"], family: ["family"], friends: ["adventure", "beach"] };
 

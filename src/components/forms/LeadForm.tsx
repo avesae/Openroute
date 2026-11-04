@@ -110,13 +110,19 @@ export function Field({ id, label, error, children }: { id: string; label: strin
 }
 
 export function Consent({ id, locale, labels, checked, error }: { id: string; locale: Locale; labels: FormLabels; checked?: boolean; error?: string | false }) {
+  const link = "font-medium text-brand-strong underline underline-offset-2";
   return (
     <div>
+      {/* 152-ФЗ: галочка по умолчанию не стоит, без неё форма не отправится; рядом — ссылки на полный текст согласия и политику */}
       <label className="flex items-start gap-3 text-sm text-muted">
         <input type="checkbox" name="consent" defaultChecked={checked} required className="mt-0.5 size-5 shrink-0 accent-[var(--brand-strong)]" aria-invalid={!!error} aria-describedby={error ? `${id}-consent-err` : undefined} />
         <span>
           {labels.consent}{" "}
-          <Link href={`/${locale}/privacy`} className="font-medium text-brand-strong underline underline-offset-2">
+          <Link href={`/${locale}/consent`} target="_blank" className={link}>
+            {labels.consentLink}
+          </Link>{" "}
+          {labels.consentAnd}{" "}
+          <Link href={`/${locale}/privacy`} target="_blank" className={link}>
             {labels.privacy}
           </Link>
         </span>

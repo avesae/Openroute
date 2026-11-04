@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "RUB",
   "slug": "thailand-phuket-islands",
   "destination": "thailand",
   "city": {
@@ -24,26 +24,26 @@
     "romantic"
   ],
   "durationNights": 10,
-  "priceFrom": 1390,
+  "priceFrom": 139000,
   "popularity": 90,
   "rating": 4.8,
   "departures": [
     {
       "date": "2026-11-22",
-      "price": 1390,
+      "price": 139000,
       "seatsLeft": 5
     },
     {
       "date": "2027-01-15",
-      "price": 1590
+      "price": 159000
     },
     {
       "date": "2027-02-20",
-      "price": 1490
+      "price": 149000
     }
   ],
   "hot": {
-    "oldPrice": 1590,
+    "oldPrice": 159000,
     "until": "2026-11-18"
   },
   "images": [
@@ -117,7 +117,7 @@
   ],
   "included": {
     "ru": [
-      "Перелёт Хельсинки — туда и обратно",
+      "Перелёт Москва — туда и обратно",
       "Трансфер аэропорт — отель — аэропорт",
       "Проживание в выбранном отеле",
       "Медицинская страховка",
@@ -126,7 +126,7 @@
       "Экскурсия на Пхи-Пхи"
     ],
     "en": [
-      "Return flight from Helsinki",
+      "Return flight from Moscow",
       "Airport–hotel–airport transfer",
       "Accommodation in the selected hotel",
       "Medical insurance",

@@ -116,7 +116,7 @@ async function Content({ params }: PageProps<"/[locale]/tours/[slug]">) {
             <Moonlight className="size-4" /> {plural(locale, tour.durationNights, t.common.nights)}
           </span>
           <span className="flex items-center gap-1.5">
-            <Plane className="size-4" /> {t.tour.fromHelsinki}
+            <Plane className="size-4" /> {t.tour.fromCity}
           </span>
           {tour.rating && (
             <span className="flex items-center gap-1.5">
@@ -232,7 +232,8 @@ async function Content({ params }: PageProps<"/[locale]/tours/[slug]">) {
           <section className="mt-12" aria-labelledby="map">
             <h2 id="map" className="mb-5 text-2xl font-bold">{t.tour.map}</h2>
             <MapEmbed
-              query={`${tour.location.lat},${tour.location.lng}`}
+              lat={tour.location.lat}
+              lng={tour.location.lng}
               zoom={tour.location.zoom}
               title={`${t.tour.map}: ${pick(tour.city, locale)}`}
               locale={locale}
