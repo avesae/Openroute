@@ -3,8 +3,8 @@
     "id": "r1",
     "name": "Анна К.",
     "city": {
-      "ru": "Хельсинки",
-      "en": "Helsinki"
+      "ru": "Москва",
+      "en": "Moscow"
     },
     "rating": 5,
     "date": "2026-10-12",
@@ -21,10 +21,10 @@
   },
   {
     "id": "r2",
-    "name": "Mikko L.",
+    "name": "Михаил Л.",
     "city": {
-      "ru": "Эспоо",
-      "en": "Espoo"
+      "ru": "Химки",
+      "en": "Khimki"
     },
     "rating": 5,
     "date": "2026-03-02",
@@ -43,8 +43,8 @@
     "id": "r3",
     "name": "Ольга и Дмитрий",
     "city": {
-      "ru": "Вантаа",
-      "en": "Vantaa"
+      "ru": "Москва",
+      "en": "Moscow"
     },
     "rating": 5,
     "date": "2026-02-14",
@@ -61,10 +61,10 @@
   },
   {
     "id": "r4",
-    "name": "Sergei V.",
+    "name": "Сергей В.",
     "city": {
-      "ru": "Тампере",
-      "en": "Tampere"
+      "ru": "Подольск",
+      "en": "Podolsk"
     },
     "rating": 4,
     "date": "2026-01-20",
@@ -80,30 +80,30 @@
   },
   {
     "id": "r5",
-    "name": "Elena M.",
+    "name": "Елена М.",
     "city": {
-      "ru": "Турку",
-      "en": "Turku"
+      "ru": "Мытищи",
+      "en": "Mytishchi"
     },
     "rating": 5,
     "date": "2025-12-28",
-    "tour": "lapland-aurora-huskies",
+    "tour": "murmansk-aurora-huskies",
     "trip": {
-      "ru": "Лапландия",
-      "en": "Lapland"
+      "ru": "Териберка, Мурманская область",
+      "en": "Teriberka, Murmansk region"
     },
     "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1600&q=75",
     "text": {
-      "ru": "Ездили на Рождество в Леви. Сияние увидели уже в первую ночь прямо из иглу! Дети до сих пор рассказывают про хаски и Санту.",
-      "en": "We went to Levi for Christmas and saw the aurora from our igloo on the very first night! The kids still talk about the huskies and Santa."
+      "ru": "Ездили на новогодние каникулы. Сияние увидели уже в первую ночь прямо из глэмпинга! Дети до сих пор рассказывают про хаски и Баренцево море.",
+      "en": "We went over the New Year holidays and saw the aurora from our glamping cabin on the very first night! The kids still talk about the huskies and the Barents Sea."
     }
   },
   {
     "id": "r6",
     "name": "Ирина П.",
     "city": {
-      "ru": "Хельсинки",
-      "en": "Helsinki"
+      "ru": "Москва",
+      "en": "Moscow"
     },
     "rating": 5,
     "date": "2025-11-30",
@@ -113,7 +113,7 @@
       "en": "Phuket, Thailand"
     },
     "text": {
-      "ru": "Подобрали тур буквально за час, как и обещали. Ночью в Таиланде спросила у AI-ассистента, где поблизости аптека, — ответил моментально. Поеду снова!",
+      "ru": "Подобрали тур буквально за час, как и обещали. Ночью в Таиланде спросила у ИИ-ассистента, где поблизости аптека, — ответил моментально. Поеду снова!",
       "en": "They found our tour within an hour, just as promised. At night in Thailand I asked the AI assistant where the nearest pharmacy was — instant answer. I'll travel with them again!"
     }
   }

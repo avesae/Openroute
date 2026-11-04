@@ -31,12 +31,12 @@
     "en": "November–April"
   },
   "visa": {
-    "ru": "Для граждан ЕС — без визы до 180 дней.",
-    "en": "Visa-free for EU citizens for up to 180 days."
+    "ru": "Нужна виза или электронное разрешение — проверим актуальные условия при подборе.",
+    "en": "A visa or electronic authorisation is required — we will check the current rules."
   },
   "flight": {
-    "ru": "≈ 13–15 часов с пересадкой",
-    "en": "≈ 13–15 hours with a connection"
+    "ru": "≈ 15–18 часов с пересадкой",
+    "en": "≈ 15–18 hours with a connection"
   },
   "currency": "MXN",
   "image": {

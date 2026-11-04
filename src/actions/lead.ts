@@ -1,11 +1,18 @@
 "use server";
 
-import { Resend } from "resend";
+import { headers } from "next/headers";
+import nodemailer from "nodemailer";
 import { z } from "zod";
+import { CONSENT_VERSION } from "@/lib/legal";
 
 /**
- * Заявка с сайта. Если заданы RESEND_API_KEY и LEAD_EMAIL_TO — уходит письмом через Resend,
- * иначе печатается в лог сервера (удобно, пока сайт — шаблон).
+ * Заявка с сайта. Если заданы SMTP_HOST, SMTP_USER, SMTP_PASS и LEAD_EMAIL_TO — уходит письмом
+ * через SMTP российского почтового сервиса (например, Яндекс 360 или VK WorkSpace),
+ * иначе печатается в лог сервера (удобно, пока сайт — демо).
+ *
+ * 152-ФЗ: данные граждан РФ должны первично записываться в базы на территории России,
+ * поэтому зарубежные сервисы рассылки (Resend, SendGrid и т. п.) здесь не используются.
+ * Вместе с заявкой фиксируется факт согласия: время, IP, браузер и версия текста согласия.
  */
 const leadSchema = z.object({
   source: z.enum(["quick", "quiz", "tour", "contact", "cta"]),
@@ -59,22 +66,45 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
   }
 
   const lead = parsed.data;
-  const lines = Object.entries(lead)
-    .filter(([k]) => k !== "consent")
-    .map(([k, v]) => `${labels[k] ?? k}: ${v}`);
+  const h = await headers();
+  const consentRecord = {
+    at: new Date().toISOString(),
+    ip: h.get("x-forwarded-for")?.split(",")[0]?.trim() || h.get("x-real-ip") || "unknown",
+    userAgent: (h.get("user-agent") || "unknown").slice(0, 300),
+    version: CONSENT_VERSION,
+    form: lead.source,
+  };
+  const lines = [
+    ...Object.entries(lead)
+      .filter(([k]) => k !== "consent")
+      .map(([k, v]) => `${labels[k] ?? k}: ${v}`),
+    "",
+    "— Согласие на обработку ПДн —",
+    `Дано: ${consentRecord.at}`,
+    `IP: ${consentRecord.ip}`,
+    `Браузер: ${consentRecord.userAgent}`,
+    `Версия текста согласия: ${consentRecord.version}`,
+  ];
+  // Журнал согласий. На боевом сервере направьте его в файл или базу на сервере в РФ и храните не меньше срока обработки.
+  console.info(`[consent] ${JSON.stringify(consentRecord)}`);
 
   try {
-    const key = process.env.RESEND_API_KEY;
+    const host = process.env.SMTP_HOST;
     const to = process.env.LEAD_EMAIL_TO;
-    if (key && to) {
-      const resend = new Resend(key);
-      const { error } = await resend.emails.send({
-        from: process.env.LEAD_EMAIL_FROM || "Openroute <onboarding@resend.dev>",
+    if (host && to) {
+      const port = Number(process.env.SMTP_PORT || 465);
+      const transport = nodemailer.createTransport({
+        host,
+        port,
+        secure: port === 465,
+        auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASS },
+      });
+      await transport.sendMail({
+        from: process.env.LEAD_EMAIL_FROM || process.env.SMTP_USER,
         to: to.split(",").map((s) => s.trim()),
         subject: `Новая заявка: ${lead.name}${lead.tour ? ` — ${lead.tour}` : ""}`,
         text: lines.join("\n"),
       });
-      if (error) throw new Error(error.message);
     } else {
       console.info(`[lead] Новая заявка (email не настроен):\n${lines.join("\n")}`);
     }

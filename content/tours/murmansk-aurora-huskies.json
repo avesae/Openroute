@@ -1,0 +1,168 @@
+{
+  "currency": "RUB",
+  "slug": "murmansk-aurora-huskies",
+  "destination": "murmansk",
+  "city": {
+    "ru": "Мурманск, Териберка",
+    "en": "Murmansk, Teriberka"
+  },
+  "title": {
+    "ru": "Мурманск: северное сияние и хаски",
+    "en": "Murmansk: northern lights and huskies"
+  },
+  "summary": {
+    "ru": "Охота за сиянием, сафари на хаски, саамская деревня и Баренцево море в Териберке.",
+    "en": "Aurora hunting, husky safari, a Sámi village and the Barents Sea at Teriberka."
+  },
+  "description": {
+    "ru": "Зимняя сказка без загранпаспорта. Две ночи в Мурманске и две — в глэмпинге со стеклянной крышей под Териберкой, откуда сияние видно прямо из кровати. Сафари на хаски, саамская деревня, берег Баренцева моря — идеально для семей.",
+    "en": "A winter fairytale without a passport. Two nights in Murmansk and two in a glass-roof glamping lodge near Teriberka, where you can watch the aurora from bed. Husky safari, a Sámi village and the Barents Sea coast — perfect for families."
+  },
+  "types": [
+    "family",
+    "adventure"
+  ],
+  "durationNights": 4,
+  "priceFrom": 62000,
+  "popularity": 88,
+  "rating": 4.9,
+  "departures": [
+    {
+      "date": "2026-12-10",
+      "price": 69000,
+      "seatsLeft": 4
+    },
+    {
+      "date": "2027-01-14",
+      "price": 62000
+    },
+    {
+      "date": "2027-02-18",
+      "price": 64000
+    }
+  ],
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Северное сияние над лесом",
+        "en": "Northern lights over the forest"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1504730655501-24c39ac53f0e?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Деревянный дом вечером",
+        "en": "Wooden lodge in the evening"
+      }
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1418985991508-e47386d96a71?auto=format&fit=crop&w=1600&q=75",
+      "alt": {
+        "ru": "Заснеженные горы",
+        "en": "Snowy mountains"
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": {
+        "ru": "Перелёт в Мурманск",
+        "en": "Flight to Murmansk"
+      },
+      "text": {
+        "ru": "Перелёт из Москвы ≈ 2,5 часа, трансфер в отель, вечерний выезд за сиянием.",
+        "en": "≈ 2.5-hour flight from Moscow, hotel transfer, evening aurora hunt."
+      }
+    },
+    {
+      "day": "2",
+      "title": {
+        "ru": "Хаски",
+        "en": "Huskies"
+      },
+      "text": {
+        "ru": "Сафари на собачьих упряжках, обед у костра.",
+        "en": "Husky sled safari, lunch by the campfire."
+      }
+    },
+    {
+      "day": "3",
+      "title": {
+        "ru": "Саамская деревня и глэмпинг",
+        "en": "Sámi village and glamping"
+      },
+      "text": {
+        "ru": "Саамская деревня и олени, переезд в глэмпинг под Териберкой.",
+        "en": "Sámi village and reindeer, transfer to the glamping lodge near Teriberka."
+      }
+    },
+    {
+      "day": "4",
+      "title": {
+        "ru": "Териберка",
+        "en": "Teriberka"
+      },
+      "text": {
+        "ru": "Баренцево море, «драконьи яйца» на берегу, ночная охота за сиянием.",
+        "en": "The Barents Sea, the famous 'dragon egg' boulders, a night aurora hunt."
+      }
+    },
+    {
+      "day": "5",
+      "title": {
+        "ru": "Домой",
+        "en": "Home"
+      },
+      "text": {
+        "ru": "Трансфер в аэропорт, вылет в Москву.",
+        "en": "Airport transfer, flight to Moscow."
+      }
+    }
+  ],
+  "included": {
+    "ru": [
+      "Перелёт Москва — Мурманск — Москва",
+      "Трансферы",
+      "2 ночи в отеле + 2 ночи в глэмпинге",
+      "Полупансион",
+      "Сафари на хаски и саамская деревня",
+      "Термокомбинезоны"
+    ],
+    "en": [
+      "Return flight Moscow–Murmansk",
+      "Transfers",
+      "2 nights in a hotel + 2 nights in glamping",
+      "Half board",
+      "Husky safari and Sámi village",
+      "Thermal suits"
+    ]
+  },
+  "notIncluded": {
+    "ru": [
+      "Личные расходы и чаевые",
+      "Туристический налог (если взимается)",
+      "Снегоходная прогулка (от 8 000 ₽)"
+    ],
+    "en": [
+      "Personal expenses and tips",
+      "Tourist tax (if applicable)",
+      "Snowmobile ride (from ₽8,000)"
+    ]
+  },
+  "hotel": {
+    "name": "Глэмпинг «Териберка» 4*",
+    "stars": 4,
+    "meal": "HB",
+    "description": {
+      "ru": "Домики со стеклянной крышей, сауна и панорамный ресторан у моря.",
+      "en": "Glass-roof cabins, a sauna and a panoramic restaurant by the sea."
+    }
+  },
+  "location": {
+    "lat": 69.166,
+    "lng": 35.14,
+    "zoom": 10
+  }
+}

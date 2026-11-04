@@ -31,12 +31,12 @@
     "en": "November–April"
   },
   "visa": {
-    "ru": "Бесплатная виза по прилёте на 30 дней.",
-    "en": "Free 30-day visa on arrival."
+    "ru": "Для граждан РФ — бесплатное разрешение на въезд по прилёте на 30 дней.",
+    "en": "Free 30-day entry permit on arrival for Russian citizens."
   },
   "flight": {
-    "ru": "≈ 12 часов с пересадкой",
-    "en": "≈ 12 hours with a connection"
+    "ru": "≈ 9 часов прямым рейсом",
+    "en": "≈ 9 hours direct"
   },
   "currency": "MVR",
   "image": {

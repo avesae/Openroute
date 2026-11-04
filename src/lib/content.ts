@@ -105,7 +105,7 @@ export async function getPost(locale: Locale, slug: string) {
   return (await getPosts(locale)).find((p) => p.slug === slug);
 }
 
-export async function getLegal(locale: Locale, name: "privacy") {
+export async function getLegal(locale: Locale, name: "privacy" | "consent" | "cookies") {
   "use cache";
   const raw = await readFile(path.join(root, "legal", `${name}.${locale}.md`), "utf8");
   return marked.parse(raw);

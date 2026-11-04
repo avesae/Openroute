@@ -19,11 +19,11 @@
   "description": {
     "ru": [
       "Греция — это сотни островов на любой вкус: романтичный Санторини, семейный Крит, тусовочный Миконос.",
-      "Прямые рейсы из Хельсинки летают с мая по октябрь."
+      "Летом есть удобные стыковки через Стамбул."
     ],
     "en": [
       "Greece has hundreds of islands for every taste: romantic Santorini, family-friendly Crete, lively Mykonos.",
-      "Direct flights from Helsinki run May to October."
+      "In summer there are convenient connections via Istanbul."
     ]
   },
   "bestSeason": {
@@ -31,12 +31,12 @@
     "en": "May–October"
   },
   "visa": {
-    "ru": "Шенгенская зона — виза не нужна.",
-    "en": "Schengen area — no visa needed."
+    "ru": "Нужна шенгенская виза. Поможем собрать документы и записаться в визовый центр.",
+    "en": "A Schengen visa is required. We help with documents and visa centre appointments."
   },
   "flight": {
-    "ru": "≈ 3,5 часа прямым рейсом",
-    "en": "≈ 3.5 hours direct"
+    "ru": "≈ 6–8 часов с пересадкой в Стамбуле",
+    "en": "≈ 6–8 hours via Istanbul"
   },
   "currency": "EUR",
   "image": {

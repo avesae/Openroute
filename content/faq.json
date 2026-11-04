@@ -5,7 +5,7 @@
       "en": "How quickly will you find a tour?"
     },
     "a": {
-      "ru": "В рабочее время — в течение часа после заявки. Мы пришлём 2–3 варианта с ценами и фото отелей. Ночью и в выходные на вопросы отвечает AI-ассистент, а менеджер свяжется утром.",
+      "ru": "В рабочее время — в течение часа после заявки. Мы пришлём 2–3 варианта с ценами и фото отелей. Ночью и в выходные на вопросы отвечает ИИ-ассистент, а менеджер свяжется утром.",
       "en": "During office hours — within an hour of your request. We send 2–3 options with prices and hotel photos. At night and at weekends the AI assistant answers questions and a manager follows up in the morning."
     }
   },
@@ -15,8 +15,8 @@
       "en": "Where do flights depart from?"
     },
     "a": {
-      "ru": "Основные вылеты — из аэропорта Хельсинки-Вантаа. По запросу подберём рейсы из Турку, Тампере, Оулу или Таллина.",
-      "en": "Mainly from Helsinki-Vantaa airport. On request we can find flights from Turku, Tampere, Oulu or Tallinn."
+      "ru": "Основные вылеты — из Шереметьево и Внуково. По запросу подберём рейсы из Санкт-Петербурга, Казани, Екатеринбурга и других городов.",
+      "en": "Mainly from Sheremetyevo and Vnukovo. On request we can find flights from St Petersburg, Kazan, Yekaterinburg and other cities."
     }
   },
   {
@@ -35,8 +35,8 @@
       "en": "Do I need a visa?"
     },
     "a": {
-      "ru": "Зависит от страны и вашего паспорта. На странице каждого направления есть раздел о визе, а менеджер проверит условия именно для вас.",
-      "en": "It depends on the country and your passport. Each destination page has a visa section, and a manager will check the rules for you."
+      "ru": "Зависит от страны. На странице каждого направления указаны условия въезда для граждан РФ, а менеджер проверит актуальные правила именно для вас.",
+      "en": "It depends on the country. Each destination page lists entry rules for Russian citizens, and a manager will check the current rules for you."
     }
   },
   {
@@ -45,8 +45,8 @@
       "en": "How do I pay?"
     },
     "a": {
-      "ru": "Картой онлайн или банковским переводом. Обычно достаточно предоплаты 20–30 %, остаток — за 30 дней до вылета.",
-      "en": "By card online or bank transfer. Usually a 20–30% deposit is enough, with the balance due 30 days before departure."
+      "ru": "Картой российского банка, через СБП или банковским переводом. Обычно достаточно предоплаты 20–30 %, остаток — за 30 дней до вылета.",
+      "en": "By Russian bank card, the SBP fast payment system or bank transfer. Usually a 20–30% deposit is enough, with the balance due 30 days before departure."
     }
   },
   {
@@ -65,8 +65,8 @@
       "en": "What if something goes wrong during the trip?"
     },
     "a": {
-      "ru": "Пишите в WhatsApp или Telegram в любое время — менеджер и AI-ассистент на связи 24/7 и помогут с отелем, трансфером или задержкой рейса.",
-      "en": "Message us on WhatsApp or Telegram any time — a manager and the AI assistant are available 24/7 to help with hotels, transfers or flight delays."
+      "ru": "Пишите в MAX или Telegram в любое время — менеджер и ИИ-ассистент на связи 24/7 и помогут с отелем, трансфером или задержкой рейса.",
+      "en": "Message us on MAX or Telegram any time — a manager and the AI assistant are available 24/7 to help with hotels, transfers or flight delays."
     }
   },
   {

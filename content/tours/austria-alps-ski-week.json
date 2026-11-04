@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "RUB",
   "slug": "austria-alps-ski-week",
   "destination": "austria",
   "city": {
@@ -24,26 +24,26 @@
     "adventure"
   ],
   "durationNights": 7,
-  "priceFrom": 1290,
+  "priceFrom": 129000,
   "popularity": 78,
   "rating": 4.7,
   "departures": [
     {
       "date": "2026-12-12",
-      "price": 1290,
+      "price": 129000,
       "seatsLeft": 6
     },
     {
       "date": "2027-01-23",
-      "price": 1390
+      "price": 139000
     },
     {
       "date": "2027-03-06",
-      "price": 1340
+      "price": 134000
     }
   ],
   "hot": {
-    "oldPrice": 1490,
+    "oldPrice": 149000,
     "until": "2026-11-30"
   },
   "images": [
@@ -106,7 +106,7 @@
   ],
   "included": {
     "ru": [
-      "Перелёт Хельсинки — туда и обратно",
+      "Перелёт Москва — туда и обратно",
       "Трансфер аэропорт — отель — аэропорт",
       "Проживание в выбранном отеле",
       "Медицинская страховка",
@@ -116,7 +116,7 @@
       "Провоз лыжного снаряжения"
     ],
     "en": [
-      "Return flight from Helsinki",
+      "Return flight from Moscow",
       "Airport–hotel–airport transfer",
       "Accommodation in the selected hotel",
       "Medical insurance",
@@ -130,13 +130,13 @@
     "ru": [
       "Личные расходы и чаевые",
       "Туристический налог отеля (если взимается)",
-      "Аренда снаряжения (≈ 150 €)",
+      "Аренда снаряжения (≈ 15 000 ₽)",
       "Лыжная школа"
     ],
     "en": [
       "Personal expenses and tips",
       "Hotel tourist tax (if applicable)",
-      "Equipment rental (≈ €150)",
+      "Equipment rental (≈ ₽15,000)",
       "Ski school"
     ]
   },

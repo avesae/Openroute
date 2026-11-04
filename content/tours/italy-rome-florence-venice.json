@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "RUB",
   "slug": "italy-rome-florence-venice",
   "destination": "italy",
   "city": {
@@ -23,22 +23,22 @@
     "romantic"
   ],
   "durationNights": 7,
-  "priceFrom": 1190,
+  "priceFrom": 119000,
   "popularity": 82,
   "rating": 4.9,
   "departures": [
     {
       "date": "2027-03-20",
-      "price": 1190,
+      "price": 119000,
       "seatsLeft": 14
     },
     {
       "date": "2027-04-24",
-      "price": 1290
+      "price": 129000
     },
     {
       "date": "2027-09-18",
-      "price": 1250
+      "price": 125000
     }
   ],
   "images": [
@@ -105,14 +105,14 @@
         "en": "Departure"
       },
       "text": {
-        "ru": "Вылет из Венеции в Хельсинки.",
-        "en": "Flight from Venice to Helsinki."
+        "ru": "Вылет из Венеции в Москву.",
+        "en": "Flight from Venice to Moscow."
       }
     }
   ],
   "included": {
     "ru": [
-      "Перелёт Хельсинки — туда и обратно",
+      "Перелёт Москва — туда и обратно",
       "Трансфер аэропорт — отель — аэропорт",
       "Проживание в выбранном отеле",
       "Медицинская страховка",
@@ -122,7 +122,7 @@
       "Билеты в Ватикан без очереди"
     ],
     "en": [
-      "Return flight from Helsinki",
+      "Return flight from Moscow",
       "Airport–hotel–airport transfer",
       "Accommodation in the selected hotel",
       "Medical insurance",
@@ -136,12 +136,12 @@
     "ru": [
       "Личные расходы и чаевые",
       "Туристический налог отеля (если взимается)",
-      "Гондола (≈ 90 € за лодку)"
+      "Гондола (≈ 9 000 ₽ за лодку)"
     ],
     "en": [
       "Personal expenses and tips",
       "Hotel tourist tax (if applicable)",
-      "Gondola ride (≈ €90 per boat)"
+      "Gondola ride (≈ ₽9,000 per boat)"
     ]
   },
   "hotel": {

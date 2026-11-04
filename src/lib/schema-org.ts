@@ -14,17 +14,17 @@ export function travelAgency(site: Site, locale: Locale, url: string, rating?: {
     email: site.email,
     address: {
       "@type": "PostalAddress",
-      streetAddress: site.address.street,
+      streetAddress: pick(site.address.street, locale),
       postalCode: site.address.postalCode,
       addressLocality: pick(site.address.city, "en"),
-      addressCountry: "FI",
+      addressCountry: "RU",
     },
     geo: { "@type": "GeoCoordinates", latitude: site.geo.lat, longitude: site.geo.lng },
     openingHoursSpecification: [
-      { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "09:00", closes: "18:00" },
-      { "@type": "OpeningHoursSpecification", dayOfWeek: "Saturday", opens: "10:00", closes: "15:00" },
+      { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "09:00", closes: "19:00" },
+      { "@type": "OpeningHoursSpecification", dayOfWeek: "Saturday", opens: "10:00", closes: "16:00" },
     ],
-    sameAs: [site.instagram, site.facebook].filter(Boolean),
+    sameAs: [site.vk, `https://t.me/${site.telegram}`].filter(Boolean),
     availableLanguage: ["ru", "en"],
     ...(rating && {
       aggregateRating: { "@type": "AggregateRating", ratingValue: rating.value, reviewCount: rating.count, bestRating: 5 },

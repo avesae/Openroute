@@ -2,7 +2,7 @@ import { getDictionary } from "@/i18n/dictionaries";
 import { getSite } from "@/lib/content";
 import { contactLinks } from "@/lib/contact";
 import { LeadForm } from "@/components/forms/LeadForm";
-import { Telegram, WhatsApp } from "@/components/icons";
+import { Telegram, MaxMessenger } from "@/components/icons";
 
 /** Финальный призыв к действию — есть на каждой странице. */
 export async function CtaBand({ title, text }: { title?: string; text?: string }) {
@@ -19,8 +19,8 @@ export async function CtaBand({ title, text }: { title?: string; text?: string }
           <p className="mt-4 text-lg text-white/80">{text ?? t.cta.text}</p>
           <p className="mt-8 text-sm font-semibold text-white/70">{t.cta.orWrite}</p>
           <div className="mt-3 flex flex-wrap gap-3">
-            <a href={links.whatsapp} target="_blank" rel="noopener noreferrer" className="btn border border-white/25 text-white hover:bg-white/10">
-              <WhatsApp className="size-5" /> WhatsApp
+            <a href={links.max} target="_blank" rel="noopener noreferrer" className="btn border border-white/25 text-white hover:bg-white/10">
+              <MaxMessenger className="size-5" /> MAX
             </a>
             <a href={links.telegram} target="_blank" rel="noopener noreferrer" className="btn border border-white/25 text-white hover:bg-white/10">
               <Telegram className="size-5" /> Telegram

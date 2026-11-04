@@ -36,7 +36,7 @@ export const tourSchema = z.object({
   types: z.array(z.enum(tourTypes)).min(1),
   durationNights: z.number().int().positive(),
   priceFrom: z.number().positive(),
-  currency: z.string().length(3).default("EUR"),
+  currency: z.string().length(3).default("RUB"),
   popularity: z.number().min(0).max(100).default(50),
   rating: z.number().min(0).max(5).optional(),
   departures: z
@@ -110,19 +110,25 @@ export const siteSchema = z.object({
   url: z.url(),
   phone: text,
   email: text,
-  whatsapp: text,
+  /** Ссылка на чат или канал в мессенджере MAX */
+  max: text,
   telegram: text,
-  instagram: z.string().optional(),
-  facebook: z.string().optional(),
+  vk: z.string().optional(),
   address: z.object({
-    street: text,
+    street: localized,
     postalCode: text,
     city: localized,
     country: localized,
   }),
   hours: localizedList,
   geo: z.object({ lat: z.number(), lng: z.number() }),
-  mapQuery: text,
+  /** Реквизиты оператора персональных данных — выводятся в подвале и в политике (152-ФЗ) */
+  legal: z.object({
+    operator: localized,
+    inn: text,
+    ogrn: text,
+    privacyEmail: text,
+  }),
 });
 
 export const postSchema = z.object({

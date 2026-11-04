@@ -1,45 +1,41 @@
 ---
-title: "Where to find winter sun from Helsinki without a visa"
-description: "7 warm winter destinations where EU citizens need no visa: flight time, weather and approximate budget."
+title: "Winter sun from Moscow without a visa"
+description: "6 warm winter destinations where Russian citizens need no visa or get one on arrival: flights, weather and tips."
 date: "2026-10-20"
 cover: "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1600&q=75"
-coverAlt: "Palm-lined beach with white sand"
+coverAlt: "Beach with palm trees and white sand"
 readingMinutes: 5
 destination: "thailand"
 ---
 
-Finnish winters are long, with less than six hours of daylight in December. The good news: you can escape to the sun without visa paperwork. Here are destinations where EU citizens need no visa, or get one in a minute.
+Moscow winters are long and dark. The good news: you can fly to the sun without visa paperwork. Entry rules change, so a manager will check the current rules before you book.
 
-## 1. Canary Islands, Spain
+## 1. Thailand
 
-**Flight:** ≈ 6 hours direct. **Weather:** +22…25 °C.
+**Flight:** ≈ 9 hours direct. **Weather:** +30 °C, dry season. Visa-free entry.
 
-The easiest choice: Schengen, euros and almost no time difference. Tenerife suits families, Gran Canaria suits active travellers.
+## 2. UAE
 
-## 2. Thailand
+**Flight:** ≈ 5 hours. **Weather:** +25…28 °C. Visa-free for up to 90 days.
 
-**Flight:** ≈ 11 hours, with direct flights in winter. **Weather:** +30 °C, dry season.
+## 3. Egypt
 
-Visa-free for up to 60 days. The best beaches are on Phuket, Krabi and Koh Lanta.
+**Flight:** ≈ 5 hours. Visa on arrival (≈ 25 USD) takes five minutes.
 
-## 3. UAE
+## 4. Maldives
 
-**Flight:** ≈ 6 hours. **Weather:** +25…28 °C.
+**Flight:** ≈ 9 hours direct. Free entry permit on arrival.
 
-Perfect for a short 5–7 night trip: beach and city in one place.
+## 5. Turkey
 
-## 4. Egypt
+The sea is cool in winter, but Istanbul and Cappadocia are great year-round; no visa for stays up to 60 days.
 
-The visa is issued at the airport (≈ 25 USD), so technically you need one, but it takes five minutes. And the Red Sea is warm all year round.
+## 6. No passport needed: Murmansk
 
-## 5. Maldives, Mexico and Japan
-
-A free visa on arrival in the Maldives and visa-free entry to Mexico and Japan make them easy choices for special trips — a honeymoon or a once-in-a-lifetime journey.
+Not for sun but for the northern lights — still a great winter break.
 
 ## How to save
 
 - Book 2–3 months before the New Year holidays.
-- Check our **hot deals** — up to 25% off upcoming departures.
-- Travel in January: prices drop 15–20% after the holidays.
-
-Can't decide? Send us a request — we'll find an option for your budget within an hour.
+- Check **hot deals** — up to 25% off near-term dates.
+- Bring cash in dollars or dirhams: Russian bank cards do not work abroad in most countries.

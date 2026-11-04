@@ -19,11 +19,11 @@
   "description": {
     "ru": [
       "Япония — страна контрастов: футуристичный Токио, древний Киото, горячие источники и гора Фудзи.",
-      "Из Хельсинки летают прямые рейсы Finnair, а по стране удобно перемещаться на синкансэне."
+      "Лететь удобнее всего с пересадкой в Китае, а по стране удобно перемещаться на синкансэне."
     ],
     "en": [
       "Japan is a land of contrasts: futuristic Tokyo, ancient Kyoto, hot springs and Mount Fuji.",
-      "Finnair flies direct from Helsinki, and the shinkansen makes travel inside the country easy."
+      "The easiest route is via China, and the shinkansen makes travel inside the country easy."
     ]
   },
   "bestSeason": {
@@ -31,12 +31,12 @@
     "en": "March–May and October–November"
   },
   "visa": {
-    "ru": "Для граждан ЕС — без визы до 90 дней.",
-    "en": "Visa-free for EU citizens for up to 90 days."
+    "ru": "Нужна виза, оформляется через консульство. Поможем с документами.",
+    "en": "A visa is required via the consulate. We help with documents."
   },
   "flight": {
-    "ru": "≈ 13 часов прямым рейсом",
-    "en": "≈ 13 hours direct"
+    "ru": "≈ 14–16 часов с пересадкой",
+    "en": "≈ 14–16 hours with a connection"
   },
   "currency": "JPY",
   "image": {

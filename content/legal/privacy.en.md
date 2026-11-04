@@ -1,37 +1,38 @@
-_Last updated: 1 November 2026. This is a template — have it reviewed by a lawyer before launch and fill in the fields in square brackets._
+_Version of 4 November 2026. This is a template for a demo website: replace the values in square brackets and have a lawyer review it before launch. The Russian version prevails._
 
-## 1. Who processes your data
+## 1. General
 
-The data controller is Openroute, [legal name and Business ID], Mannerheimintie 00, 00100 Helsinki, Finland. For data protection questions, email hello@openroute.example.
+This Policy explains how personal data of visitors to openroute.example (the Site) is processed under Russian Federal Law No. 152-FZ "On Personal Data".
 
-## 2. What data we collect
+The data operator is Openroute LLC (INN [0000000000], OGRN [0000000000000]), Tverskaya St. [0], office [00], Moscow 125009, Russia. Contact: privacy@openroute.example.
 
-- **Request data:** name, phone, email or Telegram handle, trip preferences (destination, dates, number of travellers, budget).
-- **AI assistant messages:** the text of your chat on the website.
-- **Technical data:** IP address, browser and device type, pages visited (only with your consent to analytics).
+## 2. Data we process
 
-## 3. Why and on what legal basis
+- **Request data:** name, phone, email or messenger username, trip preferences.
+- **Consent record:** date and time, IP address, browser details and consent text version.
+- **Messages to the AI assistant** (if the chat is enabled).
+- **Technical data** (only with your consent to analytics cookies).
 
-| Purpose | Legal basis (GDPR) |
-|---|---|
-| Replying to your request and finding a tour | Pre-contractual steps, Art. 6(1)(b) |
-| Concluding and performing the travel contract | Performance of contract, Art. 6(1)(b) |
-| Operating the AI assistant | Legitimate interest, Art. 6(1)(f) |
-| Visitor analytics, Google Maps | Consent, Art. 6(1)(a) |
-| Accounting | Legal obligation, Art. 6(1)(c) |
+## 3. Purposes and legal grounds
 
-## 4. Who we share data with
+Answering your request and contacting you — your consent. Concluding and performing a tour contract — performance of a contract. Site analytics — consent to analytics cookies. Accounting — legal obligations.
 
-Tour operators, airlines, hotels and insurers — only as needed for your trip. Also service providers: hosting (Vercel), email delivery (Resend), AI assistant (Polza AI, DeepSeek model), analytics and maps (Google). Some are located outside the EU; transfers are protected by EU Standard Contractual Clauses.
+## 4. Storage
 
-## 5. How long we keep data
+Personal data of Russian citizens is recorded and stored in databases located in Russia. The Site is hosted by [hosting provider] in Russia; requests are delivered to [mail provider].
 
-Requests without a contract — up to 12 months. Contracts and accounting records — 6 years under Finnish law. AI assistant chats — up to 30 days.
+## 5. Recipients
 
-## 6. Cookies
+Tour operators and, to perform the contract, foreign hotels, airlines and insurers (cross-border transfer notified to Roskomnadzor); Yandex LLC for Metrica and Maps, only with your consent; the AI assistant provider [name] if the chat is enabled. Please do not share passport details in the chat.
 
-**Necessary** cookies (language, theme and consent choice) are always on. **Analytics** (Google Analytics) and **third-party** (Google Maps) cookies are used only after you click "Accept all". You can change your choice at any time via "Cookie settings" at the bottom of the page.
+## 6. Retention
+
+Requests without a contract — up to 12 months or until consent is withdrawn. Contracts — for the periods required by Russian law.
 
 ## 7. Your rights
 
-You may request access to, correction or erasure of your data, restrict or object to processing, receive your data in a machine-readable format and withdraw consent. If you believe your rights have been violated, you can contact the Finnish Data Protection Ombudsman (tietosuoja.fi).
+You may request information about the processing of your data, its correction, blocking or deletion, and withdraw consent by writing to privacy@openroute.example. We reply within 10 working days. You may also complain to Roskomnadzor or a court.
+
+## 8. Cookies
+
+See the [Cookie Policy](/en/cookies).

@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "RUB",
   "slug": "maldives-honeymoon-water-villa",
   "destination": "maldives",
   "city": {
@@ -24,22 +24,22 @@
     "individual"
   ],
   "durationNights": 7,
-  "priceFrom": 2890,
+  "priceFrom": 289000,
   "popularity": 75,
   "rating": 5,
   "departures": [
     {
       "date": "2026-12-02",
-      "price": 2890,
+      "price": 289000,
       "seatsLeft": 2
     },
     {
       "date": "2027-01-20",
-      "price": 3190
+      "price": 319000
     },
     {
       "date": "2027-03-03",
-      "price": 2990
+      "price": 299000
     }
   ],
   "images": [
@@ -73,8 +73,8 @@
         "en": "Flight"
       },
       "text": {
-        "ru": "Вылет из Хельсинки с одной пересадкой.",
-        "en": "Flight from Helsinki with one connection."
+        "ru": "Вылет из Москвы с одной пересадкой.",
+        "en": "Flight from Moscow with one connection."
       }
     },
     {
@@ -113,7 +113,7 @@
   ],
   "included": {
     "ru": [
-      "Перелёт Хельсинки — туда и обратно",
+      "Перелёт Москва — туда и обратно",
       "Трансфер аэропорт — отель — аэропорт",
       "Проживание в выбранном отеле",
       "Медицинская страховка",
@@ -123,7 +123,7 @@
       "Романтический ужин"
     ],
     "en": [
-      "Return flight from Helsinki",
+      "Return flight from Moscow",
       "Airport–hotel–airport transfer",
       "Accommodation in the selected hotel",
       "Medical insurance",
